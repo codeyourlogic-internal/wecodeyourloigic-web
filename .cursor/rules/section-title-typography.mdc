@@ -1,0 +1,35 @@
+---
+description: Section title and body text typography standards
+globs: src/components/**/*.tsx,src/app/**/*.tsx
+alwaysApply: false
+---
+
+# Section title typography
+
+Use these sizes consistently for marketing/content sections (not the hero H1).
+
+## Section headers (`h2`)
+
+Examples: “About Our Web Development Services”, “Our Process”, “Why Choose Us”, “What We Build”, “Industries We Serve”.
+
+- **Font size:** `36px` → Tailwind `text-[36px]`
+- **Font weight:** `700` → Tailwind `font-bold`
+- Prefer: `text-[36px] font-bold leading-tight tracking-tight`
+- Do **not** use responsive title stacks like `text-3xl md:text-4xl lg:text-5xl` for these section headers unless the user explicitly asks
+
+Prefer `SectionHeading` when the title/subtitle come from i18n keys.
+
+## Body / supporting text
+
+Paragraphs in about blocks, card descriptions, and section subtitles:
+
+- **Font size:** `16px` → Tailwind `text-base`
+- Do not bump body copy to `text-lg` / `md:text-lg` by default
+
+## Card titles (`h3`)
+
+Keep card titles smaller than section headers (typically `text-base` / `font-semibold`). Do not make card titles `36px`.
+
+## Heroes
+
+Page heroes (home `Hero`, `ServiceHero`) may use larger display sizes. This rule applies to **section** headers below the hero, not the hero H1.

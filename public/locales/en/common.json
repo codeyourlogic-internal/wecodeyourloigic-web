@@ -1,0 +1,2027 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "technologies": "Technologies",
+    "hireResources": "Hire Resources",
+    "careers": "Careers",
+    "about": "About",
+    "industries": "Industries",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Enterprise Software Engineering",
+    "title": "Your Technology Partner for Building and Scaling Digital Products",
+    "titleHighlight": "",
+    "subtitle": "Web, mobile, cloud, AI, blockchain & WooCommerce engineering that scales revenue",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "See Our Work",
+    "highlights": [
+      "Custom web development and SaaS platforms that convert visitors into customers",
+      "Mobile app development for iOS and Android that puts your brand in every pocket",
+      "Cloud DevOps, AI automation and blockchain solutions that cut cost and risk",
+      "Hire dedicated developers or full product teams with transparent delivery"
+    ]
+  },
+  "stats": {
+    "established": {
+      "title": "Established",
+      "desc": "Building digital products since 2026"
+    },
+    "projects": {
+      "title": "Projects Successfully Delivered",
+      "desc": "Across 20+ countries worldwide"
+    },
+    "engineers": {
+      "title": "Expert Engineers On Staff",
+      "desc": "Senior-level specialists, not generalists"
+    },
+    "retention": {
+      "title": "Client Retention Rate",
+      "desc": "Clients keep coming back for more"
+    }
+  },
+  "homeProcess": {
+    "eyebrow": "Our Process",
+    "title": "How We Help Your Business Grow",
+    "fullProcess": "See the full cycle from discovery to maintenance",
+    "steps": {
+      "discover": {
+        "title": "Discover & Strategize",
+        "desc": "We analyze your business goals, target audience, and market challenges. Our team conducts a deep-dive discovery session to define the product roadmap, technology stack, and MVP scope — ensuring every feature drives real business value."
+      },
+      "design": {
+        "title": "Design & Prototype",
+        "desc": "Our UI/UX designers create intuitive, conversion-optimized interfaces. You get interactive prototypes to test with real users before a single line of code is written — reducing risk and ensuring product-market fit from day one."
+      },
+      "build": {
+        "title": "Build & Launch",
+        "desc": "Senior engineers build your product using agile sprints with weekly demos. Development is followed by dedicated QA and production deployment. You see progress every week. Full QA, security review, and deployment are part of this stage — not extras after coding."
+      },
+      "scale": {
+        "title": "Scale & Optimize",
+        "desc": "Post-launch we monitor performance, optimize for speed and conversion, scale infrastructure as usage grows, and provide maintenance so the product stays healthy. Home-page outcome examples are marketing descriptors, not contractual SLAs."
+      }
+    }
+  },
+  "homePortfolio": {
+    "eyebrow": "Solutions That Drive Growth",
+    "title": "See what we build for businesses like yours",
+    "subtitle": "From high-converting storefronts to intelligent automation - we deliver software that moves the needle.",
+    "impactLabel": "Business Impact:",
+    "learnMore": "Learn more",
+    "viewAll": "View All Services",
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "desc": "Build blazing-fast, SEO-optimized websites and web apps that convert visitors into customers. Our frontend engineers craft pixel-perfect interfaces in React, Next.js, and Vue - engineered for performance, accessibility, and revenue growth from day one.",
+        "impact": "↑ 40-300% increase in organic traffic · Faster load times · Higher conversion rates"
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "desc": "Launch iOS and Android apps that your users actually love. We build native and cross-platform apps using Swift, Kotlin, and Flutter - with offline support, push notifications, and seamless payment integrations that keep users engaged and spending.",
+        "impact": "↑ 5-star app ratings · Higher user retention · Faster time-to-market"
+      },
+      "ecommerce": {
+        "title": "WooCommerce & E-commerce",
+        "desc": "Launch your online store and start selling to customers worldwide. We build custom WooCommerce solutions with payment integration, inventory management, multi-currency support, and conversion-optimized checkout flows that directly increase your revenue and reduce cart abandonment.",
+        "impact": "↑ 340% avg. revenue growth · Lower cart abandonment · 99.9% uptime"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Move to the cloud with confidence. We architect AWS, GCP, and Azure infrastructure with CI/CD pipelines, auto-scaling, and real-time monitoring - so your systems are always up, always fast, and never a liability to your business operations.",
+        "impact": "↓ 60% infrastructure costs · 99.99% uptime SLA · Faster deployments"
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "desc": "Replace repetitive work with intelligent automation. We build custom AI models, chatbots, demand forecasting engines, and recommendation systems that cut operational costs by up to 70% while enabling your team to focus on high-value growth activities.",
+        "impact": "↓ 70% manual workload · Smarter decisions · Faster revenue cycles"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "desc": "Build trust-anchored applications on Ethereum, Solana, and Polygon. We deliver smart contract development, NFT platforms, DeFi protocols, and Web3 integrations - all passing rigorous third-party security audits and full regulatory compliance.",
+        "impact": "↑ Transaction transparency · Reduced fraud · Regulatory-ready"
+      },
+      "desktop": {
+        "title": "Desktop Application Development",
+        "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
+        "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
+      }
+    }
+  },
+  "homeHire": {
+    "eyebrow": "Dedicated Talent",
+    "title": "Hire Premium Dedicated Developers",
+    "subtitle": "Scale your operations overnight by embedding elite logic architects and full-stack software engineers directly into your technical teams.",
+    "roleDesc": "Vetted resource ready to integrate directly inside your workspace structure within 48 hours.",
+    "pricingCta": "View Dedicated Developer Pricing",
+    "roles": {
+      "frontend": {
+        "title": "Frontend Engineers"
+      },
+      "backend": {
+        "title": "Backend Engineers"
+      },
+      "mobile": {
+        "title": "Mobile Engineers"
+      },
+      "fullstack": {
+        "title": "Full Stack Architects"
+      }
+    },
+    "hireNow": "Hire Now",
+    "learnMore": "Learn More"
+  },
+  "homeIndustries": {
+    "eyebrow": "Market Verticals",
+    "title": "Custom Architecture Built for Scale Across Core Industries",
+    "subtitle": "Every vertical is driven by bespoke logic flows designed for real-world scaling and technical bulletproofing.",
+    "viewAll": "View all industries",
+    "items": {
+      "restaurants": {
+        "title": "Restaurants & Food",
+        "desc": "Online ordering, POS systems, delivery tracking"
+      },
+      "ecommerce": {
+        "title": "E-commerce & Retail",
+        "desc": "Online stores, inventory, payment gateways"
+      },
+      "healthcare": {
+        "title": "Healthcare & Fitness",
+        "desc": "Patient portals, telemedicine, fitness apps"
+      },
+      "realEstate": {
+        "title": "Real Estate & Property",
+        "desc": "Listings, virtual tours, CRM systems"
+      },
+      "finance": {
+        "title": "Finance & Banking",
+        "desc": "Trading platforms, payments, compliance"
+      },
+      "education": {
+        "title": "Education & E-learning",
+        "desc": "LMS, virtual classrooms, student portals"
+      },
+      "travel": {
+        "title": "Travel & Hospitality",
+        "desc": "Booking engines, hotel management, travel apps"
+      },
+      "logistics": {
+        "title": "Logistics & Supply Chain",
+        "desc": "Fleet tracking, warehouse, route optimization"
+      }
+    }
+  },
+  "homeClients": {
+    "eyebrow": "Our Clients",
+    "title": "Companies we have worked with",
+    "subtitle": "Trusted by teams who need reliable software engineering partners.",
+    "visitSite": "Visit website"
+  },
+  "services": {
+    "title": "Software Development Services",
+    "subtitle": "We specialize in developing cutting-edge software solutions that drive growth and innovation for businesses of all sizes.",
+    "viewAll": "View All Services",
+    "learnMore": "Read More",
+    "heroBadge": "EMPOWERING YOUR VISION",
+    "heroCtaPrimary": "Get Started Now",
+    "heroCtaSecondary": "Learn More",
+    "industriesTitle": "Industries We Serve",
+    "industriesSubtitle": "Building solutions across diverse business domains",
+    "pageCtaTitle": "Ready to Start Building?",
+    "pageCtaSubtitle": "Contact us today to discuss your project and see how we can help you achieve your goals.",
+    "pageCtaButton": "Schedule a Free Call",
+    "detail": {
+      "whatWeBuild": "What We Build",
+      "whatWeBuildSubtitle": "Creating software solutions for startups, scaling businesses, and enterprises",
+      "aboutPrefix": "About Our",
+      "keyCapabilities": "Key Capabilities",
+      "keyCapabilitiesSubtitle": "Core strengths we bring to every engagement",
+      "techStack": "Our Tech Stack",
+      "techStackSubtitle": "Proven tools chosen for your product goals",
+      "process": "Our Process",
+      "processSubtitle": "A clear path from discovery to launch and beyond",
+      "whyChoose": "Why Choose Us",
+      "whyChooseSubtitle": "Delivery standards that protect quality and momentum",
+      "ctaTitle": "Ready to start your next project?",
+      "ctaSubtitle": "Let's collaborate and build something great together.",
+      "ctaButton": "Get in Touch",
+      "speakExpert": "Speak with our expert"
+    },
+    "web": {
+      "title": "Custom Web Development Services",
+      "short": "Custom web development for scalable SaaS, portals and high-converting websites.",
+      "description": "We craft responsive, scalable web applications using modern frameworks and best practices for growth-focused businesses.",
+      "badge": "OUR SERVICES",
+      "ctaPrimary": "Start Your Project",
+      "whatWeBuildTitle": "What We Build",
+      "whatWeBuildSubtitle": "Empowering your business with scalable, high-performing web solutions.",
+      "aboutTitle": "About Our Web Development Services",
+      "about": [
+        "CodeYourLogic specializes in building high-performance, scalable web applications that drive real business results. Our web applications handle **50,000+ concurrent users with sub-200ms response times** — a benchmark we consistently hit across production deployments. Whether you need a high-conversion landing page or a complex enterprise SaaS platform, our team of senior engineers delivers solutions that are fast, secure, and built to scale.",
+        "**Our frontend development capabilities —** we build pixel-perfect, responsive interfaces using React, Next.js, Angular, and Vue.js. Our engineers are experts in WCAG 2.1 accessibility compliance, smooth micro-animations, and performance optimization. We implement server-side rendering (SSR) and static site generation (SSG) for pages that load in under one second, achieving **90+ Lighthouse scores** across all categories. Our component-based architecture ensures code reusability, design consistency, and faster iteration cycles.",
+        "**Our backend development expertise —** our backend engineers build robust, horizontally scalable server-side architectures using Node.js, Python/Django, Ruby on Rails, and PHP/Laravel. We design RESTful and GraphQL APIs engineered to handle **millions of requests daily**, with response time SLAs baked into every architecture decision. Our microservices approach enables independent deployment and scaling of application modules. We implement advanced caching with Redis, message queues with RabbitMQ, and real-time pipelines with WebSockets. Database design is a core strength — we work with PostgreSQL, MongoDB, and MySQL to build efficient data models optimized for your specific business logic and growth trajectory.",
+        "**Security and compliance —** every application we build follows **OWASP-compliant security practices** with automated vulnerability scanning integrated directly into our CI/CD pipelines. We deploy SOC2-ready architecture with encrypted data at rest and in transit, role-based access controls, and regular third-party penetration testing. Our security posture protects against the OWASP Top 10, including SQL injection, XSS, CSRF, and broken authentication. We implement monitoring with Datadog and Sentry so issues are caught and resolved before they impact your users.",
+        "**Our methodology —** we run **agile sprints with weekly demos** so you always see real progress. Every engagement includes a dedicated project manager, full visibility into our Jira/Linear boards, and structured sprint retrospectives to continuously improve delivery velocity. Our engineers write comprehensive unit, integration, and end-to-end tests before code ships. Transparent communication, clear documentation, and structured knowledge transfer are part of every engagement — not afterthoughts.",
+        "**Our commitment —** from initial technical consultation through post-launch support, we partner with you at every stage. We provide detailed architecture documentation, runbooks, and hands-on knowledge transfer to ensure your team can confidently own and extend the system we build together. Our applications continue performing at their best long after launch because we **engineer for maintainability from day one**."
+      ],
+      "processTitle": "Our Process",
+      "processSubtitle": "A structured engineering cycle focused on clean alignment and seamless handoffs.",
+      "whyTitle": "Why Choose Us",
+      "whySubtitle": "Performance-driven development engineered from day one for continuous expansion.",
+      "ctaTitle": "Ready to Build Your Web Platform?",
+      "ctaSubtitle": "Get started with a free consultation and see how our web development services can transform your business.",
+      "ctaButton": "Get Your Free Consultation",
+      "offerings": {
+        "webApp": {
+          "title": "Web Application",
+          "desc": "Custom web applications engineered for performance, usability, and long-term maintainability."
+        },
+        "pwa": {
+          "title": "Progressive Web Apps",
+          "desc": "Installable, fast, offline-capable experiences that feel native in the browser."
+        },
+        "ecommerce": {
+          "title": "E-commerce Platforms",
+          "desc": "Conversion-focused storefronts with secure payments, inventory, and seamless checkout."
+        },
+        "cms": {
+          "title": "CMS Development",
+          "desc": "Flexible content systems that empower teams to publish and manage content with ease."
+        },
+        "customPortals": {
+          "title": "Custom Portals",
+          "desc": "Secure role-based portals for customers, partners, and internal operations teams."
+        },
+        "product": {
+          "title": "Product Development",
+          "desc": "Full lifecycle product builds from MVP to scale — architecture, features, and growth."
+        },
+        "enterprise": {
+          "title": "Enterprise Solutions",
+          "desc": "Complex enterprise platforms with integrations, governance, and mission-critical reliability."
+        },
+        "webPortal": {
+          "title": "Web Portal Development",
+          "desc": "Unified web portals that centralize services, data, and workflows in one experience."
+        }
+      },
+      "process": {
+        "discovery": {
+          "title": "Discovery & Planning",
+          "desc": "Aligning logic boundaries and outlining scaling rules."
+        },
+        "architecture": {
+          "title": "Architecture Design",
+          "desc": "System layouts tailored for high transactional payloads."
+        },
+        "design": {
+          "title": "UI/UX Design",
+          "desc": "Clean layout strategies optimized for task processing."
+        },
+        "development": {
+          "title": "Development Sprints",
+          "desc": "Iterative production loops executing clean features."
+        },
+        "testing": {
+          "title": "Testing & QA",
+          "desc": "Thorough performance and structural compliance metrics."
+        },
+        "deployment": {
+          "title": "Deployment & Support",
+          "desc": "Robust release models assuring continuous uptime."
+        }
+      },
+      "why": {
+        "scalable": {
+          "title": "Scalable Architecture",
+          "desc": "Built to handle **10x traffic growth** without re-architecture. Our horizontal scaling patterns support **50,000+ concurrent users** from day one."
+        },
+        "seo": {
+          "title": "SEO Optimized",
+          "desc": "Our sites achieve **90+ Lighthouse scores** across all categories. SSR and SSG implementation drives page 1 rankings and organic traffic growth."
+        },
+        "performance": {
+          "title": "Performance First",
+          "desc": "**Sub-2-second load times** with optimized Core Web Vitals. We target **sub-200ms API response times** and consistently hit them in production."
+        },
+        "security": {
+          "title": "Security Built-In",
+          "desc": "**OWASP Top 10 protection**, encrypted data at rest and in transit, and regular penetration testing. **SOC2-ready architecture** for compliance-sensitive industries."
+        }
+      },
+      "features": [
+        "Custom Web Applications",
+        "Progressive Web Apps",
+        "E-commerce Platforms",
+        "CMS Development",
+        "API Integration",
+        "Performance Optimization"
+      ],
+      "techStack": {
+        "frontend": "Frontend Frameworks",
+        "backend": "Backend Languages & Frameworks",
+        "database": "Databases & Caching",
+        "other": "Cloud & Infrastructure"
+      },
+      "ctaSecondary": "Learn More",
+      "seoTitle": "Custom Web Development Company Online | CodeYourLogic",
+      "seoDescription": "Custom web development company for React, Next.js and SaaS platforms. Build fast, SEO-friendly web apps and portals with CodeYourLogic expert engineers.",
+      "faq": [
+        {
+          "q": "What web technologies do you use?",
+          "a": "We build with React, Next.js, Node.js, TypeScript and modern CMS or headless stacks chosen for performance, SEO and maintainability."
+        },
+        {
+          "q": "Do you build SaaS and enterprise portals?",
+          "a": "Yes. We deliver SaaS platforms, customer portals, dashboards and e-commerce web apps engineered for scale and security."
+        },
+        {
+          "q": "Can you improve an existing website?",
+          "a": "We refactor, redesign and optimize existing web apps for speed, SEO, conversions and cloud-ready architecture."
+        }
+      ]
+    },
+    "mobile": {
+      "title": "Mobile App Development Company",
+      "short": "iOS, Android and cross-platform mobile app development that users love.",
+      "description": "Build powerful mobile applications for iOS and Android using React Native, Flutter, and native technologies.",
+      "features": [
+        "iOS & Android Apps",
+        "Cross-Platform Development",
+        "App Store Optimization",
+        "Push Notifications",
+        "Offline-First Architecture",
+        "Mobile Analytics"
+      ],
+      "badge": "OUR SERVICES",
+      "ctaPrimary": "Get a Free Quote",
+      "ctaSecondary": "Learn More",
+      "whatWeBuildTitle": "What We Build",
+      "whatWeBuildSubtitle": "Focusing on the user journey and building apps that deliver long-term value for brands.",
+      "aboutTitle": "About Our Mobile Development Services",
+      "about": [
+        "CodeYourLogic builds world-class mobile applications for iOS and Android that users love. Our mobile development team combines deep platform expertise with cross-platform efficiency to deliver apps that feel native, perform flawlessly, and scale to millions of users. From consumer-facing apps to enterprise mobility solutions, we create mobile experiences that drive engagement, retention, and revenue. Our mobile apps achieve **4.5+ star ratings on average** across the App Store and Google Play — a testament to our uncompromising focus on user experience and quality.",
+        "**Native iOS and Android development —** our iOS engineers work with Swift, SwiftUI, and UIKit to build apps that take full advantage of Apple's ecosystem including widgets, App Clips, and Apple Watch integration. On Android, our Kotlin and Jetpack Compose specialists create material design experiences optimized for the vast Android device landscape. We leverage platform-specific APIs for camera, biometrics, AR, NFC, Bluetooth, and health data integration. Every app we ship includes **biometric authentication, deep linking, and push notifications** — all production-tested across millions of users.",
+        "**Cross-platform excellence —** when business requirements call for faster time-to-market with a single codebase, we deliver with Flutter and React Native. Our cross-platform apps achieve near-native performance with shared business logic while maintaining platform-specific UI patterns. We have successfully shipped cross-platform apps with 100K+ downloads maintaining 4.5+ star ratings on both app stores. Critically, we build with a **full offline-first architecture** — your app functions flawlessly under unreliable network conditions, syncing data seamlessly when connectivity is restored.",
+        "**Backend and infrastructure —** mobile apps are only as good as their backend. We build scalable mobile backends using Firebase, AWS Amplify, and custom Node.js/Python APIs. Our real-time sync architecture handles offline-first scenarios gracefully. We implement **in-app purchases and subscription flows** that maximize conversion, and analytics pipelines that give you actionable insights. Push notification strategies are carefully crafted to drive re-engagement without fatiguing users.",
+        "**Quality assurance at scale —** every app undergoes rigorous testing before release. Our **dedicated QA team runs 500+ test cases per release on 20+ real devices**, covering multiple OS versions, screen sizes, and network conditions. We use automated testing frameworks like XCTest, Espresso, and Detox alongside structured manual QA to catch edge cases. Our app store optimization specialists ensure your listing ranks high with compelling screenshots, descriptions, and keyword strategies that drive organic downloads.",
+        "**Ongoing partnership —** we don't just build and walk away. Our team provides ongoing maintenance, feature development, and performance optimization. We handle OS update compatibility, security patches, and app store policy changes so you can focus on growing your business. Our mobile apps are built for the long term with clean architecture that makes future development efficient and predictable — because your success is our reputation."
+      ],
+      "techStack": {
+        "ios": "iOS Development",
+        "android": "Android Development",
+        "crossPlatform": "Cross-Platform Frameworks",
+        "backend": "Backend & Testing"
+      },
+      "processTitle": "Our Process",
+      "processSubtitle": "A structured engineering cycle focused on clean alignment and seamless handoffs.",
+      "whyTitle": "Why Choose Us",
+      "whySubtitle": "Performance-driven development engineered from day one for continuous expansion.",
+      "ctaTitle": "Ready to Launch Your Mobile App?",
+      "ctaSubtitle": "From concept to App Store — we build, test, and ship mobile apps that users love. 50+ apps launched with 2M+ combined downloads. Get a free app strategy session.",
+      "ctaButton": "Book Your Free Session",
+      "offerings": {
+        "ecommerce": {
+          "title": "E-commerce Apps",
+          "desc": "Empowering online retail with seamless shopping experiences."
+        },
+        "enterprise": {
+          "title": "Enterprise Mobility",
+          "desc": "Scalable and secure mobile solutions for modern businesses."
+        },
+        "ondemand": {
+          "title": "On-demand Delivery",
+          "desc": "Efficient and reliable delivery tracking and management systems."
+        },
+        "social": {
+          "title": "Social Networking",
+          "desc": "Building engaging platforms for community interaction and sharing."
+        },
+        "health": {
+          "title": "Fitness & Health",
+          "desc": "Innovative apps for tracking health, workouts, and wellness."
+        },
+        "fintech": {
+          "title": "Fintech & Banking",
+          "desc": "Secure and user-friendly mobile banking and financial management."
+        },
+        "education": {
+          "title": "Educational Apps",
+          "desc": "Transforming learning through interactive and accessible mobile apps."
+        },
+        "iot": {
+          "title": "IoT Companion Apps",
+          "desc": "Seamlessly connecting and controlling IoT devices through mobile apps."
+        }
+      },
+      "process": {
+        "concept": {
+          "title": "Concept & Wireframes",
+          "desc": "Structuring critical application journeys and flows."
+        },
+        "design": {
+          "title": "UI/UX Design",
+          "desc": "Tailoring responsive visual hierarchies across viewports."
+        },
+        "development": {
+          "title": "Development",
+          "desc": "Compiling robust, clean code native architectures."
+        },
+        "testing": {
+          "title": "Device Testing",
+          "desc": "Assuring continuous compatibility on targeted devices."
+        },
+        "submission": {
+          "title": "App Store Submission",
+          "desc": "Handling release approvals and compliance audits."
+        },
+        "support": {
+          "title": "Post-launch Support",
+          "desc": "Tracking active runtime states for seamless operations."
+        }
+      },
+      "why": {
+        "crossPlatform": {
+          "title": "Cross-Platform Efficiency",
+          "desc": "One codebase, two platforms — **40% faster time-to-market** with Flutter and React Native, without sacrificing native-quality user experiences."
+        },
+        "appStore": {
+          "title": "App Store Success",
+          "desc": "**95% first-submission approval rate.** We handle all App Store and Google Play guidelines, compliance requirements, and review processes so you don't have to."
+        },
+        "performance": {
+          "title": "Performance Optimized",
+          "desc": "**60fps animations, sub-3-second cold starts**, and battery-efficient background processing — engineered for real-world performance benchmarks."
+        },
+        "postLaunch": {
+          "title": "Post-Launch Support",
+          "desc": "**6 months of bug fixes, performance monitoring, and feature updates included** — so your app stays healthy and your users stay happy long after launch."
+        }
+      },
+      "aboutSubtitle": "Crafting future-ready mobile solutions that empower brands, enhance user experiences, and drive sustainable growth in the digital era.",
+      "seoTitle": "Mobile App Development Company Online | CodeYourLogic",
+      "seoDescription": "Mobile app development company for iOS, Android, React Native and Flutter. Launch secure, high-performance apps with CodeYourLogic product engineers today.",
+      "faq": [
+        {
+          "q": "Do you build native and cross-platform apps?",
+          "a": "Yes—native iOS/Android plus React Native and Flutter for faster time-to-market without sacrificing quality."
+        },
+        {
+          "q": "Can you publish apps to the App Store and Play Store?",
+          "a": "We handle store compliance, submissions, release pipelines and post-launch updates."
+        },
+        {
+          "q": "What industries do you serve?",
+          "a": "E-commerce, fintech, health, education, on-demand delivery and enterprise mobility apps."
+        }
+      ]
+    },
+    "desktop": {
+      "title": "Desktop Application Development",
+      "short": "Cross-platform desktop software for Windows, macOS and Linux.",
+      "description": "Enterprise-grade desktop applications built with Electron, .NET, and native frameworks for offline workflows and deep system integration.",
+      "features": [
+        "Cross-Platform Desktop Apps",
+        "System Integration",
+        "Auto-Updates",
+        "Offline Capabilities",
+        "Hardware Integration",
+        "Enterprise Deployment"
+      ],
+      "badge": "DESKTOP DEVELOPMENT",
+      "offerings": {
+        "enterprise": {
+          "title": "Enterprise Desktop Apps",
+          "desc": "Mission-critical internal tools with deep system integration and centralized deployment."
+        },
+        "productivity": {
+          "title": "Productivity Tools",
+          "desc": "Desktop applications that streamline daily workflows with speed and offline reliability."
+        },
+        "health": {
+          "title": "Healthcare Desktop Software",
+          "desc": "Clinical and administrative software built for compliance and dependable performance."
+        },
+        "education": {
+          "title": "Education Desktop Software",
+          "desc": "Learning and administration tools designed for classrooms, labs, and campus systems."
+        },
+        "finance": {
+          "title": "Finance & Accounting Software",
+          "desc": "Secure desktop applications for accounting, reporting, and financial operations."
+        },
+        "ecommerce": {
+          "title": "Retail & POS Systems",
+          "desc": "Point-of-sale and inventory management software built for speed at the counter."
+        },
+        "media": {
+          "title": "Media & Creative Tools",
+          "desc": "Performance-tuned applications for content creation, editing, and asset management."
+        },
+        "custom": {
+          "title": "Custom Desktop Solutions",
+          "desc": "Purpose-built software for specialized workflows that off-the-shelf tools can't handle."
+        }
+      },
+      "about": [
+        "Desktop applications remain essential where **deep system integration, offline reliability, and raw performance** matter most. We build cross-platform and native desktop software for Windows, macOS, and Linux.",
+        "**Our engineers** work with frameworks like Electron and Tauri alongside native stacks such as .NET and C++, choosing the right foundation based on your **performance and distribution requirements**.",
+        "Every desktop build includes **auto-update infrastructure**, hardware integration where needed, and **enterprise deployment support**, so your software stays current across every machine in your fleet."
+      ],
+      "techStack": {
+        "foundations": "Application Foundations",
+        "languages": "Languages & Frameworks",
+        "deployment": "Deployment & Distribution"
+      },
+      "process": {
+        "discovery": {
+          "title": "Discovery & Requirements",
+          "desc": "We assess your platform targets, integration needs, and performance constraints."
+        },
+        "planning": {
+          "title": "Technical Planning",
+          "desc": "Architecture and technology choices are mapped out before development starts."
+        },
+        "design": {
+          "title": "UI/UX Design",
+          "desc": "Interfaces designed for desktop workflows — keyboard shortcuts, multi-window, and more."
+        },
+        "development": {
+          "title": "Agile Development",
+          "desc": "Iterative builds with internal releases so you can test functionality early."
+        },
+        "testing": {
+          "title": "QA & Compatibility Testing",
+          "desc": "Rigorous testing across operating systems, versions, and hardware configurations."
+        },
+        "deployment": {
+          "title": "Packaging & Deployment",
+          "desc": "Signed installers, auto-update pipelines, and enterprise rollout support."
+        }
+      },
+      "why": {
+        "performance": {
+          "title": "High Performance",
+          "desc": "**Native-level speed and responsiveness**, even for data- and compute-intensive tasks."
+        },
+        "security": {
+          "title": "Security Hardened",
+          "desc": "**Code signing, secure storage, and safe update mechanisms** protect your users."
+        },
+        "experts": {
+          "title": "Experienced Engineers",
+          "desc": "Deep expertise across **Electron, .NET, and native desktop** development."
+        },
+        "quality": {
+          "title": "Rigorous Quality Standards",
+          "desc": "**Extensive compatibility testing** ensures a stable experience on every machine."
+        }
+      },
+      "seoTitle": "Desktop App Development Company Online | CodeYourLogic",
+      "seoDescription": "Desktop application development for Windows, macOS and Linux. Secure Electron and native tools for productivity, POS, healthcare and enterprise workflows.",
+      "faq": [
+        {
+          "q": "Which desktop platforms do you support?",
+          "a": "Windows, macOS and Linux using Electron, .NET or native toolchains based on your requirements."
+        },
+        {
+          "q": "Can desktop apps work offline?",
+          "a": "Yes. We design offline-first desktop software with sync, security and packaging for reliable distribution."
+        }
+      ]
+    },
+    "cloud": {
+      "title": "Cloud & DevOps Services",
+      "short": "AWS, Azure and GCP cloud engineering with CI/CD and Kubernetes.",
+      "description": "Design, deploy, and manage cloud infrastructure on AWS, GCP, and Azure with reliable CI/CD, containers and cost control.",
+      "features": [
+        "AWS & GCP Architecture",
+        "Kubernetes Orchestration",
+        "CI/CD Pipelines",
+        "Infrastructure as Code",
+        "Monitoring & Alerting",
+        "Cost Optimization"
+      ],
+      "badge": "High-Availability Infrastructure",
+      "offerings": {
+        "migration": {
+          "title": "Cloud Migration",
+          "desc": "Zero-downtime, secure legacy server migrations to state-of-the-art managed cloud architectures."
+        },
+        "iac": {
+          "title": "Infrastructure as Code",
+          "desc": "Declare and provision your global cloud setups predictably with fully structured, reusable programmatic configurations."
+        },
+        "cicd": {
+          "title": "CI/CD Pipeline Setup",
+          "desc": "Automate building, testing, and shipping cycles to deployment pipelines with total transparency."
+        },
+        "containers": {
+          "title": "Container Orchestration",
+          "desc": "Package and govern multiple elastic execution nodes dynamically for streamlined runtime scale."
+        },
+        "serverless": {
+          "title": "Serverless Architecture",
+          "desc": "Optimize cost boundaries using highly dynamic computing runtimes that scale effortlessly on demand."
+        },
+        "monitoring": {
+          "title": "Monitoring & Observability",
+          "desc": "Set up extensive logs, real-time alerts, and deep dashboard visibility to address issues before they arise."
+        },
+        "disaster": {
+          "title": "Disaster Recovery",
+          "desc": "Robust, automated regular snapshots and geographically separated recovery loops to secure operational continuity."
+        },
+        "cost": {
+          "title": "Cost Optimization",
+          "desc": "Eliminate wasteful computing allocations with data-driven system scaling and clean usage budgets."
+        }
+      },
+      "about": [
+        "Reliable software depends on infrastructure that **scales quietly in the background**. We design, build, and manage cloud environments that stay **available, secure, and cost-efficient** as you grow.",
+        "**Our DevOps practices** bring automation to every stage of delivery — from infrastructure as code to CI/CD pipelines — so your team ships faster with **fewer manual steps and fewer surprises**.",
+        "Whether you're migrating legacy workloads, modernizing to containers, or building serverless from scratch, we tailor the architecture to your **traffic patterns, budget, and compliance requirements**."
+      ],
+      "techStack": {
+        "platforms": "Cloud Platforms",
+        "containers": "Containers & Orchestration",
+        "iac": "Infrastructure as Code",
+        "cicd": "CI/CD Tooling",
+        "monitoring": "Monitoring & Observability"
+      },
+      "process": {
+        "audit": {
+          "title": "Infrastructure Audit",
+          "desc": "Reviewing existing servers, security credentials, and load baselines."
+        },
+        "strategy": {
+          "title": "Cloud Strategy",
+          "desc": "Architecting a custom blueprint for target performance and cost targets."
+        },
+        "migration": {
+          "title": "Migration & Setup",
+          "desc": "Secure database transfer and container configurations."
+        },
+        "cicd": {
+          "title": "CI/CD Implementation",
+          "desc": "Configuring automatic staging and production pipeline builds."
+        },
+        "monitoring": {
+          "title": "Monitoring Setup",
+          "desc": "Spinning up real-time alerting systems and telemetry logs."
+        },
+        "optimization": {
+          "title": "Ongoing Optimization",
+          "desc": "Consistently tuning systems for maximum performance and cost metrics."
+        }
+      },
+      "why": {
+        "cost": {
+          "title": "Cost Optimization",
+          "desc": "Average **40% reduction in monthly cloud spending** through intelligent right-sizing, reserved capacity planning, and spot instance automation. We typically save clients $50K–$500K annually."
+        },
+        "zeroDowntime": {
+          "title": "Zero-Downtime Deployments",
+          "desc": "**Blue-green and canary deployment strategies** with automatic rollback on failure. Ship features confidently with zero user-facing disruption and instant recovery if anything goes wrong."
+        },
+        "security": {
+          "title": "Security First",
+          "desc": "**Infrastructure hardening, secrets management (HashiCorp Vault)**, and automated compliance checks. SOC2, HIPAA, and GDPR compliant architectures built from the ground up."
+        },
+        "disaster": {
+          "title": "Disaster Recovery",
+          "desc": "**Automated backups, multi-region failover**, and tested recovery procedures with **<1hr RTO**. Business continuity guaranteed even in catastrophic failure scenarios."
+        }
+      },
+      "ctaPrimary": "Consult Our Architects",
+      "ctaSecondary": "Learn More",
+      "whatWeBuildTitle": "What We Offer",
+      "whatWeBuildSubtitle": "Industry-standard infrastructure engineering solutions built to guarantee scale, reliability, and automated speed.",
+      "aboutTitle": "About Our Cloud & DevOps Services",
+      "aboutSubtitle": "A deep dive into how we design, deploy, and operate cloud infrastructure and DevOps pipelines that scale with your business.",
+      "intro": "CodeYourLogic provides enterprise-grade cloud infrastructure and DevOps engineering that transforms how businesses deploy, scale, and manage their applications. Our certified cloud architects and DevOps engineers design infrastructure that handles millions of requests while maintaining **99.99% uptime**. We partner with organizations at every stage of their cloud journey — from initial migration to advanced multi-cloud orchestration.",
+      "metricsTitle": "Proven Track Record",
+      "metrics": [
+        "We manage infrastructure for applications serving **10M+ monthly active users**",
+        "**Average 70% reduction** in deployment cycle time through automated CI/CD",
+        "Cost optimization that saves clients **$50K–$500K annually** on cloud bills",
+        "**SOC2, HIPAA, and GDPR compliant** infrastructure architecture",
+        "**24/7 monitoring** with PagerDuty/Datadog integration and incident response SLAs"
+      ],
+      "shots": {
+        "console": {
+          "label": "Cloud Console",
+          "paragraph": "**Cloud migration and architecture —** we help businesses move from on-premises to cloud with **zero-downtime migration** strategies. Our architects design cloud-native architectures on AWS, Google Cloud, and Azure that leverage managed services for databases, compute, storage, and networking. We implement multi-region deployments for global availability, auto-scaling groups that handle traffic spikes automatically, and disaster recovery strategies with RPO/RTO targets measured in minutes. Our serverless architectures using AWS Lambda, Google Cloud Functions, and Azure Functions reduce operational costs by **up to 70%** for event-driven workloads."
+        },
+        "cicd": {
+          "label": "CI/CD Pipeline",
+          "paragraph": "**CI/CD and automation —** our DevOps engineers build fully automated deployment pipelines using GitHub Actions, Jenkins, GitLab CI, and ArgoCD. Every code change goes through automated linting, testing, security scanning, and staged deployments. We implement **blue-green and canary deployment** strategies that enable zero-downtime releases with instant rollback capability. Our Infrastructure as Code approach using Terraform, Pulumi, and Ansible ensures every environment is reproducible, version-controlled, and auditable."
+        },
+        "kubernetes": {
+          "label": "Kubernetes Orchestration",
+          "paragraph": "**Container orchestration —** we design and manage Kubernetes clusters on EKS, GKE, and AKS that run your microservices at scale. Our container strategies include optimized Docker images, Helm charts for repeatable deployments, service mesh with Istio for traffic management, and Pod autoscaling based on custom metrics. We implement **GitOps workflows** where infrastructure changes are reviewed, approved, and applied through pull requests — the same workflow your developers already know."
+        },
+        "monitoring": {
+          "label": "Monitoring & Observability",
+          "paragraph": "**Monitoring, observability, and security —** we build comprehensive observability stacks with Prometheus, Grafana, Datadog, and the ELK Stack that give you real-time visibility into application performance, infrastructure health, and business metrics. Our alerting strategies minimize noise while ensuring critical issues are caught immediately. We implement cloud security best practices including IAM policies, network segmentation, encryption at rest and in transit, secrets management with Vault, and compliance frameworks for **SOC2, HIPAA, and GDPR**."
+        }
+      },
+      "closing": "**Cost optimization —** cloud spending can spiral without governance. Our FinOps practices include right-sizing recommendations, reserved instance strategies, spot instance automation, and real-time cost dashboards. We typically reduce cloud spending by **30–50%** for existing workloads while improving performance and reliability.",
+      "processTitle": "Our Process",
+      "processSubtitle": "A systematic, highly rigorous six-step delivery loop engineered to keep your systems resilient.",
+      "whyTitle": "Why Choose Us",
+      "whySubtitle": "We build more than infrastructure — we build long-term scalability, security, and business continuity.",
+      "ctaTitle": "Ready to Scale Your Infrastructure?",
+      "ctaSubtitle": "Talk with our cloud architects about migration, CI/CD, Kubernetes, and cost optimization for your stack.",
+      "ctaButton": "Get started with our experts",
+      "seoTitle": "Cloud DevOps Company AWS Azure GCP | CodeYourLogic",
+      "seoDescription": "Cloud DevOps company for AWS, Azure and GCP: migrations, Kubernetes, CI/CD and infrastructure as code. Cut costs and ship faster with CodeYourLogic.",
+      "faq": [
+        {
+          "q": "Which clouds do you support?",
+          "a": "AWS, Google Cloud and Microsoft Azure—plus multi-cloud and hybrid setups when needed."
+        },
+        {
+          "q": "Do you set up CI/CD and Kubernetes?",
+          "a": "Yes. We implement pipelines, container orchestration, monitoring and secure GitOps workflows."
+        },
+        {
+          "q": "Can you reduce cloud spend?",
+          "a": "Our FinOps practices typically cut waste with right-sizing, reserved capacity and observability."
+        }
+      ]
+    },
+    "ai": {
+      "title": "AI & Machine Learning Solutions",
+      "short": "Custom AI, LLMs, chatbots and ML systems that deliver business ROI.",
+      "description": "Harness AI to automate workflows and build intelligent products—from LLM apps and RAG systems to predictive ML.",
+      "features": [
+        "OpenAI Integrations",
+        "Custom AI Agents",
+        "RAG Systems",
+        "Chatbots & Assistants",
+        "ML Model Development",
+        "Document Intelligence"
+      ],
+      "badge": "Generative AI & Machine Learning",
+      "offerings": {
+        "llm": {
+          "title": "Custom LLM Integrations",
+          "desc": "Fine-tuned large language models mapped perfectly to capture corporate contexts and specialized domains."
+        },
+        "chatbots": {
+          "title": "Chatbots & Virtual Assistants",
+          "desc": "Conversational interfaces that handle complex multi-step inquiries, keeping user satisfaction high."
+        },
+        "analytics": {
+          "title": "Predictive Analytics",
+          "desc": "Leverage historical data to project future market shifts, conversion metrics, and operational trends."
+        },
+        "vision": {
+          "title": "Computer Vision Systems",
+          "desc": "Identify, categorize, and catalog video streams and static image libraries automatically."
+        },
+        "nlp": {
+          "title": "NLP Tools",
+          "desc": "Analyze sentiment, extract entity relations, and classify massive text repositories."
+        },
+        "recommend": {
+          "title": "Recommendation Engines",
+          "desc": "Direct target users to preferred items with custom collaborative filtering and deep context mapping."
+        },
+        "documents": {
+          "title": "Document Processing",
+          "desc": "Extract invoice variables, structural tables, and metadata rapidly from unformatted PDF collections."
+        },
+        "search": {
+          "title": "AI-powered Search",
+          "desc": "Set up vector-driven semantic indexing to retrieve documents based on true context over keywords."
+        }
+      },
+      "about": [
+        "CodeYourLogic is at the forefront of applied artificial intelligence, building intelligent systems that transform how businesses operate, engage customers, and make decisions. Our AI engineering team combines deep expertise in machine learning, natural language processing, and computer vision with practical software engineering to deliver AI solutions that work reliably in production — not just in demos.",
+        "**AI Chatbots & Virtual Assistants:** Our AI chatbots handle **80% of customer inquiries** without human intervention — reducing support costs by **60%**. Built on OpenAI, Anthropic Claude, and custom LLMs with RAG pipelines connected to your proprietary data via Pinecone, Weaviate, and ChromaDB, our assistants deliver accurate, domain-specific responses at scale.",
+        "**Predictive Analytics & Machine Learning:** Our predictive models achieve **92%+ accuracy** for demand forecasting, churn prediction, and fraud detection — giving your teams a measurable edge. Our MLOps pipelines handle continuous model training, A/B testing, and performance monitoring in production so your models stay sharp as data distributions evolve.",
+        "**Computer Vision & NLP at Scale:** Our computer vision solutions process **10,000+ images per hour** for quality control, document extraction, and real-time object detection. Our NLP toolkit covers sentiment analysis, entity extraction, text summarization, and semantic search — all tuned for your domain and data.",
+        "**OpenAI, Claude & Custom LLM Integration:** We integrate leading models from OpenAI GPT-4o, Anthropic Claude, Mistral, and Llama for intelligent document processing, content generation, code assistance, and workflow automation — with prompt engineering and fine-tuning that balances performance, cost, and latency.",
+        "**Responsible AI & From Prototype to Production:** Our engineering-first MLOps approach bridges the prototype-to-production gap with automated retraining, explainability dashboards, and bias mitigation. We comply with **GDPR, CCPA, and HIPAA** — building AI that fails safely and scales to millions of inference requests."
+      ],
+      "techStack": {
+        "frameworks": "ML Frameworks",
+        "languages": "Languages",
+        "cloud": "Cloud AI Platforms",
+        "tools": "AI Tools & APIs",
+        "databases": "Data Storage"
+      },
+      "process": {
+        "data": {
+          "title": "Data Assessment",
+          "desc": "Auditing internal data structures, consistency, and potential compliance."
+        },
+        "model": {
+          "title": "Model Selection",
+          "desc": "Determining the balance between API latency and accuracy models."
+        },
+        "integration": {
+          "title": "Integration & API",
+          "desc": "Constructing clean, reliable RAG systems and context connectors."
+        },
+        "validation": {
+          "title": "Testing & Validation",
+          "desc": "Benchmarking accuracy against gold-standard evaluation sets."
+        },
+        "deployment": {
+          "title": "Deployment",
+          "desc": "Spinning up secure hosting with automatic auto-scaling hardware."
+        },
+        "improve": {
+          "title": "Continuous Improvement",
+          "desc": "Reviewing usage logs regularly to fine-tune ongoing responses."
+        }
+      },
+      "why": {
+        "production": {
+          "title": "Production-Ready AI",
+          "desc": "Not just prototypes — we deploy and maintain ML models in production with **99.9% uptime**. Our MLOps infrastructure includes automated monitoring, rollback strategies, and SLA-backed support."
+        },
+        "privacy": {
+          "title": "Data Privacy",
+          "desc": "On-premise and private cloud deployment options available. Our data pipelines are **GDPR and HIPAA compliant** — your data is never used for external model training."
+        },
+        "roi": {
+          "title": "Measurable ROI",
+          "desc": "Every AI project starts with a business case, not a demo. Our clients see an average **3x ROI within 6 months** of deployment."
+        },
+        "learning": {
+          "title": "Continuous Learning",
+          "desc": "Our models improve automatically with new data — **no manual retraining needed**. Automated MLOps pipelines detect data drift and validate performance before each release."
+        }
+      },
+      "ctaPrimary": "Consult Our Architects",
+      "ctaSecondary": "Learn More",
+      "whatWeBuildTitle": "What We Build",
+      "whatWeBuildSubtitle": "Custom intellectual products designed to integrate with your data lakes and existing workflows.",
+      "samplesLabel": "Sample interfaces",
+      "samples": {
+        "training": {
+          "title": "Model training dashboard",
+          "desc": "Monitor accuracy, loss, and hyperparameters in real time."
+        },
+        "chatbot": {
+          "title": "NLP chatbot interface",
+          "desc": "Conversational flows with intent detection and response ranking."
+        },
+        "vision": {
+          "title": "Computer vision detection",
+          "desc": "Classify objects with bounding boxes and confidence thresholds."
+        },
+        "analytics": {
+          "title": "Predictive analytics dashboard",
+          "desc": "Forecast future trends with confidence intervals and key drivers."
+        }
+      },
+      "aboutTitle": "About Our AI Solutions",
+      "aboutSubtitle": "A comprehensive overview of how we design, build, and deploy AI systems that transform business operations.",
+      "processTitle": "Our Process",
+      "processSubtitle": "From dataset exploration to highly scalable inference endpoints with rigorous validation.",
+      "whyTitle": "Why Choose Us",
+      "whySubtitle": "We build deep integrations that balance state-of-the-art accuracy with absolute corporate privacy.",
+      "ctaTitle": "Ready to Unlock AI for Your Business?",
+      "ctaSubtitle": "Our AI solutions have helped businesses automate 60% of manual processes, reduce operational costs, and make data-driven decisions. From chatbots to predictive analytics — we make AI practical and profitable.",
+      "ctaButton": "Get AI Strategy Session",
+      "seoTitle": "AI Software Development Services | CodeYourLogic",
+      "seoDescription": "AI software development company for LLMs, chatbots, RAG, computer vision and ML. Automate workflows and ship production AI with CodeYourLogic engineers.",
+      "faq": [
+        {
+          "q": "Do you integrate OpenAI and Claude?",
+          "a": "Yes—plus custom RAG pipelines, agents and fine-tuning aligned to your data and compliance needs."
+        },
+        {
+          "q": "Can AI work with our internal data?",
+          "a": "We connect secure knowledge bases so assistants answer from your documents, CRM and APIs."
+        }
+      ]
+    },
+    "blockchain": {
+      "title": "Blockchain Development Company",
+      "short": "Smart contracts, DeFi, NFTs and Web3 apps with security-first delivery.",
+      "description": "Build secure decentralized applications, smart contracts and Web3 platforms audited for production trust.",
+      "features": [
+        "Smart Contract Development",
+        "DApp Development",
+        "Wallet Integration",
+        "Token Economics",
+        "Blockchain Auditing",
+        "Web3 Infrastructure"
+      ],
+      "badge": "Decentralized Trust Systems",
+      "offerings": {
+        "smartContracts": {
+          "title": "Smart Contracts",
+          "desc": "Secure smart contract design, architectural audit reviews, and optimized operational pipelines."
+        },
+        "defi": {
+          "title": "DeFi Platforms",
+          "desc": "Establish robust automated market makers, complex lending vaults, and highly secure yield structures."
+        },
+        "nft": {
+          "title": "NFT Marketplaces",
+          "desc": "Modern digital collectibles distribution platforms with customizable royalty splits."
+        },
+        "tokenLaunch": {
+          "title": "Token Launch Platforms",
+          "desc": "Build custom ERC-20 compliance systems with structured staking pools and lock contracts."
+        },
+        "dao": {
+          "title": "DAO Governance Tools",
+          "desc": "Implement voting mechanisms, multisig wallets, and on-chain governance systems."
+        },
+        "supplyChain": {
+          "title": "Supply Chain Tracking",
+          "desc": "Deploy unalterable ledgers tracking provenance, ownership history, and dynamic logistical loops."
+        },
+        "identity": {
+          "title": "Digital Identity Solutions",
+          "desc": "Integrate anonymous, sovereign authentication systems into legacy software portfolios."
+        },
+        "payments": {
+          "title": "Crypto Payment Gateways",
+          "desc": "Secure transaction processing supporting instant multi-currency checkouts with gas efficiency."
+        }
+      },
+      "about": [
+        "CodeYourLogic builds secure, scalable blockchain applications and Web3 infrastructure that enable decentralized digital ecosystems.",
+        "Our blockchain engineers have deep expertise across multiple chains and protocols, delivering solutions that leverage the unique strengths of distributed ledger technology."
+      ],
+      "techStack": {
+        "chains": "Blockchain Networks",
+        "languages": "Smart Contract Languages",
+        "web3": "Web3 Libraries & Tooling",
+        "infra": "Infrastructure & Storage",
+        "frontend": "Front-End Stack"
+      },
+      "process": {
+        "useCase": {
+          "title": "Use Case Analysis",
+          "desc": "Auditing transaction speed, targeted blockchains, and gas constraints."
+        },
+        "architecture": {
+          "title": "Architecture Design",
+          "desc": "Designing smart contracts with a strict focus on security mechanics."
+        },
+        "development": {
+          "title": "Development & Auditing",
+          "desc": "Writing clean Solidity/Rust with rigorous unit test pipelines."
+        },
+        "testnet": {
+          "title": "Testnet Deployment",
+          "desc": "Deploying on public testnets for extensive behavioral analysis."
+        },
+        "audit": {
+          "title": "Security Audit",
+          "desc": "Third-party penetration testing and formal validation reviews."
+        },
+        "mainnet": {
+          "title": "Mainnet Launch",
+          "desc": "Careful deployment, frontend integration, and dashboard monitoring."
+        }
+      },
+      "why": {
+        "security": {
+          "title": "Security First",
+          "desc": "**100% of our contracts pass third-party audit.** We use formal verification where applicable, with Slither, Mythril, and manual expert review — **zero critical vulnerabilities** shipped to production."
+        },
+        "gas": {
+          "title": "Gas Optimized",
+          "desc": "Assembly-level optimizations **reduce transaction costs by 30–50%** for end users compared to unoptimized implementations — saving real money on every on-chain interaction."
+        },
+        "multiChain": {
+          "title": "Multi-Chain",
+          "desc": "Deploy once, run everywhere — our abstraction layer supports **6+ EVM chains** (Ethereum, Polygon, BSC, Avalanche, Arbitrum, Optimism) and Solana with a unified development workflow."
+        },
+        "compliance": {
+          "title": "Regulatory Compliance",
+          "desc": "**KYC/AML integration**, jurisdictional token restrictions, and compliance-ready architecture — we design systems that align with financial regulations across multiple jurisdictions."
+        }
+      },
+      "ctaPrimary": "Consult Our Architects",
+      "whatWeBuildTitle": "What We Build",
+      "whatWeBuildSubtitle": "Secure, highly-optimized smart contract structures and web3 integrations built on consensus security.",
+      "aboutTitle": "About Our Blockchain Solutions",
+      "aboutSubtitle": "A comprehensive overview of our approach to secure, scalable, and user-friendly blockchain applications and Web3 infrastructure.",
+      "intro": "CodeYourLogic builds secure, scalable blockchain applications and Web3 infrastructure that enable decentralized digital ecosystems. Our blockchain engineers have deep expertise across multiple chains and protocols, delivering solutions that leverage the unique strengths of distributed ledger technology — **trustless transactions, immutable records, programmable money, and decentralized governance**. We work with startups launching their first token to enterprises implementing supply chain transparency.",
+      "metricsTitle": "",
+      "metrics": [
+        "Smart contracts built with **security reviews, gas optimization, and audit-ready practices**",
+        "Full security auditing with **Slither, Mythril, and manual code review** — zero critical vulnerabilities in production",
+        "Gas optimization that **reduces transaction costs by 30–50%** compared to unoptimized implementations",
+        "**Multi-chain deployment:** Ethereum, Polygon, BSC, Solana, Avalanche, and Arbitrum",
+        "**Token economics design**, NFT marketplace development, and DAO governance implementation"
+      ],
+      "shots": {
+        "defi": {
+          "label": "Sample: DeFi trading platform interface with token swap, liquidity pools, and price charts.",
+          "paragraph": "**Smart contract development** — we write, test, and audit smart contracts in **Solidity** for Ethereum and EVM-compatible chains (Polygon, Arbitrum, Optimism, BSC), and in **Rust** for Solana, Near, and Cosmos. Our contracts are designed for gas efficiency, upgradability (proxy patterns), and security. Every contract undergoes internal audit with tools like Slither, Mythril, and Foundry fuzzing before deployment, followed by third-party security audits for high-value contracts. We design contracts for production safety and audit readiness before mainnet launch.\n\n**DeFi and financial protocols** — our team builds lending/borrowing protocols, automated market makers (AMMs), yield aggregators, staking platforms, and cross-chain bridges. We implement complex tokenomics models, governance mechanisms, and incentive structures — including **Chainlink oracles**, flash loan protection, and MEV-resistant ordering to protect users from sandwich attacks and front-running."
+        },
+        "nft": {
+          "label": "Sample: NFT marketplace interface with collectible cards, bids, and wallet connection.",
+          "paragraph": "**NFTs and digital assets** — we build NFT marketplaces, minting platforms, and digital collectible experiences. Our NFT infrastructure supports **ERC-721, ERC-1155, and Metaplex** standards with lazy minting, royalty enforcement, and metadata storage on **IPFS and Arweave**. We create token gating systems, fractional NFT ownership, and dynamic NFTs that evolve based on on-chain or off-chain conditions."
+        },
+        "explorer": {
+          "label": "Sample: Blockchain explorer showing transaction history and block details.",
+          "paragraph": "**Enterprise blockchain** — for enterprises, we implement private and consortium blockchains using **Hyperledger Fabric and Polygon Edge** for supply chain tracking, credential verification, document notarization, and inter-company settlement. Our solutions integrate with existing ERP systems through well-designed APIs and event-driven architectures, and we help enterprises navigate **regulatory compliance** across jurisdictions."
+        },
+        "wallet": {
+          "label": "Sample: Crypto wallet dashboard with portfolio balances and transaction history.",
+          "paragraph": "**Web3 frontend and user experience** — blockchain applications don't have to be confusing. We build intuitive Web3 frontends using **Wagmi, RainbowKit, and WalletConnect** that abstract away blockchain complexity. Our apps support social login with account abstraction (**ERC-4337**), gasless transactions via meta-transactions, and fiat on-ramps so non-crypto users can interact with your dApp without managing private keys."
+        }
+      },
+      "closing": "We believe the best blockchain UX is invisible — secure underneath, simple on the surface.",
+      "processTitle": "Our Process",
+      "processSubtitle": "Surgical precision in use-case auditing and testing to prevent post-launch vulnerability.",
+      "whyTitle": "Why Choose Us",
+      "whySubtitle": "We optimize for smart contract safety, gas-saving performance, and compliance confidence.",
+      "ctaTitle": "Ready to Build on Blockchain?",
+      "ctaSubtitle": "From smart contracts to full DeFi protocols — our blockchain developers have deployed **50+ contracts** across Ethereum, Polygon, Solana, and BSC. Security-audited, gas-optimized, and production-tested.",
+      "ctaButton": "Discuss Your Blockchain Project",
+      "seoTitle": "Blockchain Development Company Online | CodeYourLogic",
+      "seoDescription": "Blockchain development company for smart contracts, DeFi, NFTs and Web3 apps. Security-audited Solidity and Rust solutions from CodeYourLogic engineers.",
+      "faq": [
+        {
+          "q": "Which chains do you support?",
+          "a": "Ethereum, Polygon, BSC, Solana, Avalanche, Arbitrum and other EVM networks."
+        },
+        {
+          "q": "Do you audit smart contracts?",
+          "a": "We combine internal tooling (Slither, Mythril, Foundry) with third-party audits for high-value contracts."
+        }
+      ]
+    },
+    "items": {
+      "customWeb": "Custom Web Development",
+      "mobileApp": "Mobile App Development",
+      "desktopApp": "Desktop Application Development",
+      "saas": "SaaS Product Development",
+      "cloudInfra": "Cloud Infrastructure Engineering",
+      "devops": "DevOps & CI/CD",
+      "aiIntegrations": "AI Integrations",
+      "generativeAi": "Generative AI Solutions",
+      "ml": "Machine Learning Applications",
+      "apiDev": "API Development & Integrations",
+      "blockchain": "Blockchain & Web3 Solutions",
+      "uiux": "UI/UX Design",
+      "ecommerce": "E-commerce Development",
+      "maintenance": "Maintenance & Support"
+    },
+    "gridTitle": "Custom Software Development Services",
+    "gridSubtitle": "Web, mobile, desktop, cloud DevOps, AI, blockchain and WooCommerce—engineered to win customers and scale operations.",
+    "listing": {
+      "web": {
+        "title": "Web Development",
+        "desc": "We build high-performance, scalable web applications with modern frameworks — from marketing sites to complex SaaS platforms engineered for growth."
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "desc": "Native and cross-platform mobile apps that deliver smooth performance, delightful UX, and reliable releases on iOS and Android."
+      },
+      "ecommerce": {
+        "title": "WooCommerce & E-Commerce",
+        "desc": "WooCommerce stores from quick setup to fully custom templates — payments, shipping, catalog, and conversion-focused UX."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Cloud infrastructure, CI/CD, and automation that keep your products secure, scalable, and continuously deployable."
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "desc": "Data-driven AI solutions — from custom models to intelligent product features that automate workflows and unlock insights."
+      },
+      "blockchain": {
+        "title": "Blockchain Solutions",
+        "desc": "Secure decentralized applications, smart contracts, and Web3 platforms built for trust, transparency, and scale."
+      },
+      "desktop": {
+        "title": "Desktop Application Development",
+        "desc": "Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products."
+      },
+      "hire": {
+        "title": "Dedicated Developers",
+        "desc": "Embed vetted frontend, backend, mobile, DevOps, AI, design, and QA specialists into your team with a clear engagement model."
+      }
+    },
+    "woocommerce": {
+      "title": "WooCommerce Development Company",
+      "short": "Custom WooCommerce stores, themes, payments and conversion-focused UX.",
+      "description": "WooCommerce stores from setup to custom themes—payments, shipping, catalog and checkout optimized for revenue.",
+      "badge": "OUR SERVICES",
+      "ctaPrimary": "Start Your Store",
+      "ctaSecondary": "Learn More",
+      "whatWeBuildTitle": "What We Offer",
+      "whatWeBuildSubtitle": "WooCommerce solutions spanning quick launches to fully customized storefronts — products, payments, shipping, and performance included.",
+      "aboutTitle": "About Our WooCommerce Development Services",
+      "about": [
+        "CodeYourLogic builds WooCommerce stores that sell. Whether you need a **fast go-live store** or a **fully custom template** engineered around your brand, we cover the full spectrum — catalog setup, checkout UX, payments, shipping, tax, SEO, and ongoing optimization. Our WooCommerce builds are WordPress-native, conversion-focused, and ready to scale with your inventory and traffic.",
+        "**Quick solutions —** when speed matters, we launch polished WooCommerce stores on proven themes with essential plugins, payment gateways, and shipping rules configured correctly from day one. You get a clean catalog, secure checkout, and admin training so your team can list products and fulfill orders immediately — without months of build time.",
+        "**Theme customization —** already love a theme but need it to match your brand? We customize layouts, typography, product grids, cart drawers, and checkout flows so the storefront feels uniquely yours while staying update-safe and maintainable.",
+        "**Fully custom templates —** for brands that need a one-of-a-kind experience, we design and develop custom WooCommerce templates and page templates from scratch. Product pages, category archives, landing pages, and account areas are built for your catalog complexity — variable products, bundles, subscriptions, or B2B pricing.",
+        "**Payments, shipping & operations —** we integrate **Stripe, PayPal, Razorpay**, and regional gateways; configure shipping zones, rates, and carriers; and set tax rules that match how you sell. Inventory sync, coupons, abandoned-cart recovery, and order workflows are wired so operations stay simple as you grow.",
+        "**Performance, security & growth —** every WooCommerce store we ship includes caching, image optimization, hardened WordPress security, and Core Web Vitals tuning. We also support migrations from Shopify, Magento, or older WooCommerce setups — plus post-launch iteration so conversion keeps climbing."
+      ],
+      "processTitle": "Our Process",
+      "processSubtitle": "A clear path from quick WooCommerce launch to fully customized storefront — pick the depth your business needs.",
+      "whyTitle": "Why Choose Us for WooCommerce",
+      "whySubtitle": "Commerce-focused engineering that balances speed-to-launch with room to customize and scale.",
+      "ctaTitle": "Ready to Launch or Upgrade Your WooCommerce Store?",
+      "ctaSubtitle": "Tell us whether you need a quick setup or a fully custom template — we'll map the right path and timeline.",
+      "ctaButton": "Get a Free Store Consultation",
+      "offerings": {
+        "quickSetup": {
+          "title": "Quick Store Setup",
+          "desc": "Launch-ready WooCommerce installs with theme, essentials plugins, payments, and shipping configured for fast go-live."
+        },
+        "themeCustom": {
+          "title": "Theme Customization",
+          "desc": "Brand-aligned customizations to layouts, product grids, cart, and checkout while keeping themes update-safe."
+        },
+        "customTemplate": {
+          "title": "Custom Template Development",
+          "desc": "Fully custom WooCommerce templates and page designs built from scratch for unique catalog and brand needs."
+        },
+        "payments": {
+          "title": "Payment Gateway Integration",
+          "desc": "Secure checkout with Stripe, PayPal, Razorpay, wallets, and region-specific payment methods."
+        },
+        "catalog": {
+          "title": "Catalog & Inventory",
+          "desc": "Product types, variations, attributes, stock rules, and bulk import workflows that stay easy to manage."
+        },
+        "shipping": {
+          "title": "Shipping & Tax Setup",
+          "desc": "Zones, rates, carriers, and tax configuration matched to where and how you sell."
+        },
+        "performance": {
+          "title": "Performance & Security",
+          "desc": "Caching, CDN, Core Web Vitals tuning, and hardened WordPress security for a fast, trusted store."
+        },
+        "migration": {
+          "title": "Migration & Upgrades",
+          "desc": "Move from Shopify, Magento, or legacy WooCommerce with product, order, and SEO path continuity."
+        }
+      },
+      "process": {
+        "discovery": {
+          "title": "Discovery & Store Goals",
+          "desc": "We clarify catalog size, markets, payment needs, and whether you need a quick launch or full custom build."
+        },
+        "quickStart": {
+          "title": "Quick Start Foundation",
+          "desc": "WordPress + WooCommerce install, theme baseline, and essential plugins set up for a solid store core."
+        },
+        "customize": {
+          "title": "Customize or Custom Template",
+          "desc": "Theme styling — or fully custom templates — shaped around your brand, UX, and product complexity."
+        },
+        "integrations": {
+          "title": "Payments, Shipping & Tools",
+          "desc": "Gateways, shipping, tax, email, analytics, and ops plugins connected and tested end to end."
+        },
+        "qa": {
+          "title": "QA & Conversion Checks",
+          "desc": "Checkout flows, mobile UX, performance, and security validated before customers arrive."
+        },
+        "launch": {
+          "title": "Launch, Training & Support",
+          "desc": "Go-live checklist, admin training, and a clear plan for iteration after the first sales."
+        }
+      },
+      "why": {
+        "speed": {
+          "title": "Fast Path to Launch",
+          "desc": "**Quick WooCommerce setups** get you selling sooner — without locking you out of deeper customization later."
+        },
+        "flexible": {
+          "title": "Quick to Fully Custom",
+          "desc": "From theme tweaks to **fully custom templates**, we match the build depth to your brand and budget."
+        },
+        "conversion": {
+          "title": "Built to Convert",
+          "desc": "Checkout UX, product pages, and performance tuned so visitors become **paying customers**."
+        },
+        "support": {
+          "title": "Commerce Partnership",
+          "desc": "**Training and post-launch support** so your team can manage products, orders, and campaigns confidently."
+        }
+      },
+      "features": [
+        "Quick WooCommerce Store Setup",
+        "Theme Customization",
+        "Custom Template Development",
+        "Payment & Shipping Integration",
+        "Catalog & Inventory Setup",
+        "Migration & Performance Tuning"
+      ],
+      "techStack": {
+        "platform": "Platform",
+        "frontend": "Front-End",
+        "payments": "Payments",
+        "tools": "Tools & Performance"
+      },
+      "seoTitle": "WooCommerce Development Services | CodeYourLogic",
+      "seoDescription": "WooCommerce development company for custom stores, themes, plugins and migrations. Launch high-converting WordPress eCommerce with CodeYourLogic experts.",
+      "faq": [
+        {
+          "q": "Can you migrate to WooCommerce?",
+          "a": "Yes—from Shopify, Magento or custom carts with catalog, SEO URL and order data migration."
+        },
+        {
+          "q": "Do you build custom WooCommerce themes?",
+          "a": "We design conversion-focused themes and plugins tailored to your brand and checkout flow."
+        }
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "Deep domain expertise across high-growth sectors",
+    "fintech": "FinTech",
+    "healthcare": "Healthcare",
+    "ecommerce": "E-commerce",
+    "logistics": "Logistics",
+    "education": "Education",
+    "travel": "Travel",
+    "realEstate": "Real Estate",
+    "blockchain": "Blockchain",
+    "aiStartups": "AI Startups",
+    "enterpriseSaas": "Enterprise SaaS",
+    "cards": {
+      "restaurants": {
+        "title": "Restaurants & Food",
+        "desc": "Online ordering systems, POS integrations, delivery tracking apps, kitchen display systems, loyalty programs, and table reservation platforms built for fast-growing food businesses."
+      },
+      "ecommerce": {
+        "title": "E-commerce & Retail",
+        "desc": "High-converting online stores, inventory and warehouse management, multi-channel retail integrations, payment gateways, abandoned cart recovery, and personalized shopping experiences."
+      },
+      "healthcare": {
+        "title": "Healthcare & Fitness",
+        "desc": "HIPAA-compliant patient portals, telemedicine platforms, EHR integrations, fitness tracking apps, appointment scheduling, and remote monitoring solutions for clinics and wellness brands."
+      },
+      "realEstate": {
+        "title": "Real Estate & Property",
+        "desc": "Property listing platforms, 3D virtual tours, agent CRM systems, mortgage calculators, tenant management portals, and smart home integrations for developers and real estate agencies."
+      },
+      "fintech": {
+        "title": "Finance & Banking",
+        "desc": "Trading platforms, digital banking apps, payment processing APIs, KYC/AML compliance tools, loan origination systems, and fraud detection dashboards built to regulatory standards."
+      },
+      "education": {
+        "title": "Education & E-learning",
+        "desc": "LMS platforms, virtual classrooms, student portals, adaptive learning engines, gamification systems, proctoring tools, and course marketplace solutions for EdTech startups and institutions."
+      },
+      "travel": {
+        "title": "Travel & Hospitality",
+        "desc": "Hotel booking engines, dynamic pricing platforms, itinerary planners, loyalty management systems, channel manager integrations, and guest experience apps for hotels and tour operators."
+      },
+      "logistics": {
+        "title": "Logistics & Supply Chain",
+        "desc": "Real-time fleet tracking, warehouse management systems, route optimization engines, last-mile delivery apps, customs documentation, and supply chain visibility dashboards."
+      },
+      "media": {
+        "title": "Media & Entertainment",
+        "desc": "Video streaming platforms, CMS solutions, podcast apps, live event ticketing, social communities, and content monetization systems for creators, broadcasters, and media companies."
+      },
+      "automotive": {
+        "title": "Automotive & EV",
+        "desc": "Connected car apps, EV charging network management, dealer management systems, vehicle telemetry platforms, predictive maintenance tools, and driver experience apps for OEMs and fleets."
+      },
+      "agriculture": {
+        "title": "Agriculture & AgriTech",
+        "desc": "Farm management platforms, IoT-based crop monitoring, drone data processing, precision irrigation systems, agricultural supply chain traceability, and marketplace apps for farmers."
+      },
+      "legal": {
+        "title": "Legal & Compliance",
+        "desc": "Case management systems, contract lifecycle automation, e-discovery tools, regulatory compliance dashboards, legal billing platforms, and client portals for law firms and compliance teams."
+      },
+      "insurance": {
+        "title": "Insurance & InsurTech",
+        "desc": "Automated claims processing, policy management portals, telematics-based risk assessment, underwriting automation, and self-service customer apps for modern insurance providers."
+      },
+      "manufacturing": {
+        "title": "Manufacturing & IoT",
+        "desc": "Smart factory dashboards, IoT sensor integration, production line monitoring, predictive maintenance systems, quality control automation, and MES solutions for Industry 4.0."
+      },
+      "government": {
+        "title": "Government & Public",
+        "desc": "Citizen service portals, digital permit systems, public safety dashboards, e-voting platforms, open data APIs, and inter-agency data sharing solutions built to government compliance standards."
+      },
+      "telecom": {
+        "title": "Telecom & Networking",
+        "desc": "Network performance monitoring, OSS/BSS billing platforms, self-service customer portals, SIM management systems, and real-time analytics dashboards for telecom operators and ISPs."
+      }
+    }
+  },
+  "hireResources": {
+    "badge": "Who we are",
+    "title": "Hire Dedicated Resources",
+    "titleHighlight": "Resources",
+    "subtitle": "Scale your product team with vetted engineers, designers, and QA specialists who integrate into your workflow and ship on your timeline.",
+    "cta": "Learn More",
+    "rolesTitle": "Hire Resources",
+    "rolesSubtitle": "Dedicated talent across product, engineering, design, and QA — ready to join your team.",
+    "hireNow": "Hire Now",
+    "readMore": "Read More",
+    "howTitle": "How It Works",
+    "howSubtitle": "A simple path from requirements to a productive dedicated team.",
+    "industriesTitle": "Industries We Serve",
+    "industriesSubtitle": "Building solutions across diverse business domains",
+    "ctaTitle": "Ready to Scale Your Team?",
+    "ctaSubtitle": "Stop spending months on hiring. Get pre-vetted, senior engineers integrated into your workflow within 48 hours. Flexible engagement models — full-time, part-time, or project-based.",
+    "ctaButton": "Hire Your Team Now",
+    "engagementTitle": "Engagement model",
+    "engagementSubtitle": "Choose how dedicated resources join your team. Models already described on this page: full-time, part-time, or project-based.",
+    "onboardingNote": "Copy on this page describes integrating selected engineers within 48 hours as a typical target after selection — not a guaranteed SLA.",
+    "techDisclaimer": "Role tags show representative skills. Dedicated developers are not limited to the logos or tags on this page.",
+    "processLink": "How company-wide delivery works",
+    "engagement": {
+      "fullTime": {
+        "title": "Full-time dedicated",
+        "desc": "Engineers embedded in your rituals, tools, and timezone overlap as an extension of your team."
+      },
+      "partTime": {
+        "title": "Part-time",
+        "desc": "A defined weekly capacity when you need specialist skills without a full-time seat."
+      },
+      "project": {
+        "title": "Project-based",
+        "desc": "Scoped delivery with dedicated resources for a product slice, migration, or launch window."
+      }
+    },
+    "faq": [
+      {
+        "q": "What dedicated roles can we hire?",
+        "a": "Frontend, backend, fullstack, mobile, DevOps, AI/ML, UI/UX, and QA — the roles listed on this page."
+      },
+      {
+        "q": "How does onboarding work?",
+        "a": "Share requirements, review a shortlist, interview and select, then onboard into your tools and cadence. Scaling up or down is part of the last step."
+      },
+      {
+        "q": "Is this staff augmentation or a full product team?",
+        "a": "Hire Resources is dedicated staffing inside your workflow. You can also engage CodeYourLogic for end-to-end product engineering on our service pages."
+      }
+    ],
+    "roles": {
+      "frontend": {
+        "title": "Frontend Developers",
+        "desc": "Craft pixel-perfect, high-performance interfaces with modern frameworks and strong UX craftsmanship."
+      },
+      "backend": {
+        "title": "Backend Developers",
+        "desc": "Build secure, scalable APIs and services that power reliable product experiences at scale."
+      },
+      "mobile": {
+        "title": "Mobile Developers",
+        "desc": "Ship polished iOS and Android apps with native feel, solid architecture, and smooth releases."
+      },
+      "fullstack": {
+        "title": "Full Stack Developers",
+        "desc": "End-to-end engineers who own features across UI, APIs, data, and deployment with speed."
+      },
+      "devops": {
+        "title": "DevOps Engineers",
+        "desc": "Automate delivery pipelines, harden cloud infrastructure, and keep systems reliable 24/7."
+      },
+      "ai": {
+        "title": "AI/ML Engineers",
+        "desc": "Design and ship intelligent features — models, pipelines, and production ML systems."
+      },
+      "uiux": {
+        "title": "UI/UX Designers",
+        "desc": "Turn product goals into clear flows, beautiful interfaces, and conversion-focused experiences."
+      },
+      "qa": {
+        "title": "QA Engineers",
+        "desc": "Protect quality with automated and manual testing so every release ships with confidence."
+      }
+    },
+    "steps": {
+      "requirements": {
+        "title": "Share Your Requirement",
+        "desc": "Tell us the roles, skills, timezone overlap, and engagement model you need. We clarify scope quickly so matching stays accurate."
+      },
+      "shortlist": {
+        "title": "Shortlist Talent",
+        "desc": "We shortlist vetted candidates aligned to your stack and culture, with profiles ready for interview."
+      },
+      "building": {
+        "title": "Team Building",
+        "desc": "Interview, select, and onboard dedicated resources into your tools, rituals, and delivery cadence."
+      },
+      "scale": {
+        "title": "Scale Fast & Get Result",
+        "desc": "Start shipping with clear ownership, then scale the team up or down as your roadmap evolves."
+      }
+    }
+  },
+  "whyChoose": {
+    "eyebrow": "Why Industry Leaders Choose CodeYourLogic",
+    "title": "Why scaling companies trust our team",
+    "subtitle": "We combine technical excellence with a growth mindset - delivering software that performs, scales, and pays back.",
+    "expertise": {
+      "title": "Top Technical Expertise",
+      "desc": "Our senior engineers average 8+ years of hands-on experience across React, Node.js, Python, Flutter, AWS, and 50+ modern technologies. We assign domain specialists - not generalists - to your project, ensuring every technical decision is made by someone who has solved that exact problem before."
+    },
+    "quality": {
+      "title": "Uncompromising Quality",
+      "desc": "Every line of code goes through mandatory peer review, automated test suites (unit, integration, E2E), and performance profiling before reaching production. You get software that's not just functional - but maintainable, secure, and built to last. Zero cutting corners, guaranteed."
+    },
+    "speed": {
+      "title": "Speed & Execution",
+      "desc": "We run 2-week agile sprints with daily standups, continuous integration, and weekly demo calls so you always know exactly where your project stands. Most MVPs ship in 6-10 weeks. No waterfall delays. No surprises. Just consistent, measurable progress you can see."
+    },
+    "commitment": {
+      "title": "Reliable Commitment",
+      "desc": "We treat your project as our own business. That means proactive Slack communication, transparent project tracking in Jira or Notion, honest milestone reporting, and a 100% on-time delivery record across 50+ projects. When we commit to a date, we ship on that date."
+    },
+    "endToEnd": {
+      "title": "End-to-end Solutions",
+      "desc": "You get a single partner for the entire product lifecycle: product strategy, UX/UI design, frontend & backend development, QA, DevOps, cloud deployment, and ongoing maintenance. No hand-off chaos. No vendor juggling. One team that owns outcomes from day one."
+    },
+    "clientFirst": {
+      "title": "Client-First Approach",
+      "desc": "Before writing a single line of code, we dive deep into your business model, revenue goals, and user behavior. Every architectural decision is validated against your KPIs. You'll never receive a feature that doesn't directly serve your growth - because we measure our success by the ROI we generate for you."
+    }
+  },
+  "cta": {
+    "badge": "FREE CONSULTATION AVAILABLE",
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Partner with 50+ companies worldwide who trusted us to build scalable, revenue-generating software. From startups to enterprises - we deliver technology that drives real growth. Schedule a free consultation with our experts today.",
+    "button": "Get Your Free Consultation",
+    "secondary": "View Our Work",
+    "trust": [
+      "No commitment required",
+      "Response within 24 hours",
+      "Expert engineers on the call"
+    ]
+  },
+  "technologies": {
+    "title": "Technology Consulting for Custom Software",
+    "subtitle": "We choose the right tools for your goals — not a fixed stack",
+    "intro": "We are not limited to a shortlist of frameworks or platforms. Tell us what you need to build, and we select the technologies that fit your product, timeline, team, and budget. If a stack you already use is the right choice, we work with it. If a different approach is better, we recommend it clearly.",
+    "processTitle": "Our Technology Process",
+    "processSubtitle": "We turn goals into outcomes with a structured approach that balances speed, quality, and long-term maintainability.",
+    "process": {
+      "discover": {
+        "title": "Discover",
+        "desc": "We align on goals, constraints, and outcomes before choosing tools. We map requirements to the right tech stack."
+      },
+      "build": {
+        "title": "Build",
+        "desc": "We build with clean architecture, automated testing, and continuous delivery. We ship fast while keeping the future maintainable."
+      },
+      "deliver": {
+        "title": "Deliver",
+        "desc": "We deploy with confidence, monitor performance, and hand off a production-ready system that your team can own."
+      }
+    },
+    "principles": {
+      "needsFirst": {
+        "title": "Your Needs Come First",
+        "desc": "We prioritize real business outcomes over every technical decision. We start with the problem, then pick the tools."
+      },
+      "stackAgnostic": {
+        "title": "Experienced Across the Spectrum",
+        "desc": "Our engineers have built products using Node, Python, Go, .NET, PHP, React, Flutter, Swift, Kotlin, Android, iOS, and more. We are comfortable adopting stacks we have not listed on a marketing page."
+      },
+      "bestFit": {
+        "title": "Best Fit, Not Fashion",
+        "desc": "We recommend proven, maintainable technologies that match your scale and constraints — not whatever is trending this month."
+      },
+      "evolve": {
+        "title": "Ready to Adapt",
+        "desc": "As your product grows, we can evolve the architecture and tooling with you so you are never locked into a poor fit."
+      }
+    },
+    "closing": "Whether you have a preferred stack or want us to advise from scratch, we will meet you where you are and build what you need.",
+    "cta": "Discuss Your Project",
+    "byServiceTitle": "Representative technologies by service",
+    "byServiceSubtitle": "Examples already published on each service page. This is not a complete or exclusive list.",
+    "processLink": "Company delivery process",
+    "engineeringLink": "Engineering practices"
+  },
+  "careers": {
+    "title": "Join Our Team",
+    "subtitle": "Build the future of software with passionate engineers.",
+    "badge": "We're Hiring",
+    "ctaPrimary": "Apply Now",
+    "ctaSecondary": "Life at CodeYourLogic",
+    "culture": {
+      "title": "Life at CodeYourLogic",
+      "desc": "We're a remote-first company built on trust, autonomy, craftsmanship, and continuous growth. Join a team where you'll make a tangible impact on global brands while enjoying true flexible hours, dedicated learning budgets, and highly supportive engineering peers."
+    },
+    "benefits": {
+      "title": "Benefits & Perks",
+      "subtitle": "What you get when you grow with us — beyond the day-to-day craft.",
+      "remote": "Remote-First Culture",
+      "health": "Health & Wellness Coverage",
+      "learning": "Learning & Development Budget",
+      "flexible": "Flexible Working Hours",
+      "equity": "Equity Participation",
+      "events": "Team Retreats & Events"
+    },
+    "apply": {
+      "title": "Apply to Join Us",
+      "subtitle": "Share your details and portfolio/resume — we review every application.",
+      "hint": "The team is fast-growing, so we review on a rolling basis. Share your credentials here, or write us directly to reach your HR coordinator at",
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+91 98765 43210",
+      "role": "Role of Interest",
+      "rolePlaceholder": "e.g. Full-Stack Engineer, Designer, Intern",
+      "linkedin": "LinkedIn Profile",
+      "linkedinPlaceholder": "https://linkedin.com/in/username",
+      "resumeUrl": "Resume / Portfolio Link (optional)",
+      "resumeUrlPlaceholder": "Link to public Google Drive, Notion, or Dropbox URL",
+      "message": "Cover Note (optional)",
+      "messagePlaceholder": "Tell us about yourself, your tech stack highlights, or why you want to join us...",
+      "submit": "Submit Application",
+      "sending": "Submitting...",
+      "success": "Thank you! We received your application and will be in touch.",
+      "error": "Something went wrong. Please try again or email us your resume."
+    },
+    "ctaTitle": "Ready to build with us?",
+    "ctaSubtitle": "Tell us what you want to work on — we review every application and reply personally.",
+    "ctaButton": "Submit Your Application"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss your next project",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+91 98765 43210",
+      "company": "Company Name",
+      "service": "Service Required",
+      "budget": "Project Budget",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you within 24 hours.",
+      "successNext": "Need to talk sooner? Call or email us now.",
+      "callUs": "Call us now",
+      "emailUs": "Email us",
+      "optional": "optional",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "selectService": "Select a service",
+      "selectBudget": "Select budget range"
+    },
+    "services": {
+      "webDev": "Web Development",
+      "mobileDev": "Mobile Development",
+      "desktopDev": "Desktop Development",
+      "cloudDevops": "Cloud & DevOps",
+      "aiSolutions": "AI Solutions",
+      "blockchain": "Blockchain Solutions",
+      "uiux": "UI/UX Design",
+      "hireResources": "Hire Dedicated Developers",
+      "other": "Other"
+    },
+    "budgets": {
+      "under10k": "Under $10,000",
+      "10k50k": "$10,000 - $50,000",
+      "50k100k": "$50,000 - $100,000",
+      "100kPlus": "$100,000+",
+      "undecided": "Not sure yet"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "WhatsApp Us",
+      "presence": "Where We Work",
+      "presenceValue": "We serve clients worldwide — remote-first delivery across time zones",
+      "address": "Headquarters",
+      "openInMaps": "Open in Google Maps",
+      "hours": "Working Hours"
+    }
+  },
+  "footer": {
+    "description": "We deploy architectural precision to secure, scale, and build your digital logic into robust production systems.",
+    "sitemap": "Sitemap",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "connectTitle": "Connect",
+    "cookies": "Cookie Policy",
+    "security": "Security",
+    "copyright": "Copyright © {{year}} CodeYourLogic Pvt Ltd. All rights reserved.",
+    "trademark": "CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter / X",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "backToHome": "Back to Home",
+    "readMore": "Read More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "floatingContact": "Quick contact",
+    "viewDetails": "View Details",
+    "allServices": "All Services",
+    "relatedProjects": "Related Projects",
+    "validation": {
+      "email": "Please enter a valid email address (e.g. name@company.com).",
+      "phone": "Please enter a valid phone number with 10–15 digits (e.g. +91 98765 43210)."
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Custom Software Development Company | CodeYourLogic",
+      "description": "Hire CodeYourLogic for custom software: web, mobile, desktop, cloud DevOps, AI, blockchain and WooCommerce. Expert engineers for startups and enterprises worldwide."
+    },
+    "services": {
+      "title": "Custom Software Development Services | CodeYourLogic",
+      "description": "Custom software development services for web, mobile, desktop, cloud DevOps, AI and blockchain. End-to-end engineering built to grow your business fast."
+    },
+    "hireResources": {
+      "title": "Hire Dedicated Developers Online | CodeYourLogic",
+      "description": "Hire dedicated remote developers for frontend, backend, full-stack, mobile, DevOps, AI and QA. Scale your product team with vetted CodeYourLogic engineers."
+    },
+    "technologies": {
+      "title": "Technology Consulting & Stack Guidance | CodeYourLogic",
+      "description": "Technology consulting that fits your product, not a fixed stack. We advise on React, Node, cloud and AI so you ship faster with maintainable architecture."
+    },
+    "careers": {
+      "title": "Software Engineering Careers Remote | CodeYourLogic",
+      "description": "Join CodeYourLogic remote-first engineering team. Apply for developer careers in web, mobile, cloud, AI and product engineering—we review every application."
+    },
+    "contact": {
+      "title": "Contact Software Development Company | CodeYourLogic",
+      "description": "Contact CodeYourLogic for a software project quote. Talk to engineers about web, mobile, cloud, AI or blockchain—HQ Adityapur, serving clients worldwide."
+    },
+    "privacy": {
+      "title": "Privacy Policy — CodeYourLogic Software Services",
+      "description": "Read how CodeYourLogic collects, uses and protects personal and client data when you use our website or engage our custom software development services."
+    },
+    "terms": {
+      "title": "Terms of Service | CodeYourLogic Engineering Firm",
+      "description": "Terms governing use of the CodeYourLogic website and the framework for our software engineering, digital product and IT services engagements worldwide."
+    },
+    "about": {
+      "title": "About CodeYourLogic | Software Engineering Partner",
+      "description": "CodeYourLogic Pvt Ltd is a custom software company for web, mobile, desktop, cloud, AI, blockchain and dedicated developers. Read services, process, and FAQ."
+    },
+    "industries": {
+      "title": "Industries We Serve | CodeYourLogic",
+      "description": "CodeYourLogic builds custom software for healthcare, ecommerce, fintech, education, logistics, government and more — with related services for each vertical."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we handle personal and client information as a software services company.",
+    "updated": "Last updated: July 29, 2026"
+  },
+  "cookies": {
+    "manage": "Cookie settings",
+    "banner": {
+      "title": "We value your privacy",
+      "description": "We use necessary cookies to run the site. Optional analytics and marketing cookies help us improve the experience and measure campaigns that bring clients to us — you can accept, reject, or customize.",
+      "privacyLink": "Read our Privacy Policy",
+      "acceptAll": "Accept all",
+      "rejectOptional": "Reject optional",
+      "customize": "Customize"
+    },
+    "preferences": {
+      "title": "Cookie preferences",
+      "description": "Choose which optional cookies you allow. You can change this anytime.",
+      "save": "Save preferences",
+      "close": "Close cookie preferences"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "description": "Required for core features like language preference and remembering your cookie choice."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Helps us see which pages and CTAs lead to inquiries so we can improve conversion and content."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Supports ad measurement, remarketing, and campaign attribution (UTMs) so we can invest in channels that generate sales leads."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "The rules for using our website and engaging our software engineering services.",
+    "updated": "Last updated: July 18, 2026"
+  },
+  "featured": {
+    "title": "Featured Projects",
+    "subtitle": "Recent client work delivered end to end",
+    "visitSite": "Visit live site",
+    "panthor": {
+      "title": "Panthor Sports India Pvt Ltd",
+      "category": "Sports & Lifestyle",
+      "overview": "We delivered a high-quality corporate website and CRM for Panthor Sports — including student tooling and an AI coach to review training videos — strengthening their brand and day-to-day operations online.",
+      "highlights": [
+        "Corporate Website",
+        "Student CRM",
+        "AI Video Coach"
+      ]
+    },
+    "aarogyam": {
+      "title": "Aarogyam Emergency Hospital Pvt. Ltd.",
+      "category": "Healthcare",
+      "overview": "We built a modern hospital website for Aarogyam Emergency Hospital in Patna — departments, doctor profiles, appointments, Ayushman info, and AI-assisted report guidance for patients.",
+      "highlights": [
+        "Hospital Website",
+        "Online Appointments",
+        "Ayushman & TPA Info"
+      ]
+    },
+    "dranshu": {
+      "title": "Siwan Piles Fistula Hospital",
+      "category": "Healthcare",
+      "overview": "We delivered a focused clinic website for Dr. Anshu Kumar’s piles and fistula hospital in Siwan — clear treatment information, trust signals, and easy patient enquiry paths.",
+      "highlights": [
+        "Clinic Website",
+        "Treatment Pages",
+        "Patient Enquiries"
+      ]
+    },
+    "ambb": {
+      "title": "Association of MD Biochemists of Bihar",
+      "category": "Association & Education",
+      "overview": "We developed the official AMBB website for the Association of MD Biochemists of Bihar — a clear digital home for members, association updates, and professional presence online.",
+      "highlights": [
+        "Association Website",
+        "Member Presence",
+        "Professional Branding"
+      ]
+    }
+  },
+  "reviews": {
+    "eyebrow": "Testimonials",
+    "title": "See What Our Clients Say About Us",
+    "r1": {
+      "quote": "CodeYourLogic delivered a high-quality CRM and website for Panthor Sport, including tools for students and an AI coach to review videos. The quality and attention to detail exceeded our expectations.",
+      "author": "Ujjwal Singh",
+      "role": "Panthor Sport"
+    },
+    "r2": {
+      "quote": "They delivered a clean, professional website for our organisation. Clear communication, solid execution, and a result we are proud to share.",
+      "author": "Shushant Shrivastav",
+      "role": "SR Enterprises"
+    },
+    "r3": {
+      "quote": "A reliable engineering partner — strong process, transparent updates, and delivery that helped us move faster without sacrificing quality.",
+      "author": "Product Lead",
+      "role": "Growth-stage SaaS"
+    }
+  },
+  "seoRelated": {
+    "title": "Explore Related Software Development Services",
+    "subtitle": "Connect the right engineering capability to your next growth goal.",
+    "faqTitle": "Frequently Asked Questions"
+  },
+  "knowledge": {
+    "techDisclaimer": "Technologies named on this website are representative of work CodeYourLogic delivers. They are not an exclusive catalog — we select the stack that fits the product, team, and constraints.",
+    "company": {
+      "eyebrow": "Company knowledge",
+      "badge": "About CodeYourLogic",
+      "title": "Software engineering partner for custom digital products",
+      "subtitle": "CodeYourLogic Pvt Ltd builds web, mobile, desktop, WooCommerce, cloud, AI, and blockchain software for startups and enterprises — or embeds dedicated engineers on your team.",
+      "positioning": "Enterprise software engineering with transparent delivery: full product teams or dedicated developers.",
+      "profileTitle": "Who CodeYourLogic is",
+      "whoWeAre": "CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, and blockchain systems.",
+      "whoWeServe": "We work with startups, growing businesses, and enterprises that need custom software or dedicated engineering capacity — worldwide, with headquarters in Adityapur, India.",
+      "legalNote": "Legal name: CodeYourLogic Pvt Ltd. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.",
+      "homeTitle": "A technology partner for building and scaling products",
+      "homeSubtitle": "Authoritative company facts — services, delivery, industries, and how to engage — in crawlable form.",
+      "readMore": "Read company knowledge",
+      "cta": "Start a conversation",
+      "ctaSecondary": "Read company profile",
+      "ctaTitle": "Ready to work with CodeYourLogic?",
+      "ctaSubtitle": "Tell us about a product, a team you need to extend, or a stack you are evaluating.",
+      "fields": {
+        "legalName": "Legal name",
+        "brand": "Brand",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Headquarters",
+        "hours": "Hours",
+        "website": "Website"
+      }
+    },
+    "services": {
+      "title": "Major services",
+      "subtitle": "Eight offerings published across this site: seven product-engineering services plus dedicated developer staffing."
+    },
+    "process": {
+      "title": "Delivery process",
+      "subtitle": "The company-wide cycle from discovery through maintenance. Individual services adapt these stages to the product — they are not a second, conflicting process.",
+      "homeLink": "Read the full delivery process",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "desc": "We analyze business goals, audience, and constraints, then define roadmap, stack, and MVP scope so every feature maps to real value."
+        },
+        "design": {
+          "title": "Design",
+          "desc": "UI/UX and interactive prototypes are validated before heavy build, reducing risk and aligning the product with users."
+        },
+        "development": {
+          "title": "Development",
+          "desc": "Senior engineers build in agile sprints with weekly demos, visible boards, and a dedicated project manager."
+        },
+        "qa": {
+          "title": "QA",
+          "desc": "Unit, integration, and end-to-end tests, plus structured manual QA, run before code ships to production."
+        },
+        "deployment": {
+          "title": "Deployment",
+          "desc": "Release includes security review, environment setup, and production rollout — not a hand-off after the last commit."
+        },
+        "scaling": {
+          "title": "Scaling",
+          "desc": "After launch we monitor performance, conversion, and infrastructure so the system grows with usage."
+        },
+        "maintenance": {
+          "title": "Maintenance",
+          "desc": "Ongoing support, runbooks, and knowledge transfer keep the product maintainable after the initial build."
+        }
+      }
+    },
+    "engineering": {
+      "title": "Engineering practices",
+      "subtitle": "How CodeYourLogic ships software — drawn from practices already described on this website, not from certifications we do not list.",
+      "items": {
+        "architecture": {
+          "title": "Architecture",
+          "desc": "We design for maintainability and scale from day one, with architecture documentation so your team can own the system."
+        },
+        "testing": {
+          "title": "Testing",
+          "desc": "Engineers write unit, integration, and end-to-end tests before code ships. Service work also includes device and release QA where relevant."
+        },
+        "peerReview": {
+          "title": "Peer review",
+          "desc": "Every line of code goes through mandatory peer review before production — stated in our quality practices on this site."
+        },
+        "security": {
+          "title": "Security",
+          "desc": "Security is treated as a delivery standard: reviews, encryption in transit and at rest where described, and OWASP-oriented web hardening on relevant work."
+        },
+        "cicd": {
+          "title": "CI/CD",
+          "desc": "Continuous integration and automated delivery pipelines are part of cloud/DevOps work and of how product teams ship."
+        },
+        "agile": {
+          "title": "Agile development",
+          "desc": "We run agile sprints with weekly demos, daily standups on many engagements, and structured retrospectives."
+        },
+        "devops": {
+          "title": "DevOps",
+          "desc": "Infrastructure, monitoring, and deployment automation sit alongside application engineering so launch and operations are one team."
+        }
+      }
+    },
+    "claims": {
+      "title": "Published figures — with context",
+      "subtitle": "These numbers appear on this website as company descriptors. They are not independently audited guarantees or contractual SLAs.",
+      "items": {
+        "established": {
+          "title": "Established 2026",
+          "desc": "Founding year published on this website."
+        },
+        "projects": {
+          "title": "200+ projects",
+          "desc": "Volume of delivered work published on this website — not a third-party audited count."
+        },
+        "engineers": {
+          "title": "50+ engineers",
+          "desc": "Team size published on this website."
+        },
+        "retention": {
+          "title": "~98% client retention",
+          "desc": "Retention figure published on this website — not a contractual guarantee."
+        },
+        "countries": {
+          "title": "20+ countries",
+          "desc": "Geographic reach published on this website for clients served."
+        },
+        "onboarding": {
+          "title": "Dedicated-team start",
+          "desc": "Hire-resources copy describes integrating selected engineers within 48 hours as a typical target after selection — not a guaranteed SLA."
+        },
+        "outcomes": {
+          "title": "Outcome examples on service pages",
+          "desc": "Service and home pages cite example outcomes (traffic, uptime, cost, revenue). Treat those as marketing descriptors of typical or targeted results unless a contract states otherwise."
+        }
+      }
+    },
+    "faq": {
+      "title": "Company FAQ",
+      "items": [
+        {
+          "q": "What does CodeYourLogic do?",
+          "a": "CodeYourLogic (CodeYourLogic Pvt Ltd) is a **custom software development company** and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated engineering resources."
+        },
+        {
+          "q": "What services does CodeYourLogic provide?",
+          "a": "Major services are **Web Development**, **Mobile Development**, **WooCommerce & E-commerce**, **Desktop Application Development**, **Cloud & DevOps**, **AI & Machine Learning**, **Blockchain**, and **Dedicated Developers / engineering resources**."
+        },
+        {
+          "q": "What technologies does CodeYourLogic use?",
+          "a": "We choose stacks for the product. Representative tools already listed on this site include React, Next.js, Node.js, Python, Swift, Kotlin, Flutter, AWS, Azure, GCP, TensorFlow, OpenAI, LangChain, Solidity, WordPress, and WooCommerce. **Listed technologies are examples, not a closed catalog.**"
+        },
+        {
+          "q": "Does CodeYourLogic build custom software?",
+          "a": "Yes. Custom software — including SaaS platforms, portals, mobile apps, desktop tools, and integrations — is the core of the company offering."
+        },
+        {
+          "q": "Does CodeYourLogic provide dedicated developers?",
+          "a": "Yes. On Hire Resources you can engage frontend, backend, fullstack, mobile, DevOps, AI/ML, UI/UX, and QA specialists who join your workflow. Engagement is described as full-time, part-time, or project-based."
+        },
+        {
+          "q": "Does CodeYourLogic work with startups and enterprises?",
+          "a": "Yes. Site copy addresses startups, scaling companies, and enterprises that need custom software or dedicated teams."
+        },
+        {
+          "q": "Which industries does CodeYourLogic serve?",
+          "a": "Published verticals include restaurants & food, e-commerce, healthcare, real estate, finance, education, travel, logistics, media, automotive, agriculture, legal, insurance, manufacturing, government, and telecom. Related services are listed on the Industries page."
+        },
+        {
+          "q": "Does CodeYourLogic provide AI/LLM development?",
+          "a": "Yes. The AI & Machine Learning service covers custom models, chatbots, LLM integrations (including OpenAI and similar tools named on that page), RAG-style assistants, computer vision, NLP, and production MLOps practices described there."
+        },
+        {
+          "q": "Does CodeYourLogic provide cloud and DevOps services?",
+          "a": "Yes. Cloud & DevOps covers cloud architecture, migration, CI/CD, containers, infrastructure as code, monitoring, and related operations work on AWS, Azure, Google Cloud, and other platforms listed on that page."
+        },
+        {
+          "q": "How does the development process work?",
+          "a": "The company cycle is **Discovery → Design → Development → QA → Deployment → Scaling → Maintenance**. Home and service pages show condensed or service-specific views of the same cycle."
+        }
+      ]
+    },
+    "glossary": {
+      "title": "Glossary",
+      "subtitle": "How this website uses CodeYourLogic-specific terms.",
+      "items": {
+        "codeYourLogic": {
+          "term": "CodeYourLogic / CodeYourLogic®",
+          "def": "The brand name of the software engineering company. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd."
+        },
+        "legalName": {
+          "term": "CodeYourLogic Pvt Ltd",
+          "def": "The registered legal entity behind the website, contracts, and contact details."
+        },
+        "hireResources": {
+          "term": "Hire Resources / dedicated developers",
+          "def": "Staff-augmentation offering: vetted engineers, designers, and QA specialists who embed in the client’s workflow rather than only a fixed-scope product engagement."
+        },
+        "technologiesPage": {
+          "term": "Technologies (page)",
+          "def": "The Technologies page describes how CodeYourLogic chooses a stack for a product. It is advisory and stack-agnostic — not a complete list of every tool the company can use."
+        },
+        "deliveryProcess": {
+          "term": "Delivery process",
+          "def": "The company-wide path from discovery through maintenance. Homepage cards (Discover, Design, Build, Scale) summarize this cycle; service pages adapt the same stages."
+        },
+        "enterpriseEngineering": {
+          "term": "Enterprise software engineering",
+          "def": "Positioning used on this site for custom product engineering with transparent delivery, quality practices, and either full teams or dedicated developers."
+        }
+      }
+    },
+    "industries": {
+      "badge": "Industries",
+      "pageTitle": "Industries we serve",
+      "pageSubtitle": "Verticals published on this website, with the software services most often associated with each. This list is the same set used on Services and Hire Resources.",
+      "relatedServices": "Related services",
+      "relatedTitle": "Industries this service supports",
+      "relatedSubtitle": "Verticals already described on this website where this capability is commonly applied.",
+      "viewAll": "View all industries",
+      "cta": "Discuss your industry",
+      "ctaSecondary": "Browse industries",
+      "ctaTitle": "Building in one of these verticals?",
+      "ctaSubtitle": "Tell us the product and constraints — we will map the relevant services."
+    }
+  }
+}

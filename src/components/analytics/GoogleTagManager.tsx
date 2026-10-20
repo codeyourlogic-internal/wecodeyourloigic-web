@@ -1,0 +1,91 @@
+import Script from "next/script";
+import { GTM_ID } from "@/lib/cookies/analytics";
+import { CONSENT_MODE_REGIONS } from "@/lib/cookies/regions";
+
+const regionList = CONSENT_MODE_REGIONS.map((c) => `'${c}'`).join(",");
+
+/**
+ * Google Consent Mode v2 — region-aware:
+ * - Denied by default only in EEA/UK/CH
+ * - Granted everywhere else so non-GDPR visitors (e.g. India) are tracked for leads
+ */
+const consentBootstrap = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+window.gtag = window.gtag || gtag;
+gtag('consent', 'default', {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  functionality_storage: 'granted',
+  security_storage: 'granted',
+  wait_for_update: 500,
+  region: [${regionList}]
+});
+gtag('consent', 'default', {
+  analytics_storage: 'granted',
+  ad_storage: 'granted',
+  ad_user_data: 'granted',
+  ad_personalization: 'granted',
+  functionality_storage: 'granted',
+  security_storage: 'granted'
+});
+gtag('set', 'url_passthrough', true);
+gtag('set', 'ads_data_redaction', true);
+`.trim();
+
+export function GoogleTagManager() {
+  if (!GTM_ID) return null;
+
+  return (
+    <>
+      <Script
+        id="wcyl-consent-default"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: consentBootstrap }}
+      />
+      <Script
+        id="wcyl-gtm"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');
+`.trim(),
+        }}
+      />
+    </>
+  );
+}
+
+export function GoogleTagManagerNoscript() {
+  if (!GTM_ID) return null;
+
+  return (
+    <noscript>
+      <iframe
+        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+        height="0"
+        width="0"
+        style={{ display: "none", visibility: "hidden" }}
+        title="Google Tag Manager"
+      />
+    </noscript>
+  );
+}
+
+export function ConsentModeDefaults() {
+  if (GTM_ID) return null;
+
+  return (
+    <Script
+      id="wcyl-consent-default"
+      strategy="beforeInteractive"
+      dangerouslySetInnerHTML={{ __html: consentBootstrap }}
+    />
+  );
+}

@@ -1,0 +1,287 @@
+# CodeYourLogic
+
+> Full company knowledge for AI agents. Index: https://codeyourlogic.com/llms.txt. Source of truth: https://codeyourlogic.com/about/.
+
+## Company
+
+CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, and blockchain systems.
+
+We work with startups, growing businesses, and enterprises that need custom software or dedicated engineering capacity — worldwide, with headquarters in Adityapur, India.
+
+Enterprise software engineering with transparent delivery: full product teams or dedicated developers.
+
+Legal name: CodeYourLogic Pvt Ltd. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.
+
+- Brand: CodeYourLogic®
+- Legal name: CodeYourLogic Pvt Ltd
+- Website: https://codeyourlogic.com/
+- Email: contact@codeyourlogic.com
+- Phone: +91 9241249929
+- Address: 4th floor Qno3/2-3, Opposite Durian Furniture, Adityapur Main Road, Akashwani, 831013
+- Hours: Mon - Fri: 9:00 AM - 6:00 PM IST
+- LinkedIn: https://www.linkedin.com/company/135124117
+- Facebook: https://www.facebook.com/profile.php?id=61591846175078
+- Instagram: https://www.instagram.com/codeyourlogic/
+
+## Services
+
+Eight offerings published across this site: seven product-engineering services plus dedicated developer staffing.
+
+### Web Development
+https://codeyourlogic.com/services/web-development/
+
+We build high-performance, scalable web applications with modern frameworks — from marketing sites to complex SaaS platforms engineered for growth.
+
+Related industries: E-commerce & Retail, Healthcare & Fitness, Finance & Banking, Education & E-learning, Real Estate & Property, Government & Public
+
+Representative technologies (not an exclusive catalog):
+  - Frontend Frameworks: Next.js, React, Angular, Vue.js, TypeScript, Tailwind CSS
+  - Backend Languages & Frameworks: Node.js, Python, Django, Go, PHP, Laravel
+  - Databases & Caching: PostgreSQL, MongoDB, MySQL, Redis
+  - Cloud & Infrastructure: Docker, Kubernetes, AWS, Azure, GCP
+
+### Mobile Development
+https://codeyourlogic.com/services/mobile-development/
+
+Native and cross-platform mobile apps that deliver smooth performance, delightful UX, and reliable releases on iOS and Android.
+
+Related industries: Healthcare & Fitness, Finance & Banking, E-commerce & Retail, Education & E-learning, Logistics & Supply Chain, Travel & Hospitality
+
+Representative technologies (not an exclusive catalog):
+  - iOS Development: Swift, SwiftUI, Objective-C
+  - Android Development: Kotlin, Java, Jetpack Compose
+  - Cross-Platform Frameworks: React Native, Flutter, Expo
+  - Backend & Testing: Node.js, Firebase, AWS, Appium, Selenium
+
+### WooCommerce & E-Commerce
+https://codeyourlogic.com/services/woocommerce/
+
+WooCommerce stores from quick setup to fully custom templates — payments, shipping, catalog, and conversion-focused UX.
+
+Related industries: E-commerce & Retail, Restaurants & Food, Travel & Hospitality
+
+Representative technologies (not an exclusive catalog):
+  - Platform: WordPress, WooCommerce, PHP, MySQL
+  - Front-End: HTML5, CSS3, JavaScript, React
+  - Payments: Stripe, PayPal, Razorpay, Apple Pay
+  - Tools & Performance: Elementor, WPML, Redis, CDN
+
+### Desktop Application Development
+https://codeyourlogic.com/services/desktop-development/
+
+Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products.
+
+Related industries: Healthcare & Fitness, Education & E-learning, Finance & Banking, Manufacturing & IoT, Legal & Compliance
+
+Representative technologies (not an exclusive catalog):
+  - Application Foundations: Electron, React, Node.js, Tauri
+  - Languages & Frameworks: .NET, C#, Java, Python, C++
+  - Deployment & Distribution: AWS, Azure, GCP, Auto-update
+
+### Cloud & DevOps
+https://codeyourlogic.com/services/cloud-devops/
+
+Cloud infrastructure, CI/CD, and automation that keep your products secure, scalable, and continuously deployable.
+
+Related industries: Logistics & Supply Chain, Finance & Banking, Manufacturing & IoT, Telecom & Networking, Government & Public
+
+Representative technologies (not an exclusive catalog):
+  - Cloud Platforms: AWS, Azure, Google Cloud, DigitalOcean
+  - Containers & Orchestration: Docker, Kubernetes, ECS
+  - Infrastructure as Code: Terraform, CloudFormation, Ansible, Pulumi
+  - CI/CD Tooling: Jenkins, GitLab CI, GitHub Actions
+  - Monitoring & Observability: Prometheus, Grafana, ELK, Datadog
+
+### AI & Machine Learning
+https://codeyourlogic.com/services/ai-solutions/
+
+Data-driven AI solutions — from custom models to intelligent product features that automate workflows and unlock insights.
+
+Related industries: Healthcare & Fitness, Finance & Banking, Logistics & Supply Chain, Education & E-learning, Insurance & InsurTech, Agriculture & AgriTech
+
+Representative technologies (not an exclusive catalog):
+  - ML Frameworks: TensorFlow, PyTorch, Keras, Scikit-learn
+  - Languages: Python, R, Java, C++
+  - Cloud AI Platforms: AWS, Google Cloud, Azure
+  - AI Tools & APIs: OpenAI, Hugging Face, LangChain
+  - Data Storage: MongoDB, PostgreSQL, Redis, Vector DBs
+
+### Blockchain Solutions
+https://codeyourlogic.com/services/blockchain/
+
+Secure decentralized applications, smart contracts, and Web3 platforms built for trust, transparency, and scale.
+
+Related industries: Finance & Banking, Logistics & Supply Chain, Government & Public
+
+Representative technologies (not an exclusive catalog):
+  - Blockchain Networks: Ethereum, Solana, Polygon, BSC
+  - Smart Contract Languages: Solidity, Rust, Go, Vyper
+  - Web3 Libraries & Tooling: Web3.js, Ethers.js, Hardhat, Foundry
+  - Infrastructure & Storage: Node.js, IPFS, The Graph, Arweave, Hyperledger
+  - Front-End Stack: React, Next.js, TypeScript, Tailwind CSS
+
+### Dedicated Developers
+https://codeyourlogic.com/hire-resources/
+
+Embed vetted frontend, backend, mobile, DevOps, AI, design, and QA specialists into your team with a clear engagement model.
+
+Related industries: All industries listed on this website (see Industries).
+
+Representative technologies (not an exclusive catalog):
+  - Frontend Developers: React, Next.js, Angular, Vue.js, TypeScript
+  - Backend Developers: Node.js, Python, Java, Go, PHP
+  - Mobile Developers: iOS, Android, React Native, Flutter, Swift, Kotlin
+  - Full Stack Developers: MERN, MEAN, React, Node.js
+  - DevOps Engineers: AWS, Azure, Google Cloud, Kubernetes, Terraform
+  - AI/ML Engineers: Python, TensorFlow, PyTorch, OpenAI, LangChain
+  - UI/UX Designers: Figma, Adobe XD
+  - QA Engineers: Selenium, Appium
+
+## Technologies
+
+Technologies named on this website are representative of work CodeYourLogic delivers. They are not an exclusive catalog — we select the stack that fits the product, team, and constraints.
+
+Details: https://codeyourlogic.com/technologies/
+
+## Industries
+
+Details: https://codeyourlogic.com/industries/
+
+- Restaurants & Food: Online ordering systems, POS integrations, delivery tracking apps, kitchen display systems, loyalty programs, and table reservation platforms built for fast-growing food businesses.
+- E-commerce & Retail: High-converting online stores, inventory and warehouse management, multi-channel retail integrations, payment gateways, abandoned cart recovery, and personalized shopping experiences.
+- Healthcare & Fitness: HIPAA-compliant patient portals, telemedicine platforms, EHR integrations, fitness tracking apps, appointment scheduling, and remote monitoring solutions for clinics and wellness brands.
+- Real Estate & Property: Property listing platforms, 3D virtual tours, agent CRM systems, mortgage calculators, tenant management portals, and smart home integrations for developers and real estate agencies.
+- Finance & Banking: Trading platforms, digital banking apps, payment processing APIs, KYC/AML compliance tools, loan origination systems, and fraud detection dashboards built to regulatory standards.
+- Education & E-learning: LMS platforms, virtual classrooms, student portals, adaptive learning engines, gamification systems, proctoring tools, and course marketplace solutions for EdTech startups and institutions.
+- Travel & Hospitality: Hotel booking engines, dynamic pricing platforms, itinerary planners, loyalty management systems, channel manager integrations, and guest experience apps for hotels and tour operators.
+- Logistics & Supply Chain: Real-time fleet tracking, warehouse management systems, route optimization engines, last-mile delivery apps, customs documentation, and supply chain visibility dashboards.
+- Media & Entertainment: Video streaming platforms, CMS solutions, podcast apps, live event ticketing, social communities, and content monetization systems for creators, broadcasters, and media companies.
+- Automotive & EV: Connected car apps, EV charging network management, dealer management systems, vehicle telemetry platforms, predictive maintenance tools, and driver experience apps for OEMs and fleets.
+- Agriculture & AgriTech: Farm management platforms, IoT-based crop monitoring, drone data processing, precision irrigation systems, agricultural supply chain traceability, and marketplace apps for farmers.
+- Legal & Compliance: Case management systems, contract lifecycle automation, e-discovery tools, regulatory compliance dashboards, legal billing platforms, and client portals for law firms and compliance teams.
+- Insurance & InsurTech: Automated claims processing, policy management portals, telematics-based risk assessment, underwriting automation, and self-service customer apps for modern insurance providers.
+- Manufacturing & IoT: Smart factory dashboards, IoT sensor integration, production line monitoring, predictive maintenance systems, quality control automation, and MES solutions for Industry 4.0.
+- Government & Public: Citizen service portals, digital permit systems, public safety dashboards, e-voting platforms, open data APIs, and inter-agency data sharing solutions built to government compliance standards.
+- Telecom & Networking: Network performance monitoring, OSS/BSS billing platforms, self-service customer portals, SIM management systems, and real-time analytics dashboards for telecom operators and ISPs.
+
+## Delivery process
+
+The company-wide cycle from discovery through maintenance. Individual services adapt these stages to the product — they are not a second, conflicting process.
+
+1. Discovery — We analyze business goals, audience, and constraints, then define roadmap, stack, and MVP scope so every feature maps to real value.
+2. Design — UI/UX and interactive prototypes are validated before heavy build, reducing risk and aligning the product with users.
+3. Development — Senior engineers build in agile sprints with weekly demos, visible boards, and a dedicated project manager.
+4. QA — Unit, integration, and end-to-end tests, plus structured manual QA, run before code ships to production.
+5. Deployment — Release includes security review, environment setup, and production rollout — not a hand-off after the last commit.
+6. Scaling — After launch we monitor performance, conversion, and infrastructure so the system grows with usage.
+7. Maintenance — Ongoing support, runbooks, and knowledge transfer keep the product maintainable after the initial build.
+
+Details: https://codeyourlogic.com/about/#delivery-process
+
+## Engineering practices
+
+- Architecture: We design for maintainability and scale from day one, with architecture documentation so your team can own the system.
+- Testing: Engineers write unit, integration, and end-to-end tests before code ships. Service work also includes device and release QA where relevant.
+- Peer review: Every line of code goes through mandatory peer review before production — stated in our quality practices on this site.
+- Security: Security is treated as a delivery standard: reviews, encryption in transit and at rest where described, and OWASP-oriented web hardening on relevant work.
+- CI/CD: Continuous integration and automated delivery pipelines are part of cloud/DevOps work and of how product teams ship.
+- Agile development: We run agile sprints with weekly demos, daily standups on many engagements, and structured retrospectives.
+- DevOps: Infrastructure, monitoring, and deployment automation sit alongside application engineering so launch and operations are one team.
+
+Details: https://codeyourlogic.com/about/#engineering-practices
+
+## Dedicated developers
+
+https://codeyourlogic.com/hire-resources/
+
+Embed vetted frontend, backend, mobile, DevOps, AI, design, and QA specialists into your team with a clear engagement model.
+
+Roles:
+- Frontend Developers (React, Next.js, Angular, Vue.js, TypeScript): Craft pixel-perfect, high-performance interfaces with modern frameworks and strong UX craftsmanship.
+- Backend Developers (Node.js, Python, Java, Go, PHP): Build secure, scalable APIs and services that power reliable product experiences at scale.
+- Mobile Developers (iOS, Android, React Native, Flutter, Swift, Kotlin): Ship polished iOS and Android apps with native feel, solid architecture, and smooth releases.
+- Full Stack Developers (MERN, MEAN, React, Node.js): End-to-end engineers who own features across UI, APIs, data, and deployment with speed.
+- DevOps Engineers (AWS, Azure, Google Cloud, Kubernetes, Terraform): Automate delivery pipelines, harden cloud infrastructure, and keep systems reliable 24/7.
+- AI/ML Engineers (Python, TensorFlow, PyTorch, OpenAI, LangChain): Design and ship intelligent features — models, pipelines, and production ML systems.
+- UI/UX Designers (Figma, Adobe XD): Turn product goals into clear flows, beautiful interfaces, and conversion-focused experiences.
+- QA Engineers (Selenium, Appium): Protect quality with automated and manual testing so every release ships with confidence.
+
+Engagement model:
+- Full-time dedicated: Engineers embedded in your rituals, tools, and timezone overlap as an extension of your team.
+- Part-time: A defined weekly capacity when you need specialist skills without a full-time seat.
+- Project-based: Scoped delivery with dedicated resources for a product slice, migration, or launch window.
+
+Copy on this page describes integrating selected engineers within 48 hours as a typical target after selection — not a guaranteed SLA.
+
+## Clients / work
+
+Clients featured on the website:
+
+- Panthor Sports India Private Limited: https://psiplltd.com
+- Aarogyam Emergency Hospital Pvt. Ltd.: https://aarogyamhospitalpatna.com/
+- Siwan Piles Fistula Hospital: https://dranshukumar.com/
+- Association of MD Biochemists of Bihar: https://mdbiochemistrybihar.com/
+
+## Published figures
+
+These numbers appear on this website as company descriptors. They are not independently audited guarantees or contractual SLAs.
+
+- Established 2026: Founding year published on this website.
+- 200+ projects: Volume of delivered work published on this website — not a third-party audited count.
+- 50+ engineers: Team size published on this website.
+- ~98% client retention: Retention figure published on this website — not a contractual guarantee.
+- 20+ countries: Geographic reach published on this website for clients served.
+- Dedicated-team start: Hire-resources copy describes integrating selected engineers within 48 hours as a typical target after selection — not a guaranteed SLA.
+- Outcome examples on service pages: Service and home pages cite example outcomes (traffic, uptime, cost, revenue). Treat those as marketing descriptors of typical or targeted results unless a contract states otherwise.
+
+Details: https://codeyourlogic.com/about/#published-figures
+
+## Glossary
+
+- CodeYourLogic / CodeYourLogic®: The brand name of the software engineering company. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.
+- CodeYourLogic Pvt Ltd: The registered legal entity behind the website, contracts, and contact details.
+- Hire Resources / dedicated developers: Staff-augmentation offering: vetted engineers, designers, and QA specialists who embed in the client’s workflow rather than only a fixed-scope product engagement.
+- Technologies (page): The Technologies page describes how CodeYourLogic chooses a stack for a product. It is advisory and stack-agnostic — not a complete list of every tool the company can use.
+- Delivery process: The company-wide path from discovery through maintenance. Homepage cards (Discover, Design, Build, Scale) summarize this cycle; service pages adapt the same stages.
+- Enterprise software engineering: Positioning used on this site for custom product engineering with transparent delivery, quality practices, and either full teams or dedicated developers.
+
+## Company FAQ
+
+Q: What does CodeYourLogic do?
+A: CodeYourLogic (CodeYourLogic Pvt Ltd) is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated engineering resources.
+
+Q: What services does CodeYourLogic provide?
+A: Major services are Web Development, Mobile Development, WooCommerce & E-commerce, Desktop Application Development, Cloud & DevOps, AI & Machine Learning, Blockchain, and Dedicated Developers / engineering resources.
+
+Q: What technologies does CodeYourLogic use?
+A: We choose stacks for the product. Representative tools already listed on this site include React, Next.js, Node.js, Python, Swift, Kotlin, Flutter, AWS, Azure, GCP, TensorFlow, OpenAI, LangChain, Solidity, WordPress, and WooCommerce. Listed technologies are examples, not a closed catalog.
+
+Q: Does CodeYourLogic build custom software?
+A: Yes. Custom software — including SaaS platforms, portals, mobile apps, desktop tools, and integrations — is the core of the company offering.
+
+Q: Does CodeYourLogic provide dedicated developers?
+A: Yes. On Hire Resources you can engage frontend, backend, fullstack, mobile, DevOps, AI/ML, UI/UX, and QA specialists who join your workflow. Engagement is described as full-time, part-time, or project-based.
+
+Q: Does CodeYourLogic work with startups and enterprises?
+A: Yes. Site copy addresses startups, scaling companies, and enterprises that need custom software or dedicated teams.
+
+Q: Which industries does CodeYourLogic serve?
+A: Published verticals include restaurants & food, e-commerce, healthcare, real estate, finance, education, travel, logistics, media, automotive, agriculture, legal, insurance, manufacturing, government, and telecom. Related services are listed on the Industries page.
+
+Q: Does CodeYourLogic provide AI/LLM development?
+A: Yes. The AI & Machine Learning service covers custom models, chatbots, LLM integrations (including OpenAI and similar tools named on that page), RAG-style assistants, computer vision, NLP, and production MLOps practices described there.
+
+Q: Does CodeYourLogic provide cloud and DevOps services?
+A: Yes. Cloud & DevOps covers cloud architecture, migration, CI/CD, containers, infrastructure as code, monitoring, and related operations work on AWS, Azure, Google Cloud, and other platforms listed on that page.
+
+Q: How does the development process work?
+A: The company cycle is Discovery → Design → Development → QA → Deployment → Scaling → Maintenance. Home and service pages show condensed or service-specific views of the same cycle.
+
+## Contact
+
+- Contact: https://codeyourlogic.com/contact/
+- Email: contact@codeyourlogic.com
+- Phone: +91 9241249929
+- Careers: https://codeyourlogic.com/careers/
+- Privacy: https://codeyourlogic.com/privacy/
+- Terms: https://codeyourlogic.com/terms/

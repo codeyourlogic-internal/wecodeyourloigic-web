@@ -1,0 +1,49 @@
+---
+description: Keep hero sections consistent across marketing pages (layout, CTAs, imagery, overlay)
+globs: src/components/home/Hero.tsx,src/components/services/ServiceHero.tsx,src/components/services/MobileServiceHero.tsx,src/app/**/page.tsx,src/app/services/**/*.tsx,src/app/hire-resources/**/*.tsx
+alwaysApply: false
+---
+
+# Hero section consistency
+
+When editing any page hero (home, services listing, hire resources, or service detail), preserve this shared pattern. Do not invent a new hero structure per page.
+
+## Required structure
+
+1. Full-bleed background image (edge-to-edge), not an inset card or side panel
+2. Dark overlay for text contrast — use **`bg-black/35`** on all marketing heroes (`Hero`, `ServiceHero`, `MobileServiceHero`) so the background image stays clearly visible (same visibility standard as home)
+3. Centered content stack: optional orange uppercase badge → title → short subtitle → CTA group
+4. Outfit / site `font-sans` only — no alternate display fonts in heroes
+5. Prefer reusing `ServiceHero` / `MobileServiceHero` (with `backgroundImage`) or the home `Hero` component instead of one-off hero markup
+6. Mobile development hero asset: `/images/mobile-development/hero-ai.png` (AI-generated atmospheric mobile/tech background)
+
+## Overlay (shared with home)
+
+- **All full-bleed page heroes** (home, services, mobile development, hire): `bg-black/35`
+- Do **not** use `/40`, `/55`, `/58`, `/60`, or heavier overlays that hide the background image
+- Keep home and mobile development at the **same** overlay strength so image visibility matches
+- CTA / inset cards may use the same or lighter overlays (e.g. `bg-black/35`) — that is separate from full-page heroes
+
+## No orange divider under the hero
+
+- Do **not** place an orange gradient bar (`h-1 bg-gradient-to-r from-orange-600…`) on the first section directly below a hero
+- Hero → next section should meet cleanly (optional subtle `border-border` only, no orange stripe)
+
+## CTAs
+
+- Primary: solid orange button (`bg-orange-600`), optional trailing arrow
+- Secondary (when present): outline on dark (`border-white/70`, transparent fill, white text)
+- Services-style pages: pair **primary action** + **Learn More** (or equivalent secondary)
+- Hire Resources: **Hire Now** (primary → contact) + **Learn More** (secondary → roles / hire page)
+
+## Do not
+
+- Replace full-bleed heroes with gradient-only or card-inset heroes without an explicit request
+- Add floating badges, stat chips, or promo stickers over hero media
+- Crowd the first viewport with extra sections (stats, schedules, multiple copy blocks)
+- Darken the overlay so the background image disappears, or lighten so white text fails contrast
+
+## Performance
+
+- Hero images: use Next.js `Image` with `fill`, `priority` on LCP heroes, and compressed assets (prefer WebP / reasonable `quality` when available)
+- Keep secondary section backgrounds lightweight (compressed WebP, no huge PNGs)

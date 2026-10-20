@@ -1,0 +1,231 @@
+# Next.js on Netlify (OpenNext adapter — auto-detected; do not pin @netlify/plugin-nextjs
+# unless you intentionally want to freeze the adapter version).
+
+[build]
+  command = "npm run build"
+  # Required for @netlify/plugin-nextjs. Leaving this empty defaults publish to the
+  # repo root (same as base) and the plugin fails with:
+  # "publish directory cannot be the same as the base directory"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Mitigates client errors when visitors are mid-session during a new deploy
+  NETLIFY_NEXT_SKEW_PROTECTION = "true"
+  # Required for contact + careers forms (also set in Netlify UI → Environment variables):
+  # NEXT_PUBLIC_FORM_ACCESS_KEY
+
+# Post-processing can rewrite HTML/assets and break Next.js. Keep it off.
+[build.processing]
+  skip_processing = true
+
+# ---------------------------------------------------------------------------
+# Domain aliases → primary (301 aliases do NOT auto-redirect in Netlify UI)
+# Host conditions are unsupported — use full https://domain/* form.
+# ---------------------------------------------------------------------------
+
+[[redirects]]
+  from = "https://wecodeyourlogic.com/*"
+  to = "https://codeyourlogic.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://wecodeyourlogic.com"
+  to = "https://codeyourlogic.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://wecodeyourlogic.com/*"
+  to = "https://codeyourlogic.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://wecodeyourlogic.com"
+  to = "https://codeyourlogic.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.wecodeyourlogic.com/*"
+  to = "https://codeyourlogic.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.wecodeyourlogic.com"
+  to = "https://codeyourlogic.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.wecodeyourlogic.com/*"
+  to = "https://codeyourlogic.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.wecodeyourlogic.com"
+  to = "https://codeyourlogic.com/"
+  status = 301
+  force = true
+
+# ---------------------------------------------------------------------------
+# Legacy locale-prefixed URLs → unprefixed paths (301 for SEO equity)
+# (Also mirrored in next.config.ts redirects.)
+# ---------------------------------------------------------------------------
+
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hi"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hi/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hi/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+# ---------------------------------------------------------------------------
+# Headers — most specific paths FIRST (Netlify uses first matching rule)
+# No crawl/index blockers: X-Robots-Tag is always index, follow.
+# ---------------------------------------------------------------------------
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+    X-Robots-Tag = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+    X-Robots-Tag = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+    X-Robots-Tag = "index, follow"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+    X-Robots-Tag = "index, follow"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/locales/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Robots-Tag = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"

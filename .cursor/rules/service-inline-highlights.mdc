@@ -1,0 +1,37 @@
+---
+description: Highlight important words in long copy on service child pages via **markers**
+globs: public/locales/**/common.json,src/components/services/**/*.tsx,src/app/services/**/*.tsx,src/lib/parseInlineBold.tsx
+alwaysApply: false
+---
+
+# Service child-page word highlights
+
+On service detail pages (web, mobile, desktop, cloud, AI, blockchain, and any future `/services/[slug]` child), long body copy must highlight key phrases the same way mobile development does today.
+
+## Markup
+
+- In locale strings, wrap important phrases with double asterisks: `**phrase to highlight**`
+- Highlight metrics, outcomes, differentiators, and short lead-in labels (e.g. `**Native iOS and Android development —**`, `**4.5+ star ratings on average**`, `**sub-200ms response times**`)
+- Do **not** bold entire paragraphs — only 1–3 short phrases per paragraph (or per why-card description)
+
+## Rendering
+
+- Always render about / why long text through `parseInlineBold()` from `@/lib/parseInlineBold`
+- Highlighted text must appear as **bold orange**: `font-bold text-orange-600`
+- Do not invent a second highlight style (no underline-only, no purple, no background chips)
+
+## Where it applies
+
+- About sections: `RichAboutBlock`, `WebAboutBlock`, `AboutBlock`
+- Why-choose descriptions: `WhyChooseGrid` (already uses `parseInlineBold`)
+- Any new long-form text blocks on service child pages must use the same helper
+
+## Locales
+
+- Add `**…**` markers in `en` first, then keep the same markers in other locale files when those strings are English mirrors or when translating (highlight the equivalent important phrase)
+
+## Do not
+
+- Strip `**` markers from mobile (or other) copy when editing
+- Leave plain strings in about/why sections without any highlights on a new service child page
+- Use Markdown libraries for this — keep `parseInlineBold` as the single path

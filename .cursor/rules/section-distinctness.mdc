@@ -1,0 +1,26 @@
+---
+description: Distinct section bands on marketing pages; never orange stripe under heroes
+globs: src/components/home/**/*.tsx,src/components/services/**/*.tsx,src/app/services/**/*.tsx,src/app/page.tsx
+alwaysApply: false
+---
+
+# Distinct marketing sections
+
+Consecutive sections on home and services pages must read as separate bands (alternating backgrounds, soft patterns, or dark CTA bands). Do not stack identical flat white sections.
+
+## Allowed differentiation
+
+- Alternating `bg-white` / `bg-zinc-50` / soft `bg-orange-50/60` with optional light dot pattern
+- Dark CTA bands (`bg-[#111827]`) for closing CTAs
+- Subtle `border-y border-border` between bands when helpful
+- Card accents (orange left border, warm blurs) **inside** a section — not as a full-width orange rule under the hero
+
+## Forbidden under heroes
+
+- Do **not** add `h-1` orange gradient dividers on the section immediately below any hero
+- First content section after a hero: clean edge only (no orange top bar)
+
+## Keep
+
+- Section `h2` at 36px / bold (see section-title-typography rule)
+- Body copy at `text-base` (16px) unless an existing pattern requires otherwise

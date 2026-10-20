@@ -1,0 +1,50 @@
+# CodeYourLogic
+
+> CodeYourLogic Pvt Ltd is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated developers for startups and enterprises worldwide. Headquarters: Adityapur, India.
+
+This file is an index for AI agents. For the full company briefing use https://codeyourlogic.com/llms-full.txt. Human-readable source of truth: https://codeyourlogic.com/about/.
+
+## Services
+
+- [Web Development](https://codeyourlogic.com/services/web-development/): We build high-performance, scalable web applications with modern frameworks — from marketing sites to complex SaaS platforms engineered for growth.
+- [Mobile Development](https://codeyourlogic.com/services/mobile-development/): Native and cross-platform mobile apps that deliver smooth performance, delightful UX, and reliable releases on iOS and Android.
+- [WooCommerce & E-Commerce](https://codeyourlogic.com/services/woocommerce/): WooCommerce stores from quick setup to fully custom templates — payments, shipping, catalog, and conversion-focused UX.
+- [Desktop Application Development](https://codeyourlogic.com/services/desktop-development/): Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products.
+- [Cloud & DevOps](https://codeyourlogic.com/services/cloud-devops/): Cloud infrastructure, CI/CD, and automation that keep your products secure, scalable, and continuously deployable.
+- [AI & Machine Learning](https://codeyourlogic.com/services/ai-solutions/): Data-driven AI solutions — from custom models to intelligent product features that automate workflows and unlock insights.
+- [Blockchain Solutions](https://codeyourlogic.com/services/blockchain/): Secure decentralized applications, smart contracts, and Web3 platforms built for trust, transparency, and scale.
+- [Dedicated Developers](https://codeyourlogic.com/hire-resources/): Embed vetted frontend, backend, mobile, DevOps, AI, design, and QA specialists into your team with a clear engagement model.
+
+## Pages
+
+- [Home](https://codeyourlogic.com/): Company overview
+- [About](https://codeyourlogic.com/about/): Company profile, delivery process, engineering practices, FAQ, glossary
+- [Services](https://codeyourlogic.com/services/): All product-engineering services
+- [Hire dedicated developers](https://codeyourlogic.com/hire-resources/): Roles, engagement model, onboarding
+- [Technologies](https://codeyourlogic.com/technologies/): How stacks are chosen — listed tools are examples, not an exclusive catalog
+- [Industries](https://codeyourlogic.com/industries/): Verticals and related services
+- [Careers](https://codeyourlogic.com/careers/)
+- [Contact](https://codeyourlogic.com/contact/)
+- [Privacy policy](https://codeyourlogic.com/privacy/)
+- [Terms of service](https://codeyourlogic.com/terms/)
+- [XML sitemap](https://codeyourlogic.com/sitemap.xml)
+- [Full AI context](https://codeyourlogic.com/llms-full.txt): Complete company knowledge in one document
+
+## Company
+
+- Brand: CodeYourLogic®
+- Legal name: CodeYourLogic Pvt Ltd
+- Website: https://codeyourlogic.com/
+- Email: contact@codeyourlogic.com
+- Phone: +91 9241249929
+- Address: 4th floor Qno3/2-3, Opposite Durian Furniture, Adityapur Main Road, Akashwani, 831013
+- Hours: Mon - Fri: 9:00 AM - 6:00 PM IST
+- LinkedIn: https://www.linkedin.com/company/135124117
+- Facebook: https://www.facebook.com/profile.php?id=61591846175078
+- Instagram: https://www.instagram.com/codeyourlogic/
+
+## Notes
+
+- Primary content language is English. The UI also supports Hindi, German, French, and Spanish on the same URL paths.
+- robots.txt allows all paths. Crawling and citation of public pages is welcome.
+- Figures such as project counts and retention are published on https://codeyourlogic.com/about/#published-figures with context; they are not contractual SLAs.
