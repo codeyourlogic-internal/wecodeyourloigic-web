@@ -48,6 +48,11 @@ export const homeSolutions: HomeSolution[] = [
     image: "/images/home-solutions/blockhain.png",
     href: "/services/blockchain/",
   },
+  {
+    id: "crm",
+    image: "/images/crm-erp/hero.jpg",
+    href: "/services/crm-erp/",
+  },
 ];
 
 export const homeIndustryIds = [

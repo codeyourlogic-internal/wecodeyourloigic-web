@@ -1,6 +1,6 @@
 # CodeYourLogic
 
-> CodeYourLogic Pvt Ltd is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated developers for startups and enterprises worldwide. Headquarters: Adityapur, India.
+> CodeYourLogic Pvt Ltd is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, blockchain, and custom CRM and ERP software, and we provide dedicated developers for startups and enterprises worldwide. Headquarters: Adityapur, India.
 
 This file is an index for AI agents. For the full company briefing use https://codeyourlogic.com/llms-full.txt. Human-readable source of truth: https://codeyourlogic.com/about/.
 
@@ -13,6 +13,7 @@ This file is an index for AI agents. For the full company briefing use https://c
 - [Cloud & DevOps](https://codeyourlogic.com/services/cloud-devops/): Cloud infrastructure, CI/CD, and automation that keep your products secure, scalable, and continuously deployable.
 - [AI & Machine Learning](https://codeyourlogic.com/services/ai-solutions/): Data-driven AI solutions — from custom models to intelligent product features that automate workflows and unlock insights.
 - [Blockchain Solutions](https://codeyourlogic.com/services/blockchain/): Secure decentralized applications, smart contracts, and Web3 platforms built for trust, transparency, and scale.
+- [Custom CRM and ERP](https://codeyourlogic.com/services/crm-erp/): CRM and ERP systems shaped around your sales, operations, inventory, and finance — one platform your team owns.
 - [Dedicated Developers](https://codeyourlogic.com/hire-resources/): Embed vetted frontend, backend, mobile, DevOps, AI, design, and QA specialists into your team with a clear engagement model.
 
 ## Pages

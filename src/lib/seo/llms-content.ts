@@ -1,3 +1,4 @@
+import { servicePages, type ServiceSlug } from "@/data/service-pages";
 import { SITE_URL, SITE_NAME, SITE_LEGAL_NAME } from "./config";
 import { t, getTranslations } from "./translations";
 import {
@@ -37,7 +38,7 @@ export function buildLlmsTxt() {
 
   return `# ${SITE_NAME}
 
-> ${SITE_LEGAL_NAME} is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated developers for startups and enterprises worldwide. Headquarters: Adityapur, India.
+> ${SITE_LEGAL_NAME} is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, blockchain, and custom CRM and ERP software, and we provide dedicated developers for startups and enterprises worldwide. Headquarters: Adityapur, India.
 
 This file is an index for AI agents. For the full company briefing use ${SITE_URL}/llms-full.txt. Human-readable source of truth: ${SITE_URL}/about/.
 
@@ -81,6 +82,48 @@ ${mdLink("Full AI context", "/llms-full.txt", "Complete company knowledge in one
 `;
 }
 
+function serviceFacts(slug: ServiceSlug, seoKey: string) {
+  const translations = getTranslations(L) as {
+    services?: Record<
+      string,
+      {
+        description?: string;
+        offerings?: Record<string, { title?: string; desc?: string }>;
+        faq?: { q: string; a: string }[];
+      }
+    >;
+  };
+  const page = translations.services?.[seoKey];
+  const lines: string[] = [];
+
+  if (page?.description) {
+    lines.push("", page.description);
+  }
+
+  const offerings = servicePages[slug].offerings
+    .map((item) => {
+      const offering = page?.offerings?.[item.id];
+      if (!offering?.title) return "";
+      return `- ${offering.title}: ${plain(offering.desc ?? "")}`;
+    })
+    .filter(Boolean);
+
+  if (offerings.length > 0) {
+    lines.push("", "What this service includes:", ...offerings);
+  }
+
+  const faq = page?.faq ?? [];
+  if (faq.length > 0) {
+    lines.push(
+      "",
+      "Questions:",
+      ...faq.map((item) => `Q: ${item.q}\nA: ${plain(item.a)}`)
+    );
+  }
+
+  return lines.length > 0 ? `${lines.join("\n")}\n` : "";
+}
+
 /**
  * Full briefing for AI agents that already discovered /llms.txt.
  */
@@ -114,11 +157,16 @@ export function buildLlmsFullTxt() {
             .map((id) => t(L, `industries.cards.${id}.title`))
             .join(", ");
 
+    const facts =
+      service.id === "hire-resources"
+        ? ""
+        : serviceFacts(service.id, service.seoKey);
+
     return `### ${t(L, service.nameKey)}
 ${SITE_URL}${service.href}
 
 ${t(L, service.summaryKey)}
-
+${facts}
 Related industries: ${industries}
 
 Representative technologies (not an exclusive catalog):

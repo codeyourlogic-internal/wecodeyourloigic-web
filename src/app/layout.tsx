@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Hire CodeYourLogic for custom software: web, mobile, desktop, cloud DevOps, AI, blockchain and WooCommerce. Expert engineers for startups and enterprises worldwide.",
+    "Custom software company for web, mobile, CRM and ERP, cloud, AI, blockchain, and WooCommerce. CodeYourLogic engineers for startups and enterprises worldwide.",
   keywords: PAGE_KEYWORDS.home,
   authors: [{ name: SITE_LEGAL_NAME, url: SITE_URL }],
   creator: SITE_NAME,
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: "Custom Software Development Company | CodeYourLogic",
     description:
-      "Hire CodeYourLogic for custom software: web, mobile, desktop, cloud DevOps, AI, blockchain and WooCommerce. Expert engineers for startups and enterprises worldwide.",
+      "Custom software company for web, mobile, CRM and ERP, cloud, AI, blockchain, and WooCommerce. CodeYourLogic engineers for startups and enterprises worldwide.",
     images: [
       {
         url: OG_IMAGE.url,
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     creator: "@codeyourlogic",
     title: "Custom Software Development Company | CodeYourLogic",
     description:
-      "Custom software development for web, mobile, cloud, AI, blockchain and WooCommerce — hire expert engineers worldwide.",
+      "Custom software for web, mobile, CRM and ERP, cloud, AI, blockchain, and WooCommerce — CodeYourLogic engineers worldwide.",
     images: [OG_IMAGE.url],
   },
   robots: {

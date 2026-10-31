@@ -4,7 +4,7 @@
 
 ## Company
 
-CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, and blockchain systems.
+CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, blockchain systems, and custom CRM and ERP platforms.
 
 We work with startups, growing businesses, and enterprises that need custom software or dedicated engineering capacity — worldwide, with headquarters in Adityapur, India.
 
@@ -25,12 +25,32 @@ Legal name: CodeYourLogic Pvt Ltd. CodeYourLogic® is a registered trademark of 
 
 ## Services
 
-Eight offerings published across this site: seven product-engineering services plus dedicated developer staffing.
+Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.
 
 ### Web Development
 https://codeyourlogic.com/services/web-development/
 
 We build high-performance, scalable web applications with modern frameworks — from marketing sites to complex SaaS platforms engineered for growth.
+
+We craft responsive, scalable web applications using modern frameworks and best practices for growth-focused businesses.
+
+What this service includes:
+- Web Application: Custom web applications engineered for performance, usability, and long-term maintainability.
+- Progressive Web Apps: Installable, fast, offline-capable experiences that feel native in the browser.
+- E-commerce Platforms: Conversion-focused storefronts with secure payments, inventory, and seamless checkout.
+- CMS Development: Flexible content systems that empower teams to publish and manage content with ease.
+- Custom Portals: Secure role-based portals for customers, partners, and internal operations teams.
+- Product Development: Full lifecycle product builds from MVP to scale — architecture, features, and growth.
+- Enterprise Solutions: Complex enterprise platforms with integrations, governance, and mission-critical reliability.
+- Web Portal Development: Unified web portals that centralize services, data, and workflows in one experience.
+
+Questions:
+Q: What web technologies do you use?
+A: We build with React, Next.js, Node.js, TypeScript and modern CMS or headless stacks chosen for performance, SEO and maintainability.
+Q: Do you build SaaS and enterprise portals?
+A: Yes. We deliver SaaS platforms, customer portals, dashboards and e-commerce web apps engineered for scale and security.
+Q: Can you improve an existing website?
+A: We refactor, redesign and optimize existing web apps for speed, SEO, conversions and cloud-ready architecture.
 
 Related industries: E-commerce & Retail, Healthcare & Fitness, Finance & Banking, Education & E-learning, Real Estate & Property, Government & Public
 
@@ -45,6 +65,26 @@ https://codeyourlogic.com/services/mobile-development/
 
 Native and cross-platform mobile apps that deliver smooth performance, delightful UX, and reliable releases on iOS and Android.
 
+Build powerful mobile applications for iOS and Android using React Native, Flutter, and native technologies.
+
+What this service includes:
+- E-commerce Apps: Empowering online retail with seamless shopping experiences.
+- Enterprise Mobility: Scalable and secure mobile solutions for modern businesses.
+- On-demand Delivery: Efficient and reliable delivery tracking and management systems.
+- Social Networking: Building engaging platforms for community interaction and sharing.
+- Fitness & Health: Innovative apps for tracking health, workouts, and wellness.
+- Fintech & Banking: Secure and user-friendly mobile banking and financial management.
+- Educational Apps: Transforming learning through interactive and accessible mobile apps.
+- IoT Companion Apps: Seamlessly connecting and controlling IoT devices through mobile apps.
+
+Questions:
+Q: Do you build native and cross-platform apps?
+A: Yes—native iOS/Android plus React Native and Flutter for faster time-to-market without sacrificing quality.
+Q: Can you publish apps to the App Store and Play Store?
+A: We handle store compliance, submissions, release pipelines and post-launch updates.
+Q: What industries do you serve?
+A: E-commerce, fintech, health, education, on-demand delivery and enterprise mobility apps.
+
 Related industries: Healthcare & Fitness, Finance & Banking, E-commerce & Retail, Education & E-learning, Logistics & Supply Chain, Travel & Hospitality
 
 Representative technologies (not an exclusive catalog):
@@ -57,6 +97,24 @@ Representative technologies (not an exclusive catalog):
 https://codeyourlogic.com/services/woocommerce/
 
 WooCommerce stores from quick setup to fully custom templates — payments, shipping, catalog, and conversion-focused UX.
+
+WooCommerce stores from setup to custom themes—payments, shipping, catalog and checkout optimized for revenue.
+
+What this service includes:
+- Quick Store Setup: Launch-ready WooCommerce installs with theme, essentials plugins, payments, and shipping configured for fast go-live.
+- Theme Customization: Brand-aligned customizations to layouts, product grids, cart, and checkout while keeping themes update-safe.
+- Custom Template Development: Fully custom WooCommerce templates and page designs built from scratch for unique catalog and brand needs.
+- Payment Gateway Integration: Secure checkout with Stripe, PayPal, Razorpay, wallets, and region-specific payment methods.
+- Catalog & Inventory: Product types, variations, attributes, stock rules, and bulk import workflows that stay easy to manage.
+- Shipping & Tax Setup: Zones, rates, carriers, and tax configuration matched to where and how you sell.
+- Performance & Security: Caching, CDN, Core Web Vitals tuning, and hardened WordPress security for a fast, trusted store.
+- Migration & Upgrades: Move from Shopify, Magento, or legacy WooCommerce with product, order, and SEO path continuity.
+
+Questions:
+Q: Can you migrate to WooCommerce?
+A: Yes—from Shopify, Magento or custom carts with catalog, SEO URL and order data migration.
+Q: Do you build custom WooCommerce themes?
+A: We design conversion-focused themes and plugins tailored to your brand and checkout flow.
 
 Related industries: E-commerce & Retail, Restaurants & Food, Travel & Hospitality
 
@@ -71,6 +129,24 @@ https://codeyourlogic.com/services/desktop-development/
 
 Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products.
 
+Enterprise-grade desktop applications built with Electron, .NET, and native frameworks for offline workflows and deep system integration.
+
+What this service includes:
+- Enterprise Desktop Apps: Mission-critical internal tools with deep system integration and centralized deployment.
+- Productivity Tools: Desktop applications that streamline daily workflows with speed and offline reliability.
+- Healthcare Desktop Software: Clinical and administrative software built for compliance and dependable performance.
+- Education Desktop Software: Learning and administration tools designed for classrooms, labs, and campus systems.
+- Finance & Accounting Software: Secure desktop applications for accounting, reporting, and financial operations.
+- Retail & POS Systems: Point-of-sale and inventory management software built for speed at the counter.
+- Media & Creative Tools: Performance-tuned applications for content creation, editing, and asset management.
+- Custom Desktop Solutions: Purpose-built software for specialized workflows that off-the-shelf tools can't handle.
+
+Questions:
+Q: Which desktop platforms do you support?
+A: Windows, macOS and Linux using Electron, .NET or native toolchains based on your requirements.
+Q: Can desktop apps work offline?
+A: Yes. We design offline-first desktop software with sync, security and packaging for reliable distribution.
+
 Related industries: Healthcare & Fitness, Education & E-learning, Finance & Banking, Manufacturing & IoT, Legal & Compliance
 
 Representative technologies (not an exclusive catalog):
@@ -82,6 +158,26 @@ Representative technologies (not an exclusive catalog):
 https://codeyourlogic.com/services/cloud-devops/
 
 Cloud infrastructure, CI/CD, and automation that keep your products secure, scalable, and continuously deployable.
+
+Design, deploy, and manage cloud infrastructure on AWS, GCP, and Azure with reliable CI/CD, containers and cost control.
+
+What this service includes:
+- Cloud Migration: Zero-downtime, secure legacy server migrations to state-of-the-art managed cloud architectures.
+- Infrastructure as Code: Declare and provision your global cloud setups predictably with fully structured, reusable programmatic configurations.
+- CI/CD Pipeline Setup: Automate building, testing, and shipping cycles to deployment pipelines with total transparency.
+- Container Orchestration: Package and govern multiple elastic execution nodes dynamically for streamlined runtime scale.
+- Serverless Architecture: Optimize cost boundaries using highly dynamic computing runtimes that scale effortlessly on demand.
+- Monitoring & Observability: Set up extensive logs, real-time alerts, and deep dashboard visibility to address issues before they arise.
+- Disaster Recovery: Robust, automated regular snapshots and geographically separated recovery loops to secure operational continuity.
+- Cost Optimization: Eliminate wasteful computing allocations with data-driven system scaling and clean usage budgets.
+
+Questions:
+Q: Which clouds do you support?
+A: AWS, Google Cloud and Microsoft Azure—plus multi-cloud and hybrid setups when needed.
+Q: Do you set up CI/CD and Kubernetes?
+A: Yes. We implement pipelines, container orchestration, monitoring and secure GitOps workflows.
+Q: Can you reduce cloud spend?
+A: Our FinOps practices typically cut waste with right-sizing, reserved capacity and observability.
 
 Related industries: Logistics & Supply Chain, Finance & Banking, Manufacturing & IoT, Telecom & Networking, Government & Public
 
@@ -97,6 +193,24 @@ https://codeyourlogic.com/services/ai-solutions/
 
 Data-driven AI solutions — from custom models to intelligent product features that automate workflows and unlock insights.
 
+Harness AI to automate workflows and build intelligent products—from LLM apps and RAG systems to predictive ML.
+
+What this service includes:
+- Custom LLM Integrations: Fine-tuned large language models mapped perfectly to capture corporate contexts and specialized domains.
+- Chatbots & Virtual Assistants: Conversational interfaces that handle complex multi-step inquiries, keeping user satisfaction high.
+- Predictive Analytics: Leverage historical data to project future market shifts, conversion metrics, and operational trends.
+- Computer Vision Systems: Identify, categorize, and catalog video streams and static image libraries automatically.
+- NLP Tools: Analyze sentiment, extract entity relations, and classify massive text repositories.
+- Recommendation Engines: Direct target users to preferred items with custom collaborative filtering and deep context mapping.
+- Document Processing: Extract invoice variables, structural tables, and metadata rapidly from unformatted PDF collections.
+- AI-powered Search: Set up vector-driven semantic indexing to retrieve documents based on true context over keywords.
+
+Questions:
+Q: Do you integrate OpenAI and Claude?
+A: Yes—plus custom RAG pipelines, agents and fine-tuning aligned to your data and compliance needs.
+Q: Can AI work with our internal data?
+A: We connect secure knowledge bases so assistants answer from your documents, CRM and APIs.
+
 Related industries: Healthcare & Fitness, Finance & Banking, Logistics & Supply Chain, Education & E-learning, Insurance & InsurTech, Agriculture & AgriTech
 
 Representative technologies (not an exclusive catalog):
@@ -111,6 +225,24 @@ https://codeyourlogic.com/services/blockchain/
 
 Secure decentralized applications, smart contracts, and Web3 platforms built for trust, transparency, and scale.
 
+Build secure decentralized applications, smart contracts and Web3 platforms audited for production trust.
+
+What this service includes:
+- Smart Contracts: Secure smart contract design, architectural audit reviews, and optimized operational pipelines.
+- DeFi Platforms: Establish robust automated market makers, complex lending vaults, and highly secure yield structures.
+- NFT Marketplaces: Modern digital collectibles distribution platforms with customizable royalty splits.
+- Token Launch Platforms: Build custom ERC-20 compliance systems with structured staking pools and lock contracts.
+- DAO Governance Tools: Implement voting mechanisms, multisig wallets, and on-chain governance systems.
+- Supply Chain Tracking: Deploy unalterable ledgers tracking provenance, ownership history, and dynamic logistical loops.
+- Digital Identity Solutions: Integrate anonymous, sovereign authentication systems into legacy software portfolios.
+- Crypto Payment Gateways: Secure transaction processing supporting instant multi-currency checkouts with gas efficiency.
+
+Questions:
+Q: Which chains do you support?
+A: Ethereum, Polygon, BSC, Solana, Avalanche, Arbitrum and other EVM networks.
+Q: Do you audit smart contracts?
+A: We combine internal tooling (Slither, Mythril, Foundry) with third-party audits for high-value contracts.
+
 Related industries: Finance & Banking, Logistics & Supply Chain, Government & Public
 
 Representative technologies (not an exclusive catalog):
@@ -119,6 +251,39 @@ Representative technologies (not an exclusive catalog):
   - Web3 Libraries & Tooling: Web3.js, Ethers.js, Hardhat, Foundry
   - Infrastructure & Storage: Node.js, IPFS, The Graph, Arweave, Hyperledger
   - Front-End Stack: React, Next.js, TypeScript, Tailwind CSS
+
+### Custom CRM and ERP
+https://codeyourlogic.com/services/crm-erp/
+
+CRM and ERP systems shaped around your sales, operations, inventory, and finance — one platform your team owns.
+
+Custom CRM and ERP software that connects sales, operations, inventory, finance, and people — without forcing your process into a generic product.
+
+What this service includes:
+- Custom CRM: Customer records, pipelines, and follow-ups designed around the way your team actually sells.
+- Custom ERP: One system for operations, purchasing, and finance instead of scattered spreadsheets and tools.
+- Sales and Pipeline: Leads, deals, quotes, and activity tracking your team will use every day.
+- Inventory and Procurement: Stock, purchase orders, and suppliers kept in sync with sales and fulfillment.
+- Finance and Billing: Invoices, payments, and accounting workflows tied to real orders and deliveries.
+- Teams and Approvals: Roles, permissions, and approval steps that match how your company is organized.
+- Integrations: Connect email, payments, WhatsApp, accounting tools, and the systems you already run.
+- Reporting and Dashboards: Live views of pipeline, stock, revenue, and operations for the people who need them.
+
+Questions:
+Q: Do you build a new CRM and ERP, or extend a product we already use?
+A: We build custom CRM and ERP software, and we can also integrate or extend tools you already use when that is the better fit.
+Q: Can CRM and ERP live in one system?
+A: Yes. We design them as connected modules so a sale can update inventory, billing, and reporting without duplicate entry.
+Q: Can you move our data from spreadsheets or an older system?
+A: Yes. We plan the migration, map fields, and check records before your team switches over.
+
+Related industries: Manufacturing & IoT, Logistics & Supply Chain, E-commerce & Retail, Healthcare & Fitness, Finance & Banking
+
+Representative technologies (not an exclusive catalog):
+  - Web Applications: Next.js, React, TypeScript, Tailwind CSS
+  - Application Services: Node.js, Python, .NET, REST, GraphQL
+  - Data and Security: PostgreSQL, Redis, Role-based access, Audit history
+  - Integrations: Payments, Email, WhatsApp, Accounting tools
 
 ### Dedicated Developers
 https://codeyourlogic.com/hire-resources/
@@ -248,10 +413,13 @@ Details: https://codeyourlogic.com/about/#published-figures
 ## Company FAQ
 
 Q: What does CodeYourLogic do?
-A: CodeYourLogic (CodeYourLogic Pvt Ltd) is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated engineering resources.
+A: CodeYourLogic (CodeYourLogic Pvt Ltd) is a custom software development company and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, blockchain, and custom CRM and ERP software, and we provide dedicated engineering resources.
 
 Q: What services does CodeYourLogic provide?
-A: Major services are Web Development, Mobile Development, WooCommerce & E-commerce, Desktop Application Development, Cloud & DevOps, AI & Machine Learning, Blockchain, and Dedicated Developers / engineering resources.
+A: Major services are Web Development, Mobile Development, WooCommerce & E-commerce, Desktop Application Development, Cloud & DevOps, AI & Machine Learning, Blockchain, Custom CRM and ERP, and Dedicated Developers / engineering resources.
+
+Q: Does CodeYourLogic build custom CRM and ERP systems?
+A: Yes. Custom CRM and ERP covers sales pipelines, operations, inventory, finance, roles, integrations, and reporting. The system can be software your company owns, or it can connect to tools you already use.
 
 Q: What technologies does CodeYourLogic use?
 A: We choose stacks for the product. Representative tools already listed on this site include React, Next.js, Node.js, Python, Swift, Kotlin, Flutter, AWS, Azure, GCP, TensorFlow, OpenAI, LangChain, Solidity, WordPress, and WooCommerce. Listed technologies are examples, not a closed catalog.

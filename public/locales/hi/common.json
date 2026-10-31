@@ -454,6 +454,125 @@
         }
       ]
     },
+    "crm": {
+      "title": "कस्टम CRM और ERP समाधान",
+      "short": "CRM और ERP प्लेटफ़ॉर्म, आपकी टीमों के बेचने, संचालन और रिपोर्टिंग के तरीके के अनुसार।",
+      "description": "कस्टम CRM और ERP सॉफ़्टवेयर जो सेल्स, ऑपरेशन्स, इन्वेंटरी, फ़ाइनेंस और लोगों को जोड़ता है — बिना आपकी प्रक्रिया को एक जेनेरिक प्रोडक्ट में बाँधे।",
+      "features": [
+        "कस्टम CRM प्लेटफ़ॉर्म",
+        "ऑपरेशन्स के लिए ERP मॉड्यूल",
+        "सेल्स पाइपलाइन प्रबंधन",
+        "इन्वेंटरी और खरीद",
+        "इनवॉइस और पेमेंट",
+        "रोल-आधारित एक्सेस"
+      ],
+      "badge": "CRM और ERP",
+      "offerings": {
+        "crm": {
+          "title": "कस्टम CRM",
+          "desc": "कस्टमर रिकॉर्ड, पाइपलाइन और फ़ॉलो-अप, आपकी टीम के असली सेल्स तरीके के अनुसार।"
+        },
+        "erp": {
+          "title": "कस्टम ERP",
+          "desc": "ऑपरेशन्स, खरीद और फ़ाइनेंस के लिए एक सिस्टम, बिखरी स्प्रेडशीट और टूल्स की जगह।"
+        },
+        "sales": {
+          "title": "सेल्स और पाइपलाइन",
+          "desc": "लीड, डील, कोट और एक्टिविटी ट्रैकिंग जिसे आपकी टीम रोज़ इस्तेमाल करेगी।"
+        },
+        "inventory": {
+          "title": "इन्वेंटरी और खरीद",
+          "desc": "स्टॉक, परचेज़ ऑर्डर और सप्लायर, सेल्स और फ़ुलफ़िलमेंट के साथ सिंक में।"
+        },
+        "finance": {
+          "title": "फ़ाइनेंस और बिलिंग",
+          "desc": "इनवॉइस, पेमेंट और अकाउंटिंग वर्कफ़्लो, असली ऑर्डर और डिलीवरी से जुड़े।"
+        },
+        "people": {
+          "title": "टीम और अप्रूवल",
+          "desc": "रोल, अनुमतियाँ और अप्रूवल स्टेप, आपकी कंपनी की संरचना के अनुसार।"
+        },
+        "integrations": {
+          "title": "इंटीग्रेशन",
+          "desc": "ईमेल, पेमेंट, WhatsApp, अकाउंटिंग टूल और जो सिस्टम आप पहले से चलाते हैं, उन्हें जोड़ें।"
+        },
+        "analytics": {
+          "title": "रिपोर्टिंग और डैशबोर्ड",
+          "desc": "पाइपलाइन, स्टॉक, रेवेन्यू और ऑपरेशन्स का लाइव दृश्य, जिन्हें उसकी ज़रूरत है उनके लिए।"
+        }
+      },
+      "about": [
+        "रेडीमेड CRM और ERP अक्सर टीम से अपना तरीका बदलने को कहते हैं। हम **कस्टम CRM और ERP सॉफ़्टवेयर** आपकी सेल्स प्रक्रिया, ऑपरेशन्स और रिपोर्टिंग के आसपास बनाते हैं, ताकि सिस्टम बिज़नेस के अनुरूप हो।",
+        "एक प्लेटफ़ॉर्म **कस्टमर, पाइपलाइन, इन्वेंटरी, खरीद, इनवॉइस और रोल** को कवर कर सकता है। मॉड्यूल एक डेटा मॉडल साझा करते हैं, इसलिए क्लोज़ हुई डील स्टॉक अपडेट कर सकती है, इनवॉइस बना सकती है और डैशबोर्ड पर दिख सकती है, बिना दोबारा टाइप किए।",
+        "हम उन टूल्स को जोड़ते हैं जिन पर आप पहले से निर्भर हैं, और **सॉफ़्टवेयर आपको सौंपते हैं जिसका मालिक आप हैं**। रोल-आधारित एक्सेस, बदलावों का स्पष्ट इतिहास और रोलआउट प्लान स्विच को उन लोगों के लिए व्यावहारिक बनाते हैं जो इसे रोज़ इस्तेमाल करते हैं।"
+      ],
+      "techStack": {
+        "frontend": "वेब एप्लिकेशन",
+        "backend": "एप्लिकेशन सेवाएँ",
+        "data": "डेटा और सुरक्षा",
+        "integrations": "इंटीग्रेशन"
+      },
+      "process": {
+        "discovery": {
+          "title": "डिस्कवरी और प्रोसेस मैपिंग",
+          "desc": "हम देखते हैं कि सेल्स, ऑपरेशन्स और फ़ाइनेंस आज कैसे चलते हैं, बीच की स्प्रेडशीट और टूल्स सहित।"
+        },
+        "architecture": {
+          "title": "सिस्टम डिज़ाइन",
+          "desc": "मॉड्यूल, रोल और डेटा मॉडल बिल्ड से पहले तय होते हैं, ताकि CRM और ERP एक सिस्टम रहें।"
+        },
+        "design": {
+          "title": "वर्कफ़्लो डिज़ाइन",
+          "desc": "स्क्रीन और स्टेप आपकी टीम के काम का अनुसरण करते हैं, पहली लीड से भुगतान हुए इनवॉइस तक।"
+        },
+        "development": {
+          "title": "क्रमिक बिल्ड",
+          "desc": "हम मॉड्यूल हिस्सों में देते हैं, ताकि पूरा रोलआउट से पहले आप असली वर्कफ़्लो आज़मा सकें।"
+        },
+        "testing": {
+          "title": "डेटा और वर्कफ़्लो QA",
+          "desc": "हम अनुमतियाँ, किनारे के केस और सेल्स, स्टॉक व फ़ाइनेंस के बीच हैंडऑफ़ जाँचते हैं।"
+        },
+        "rollout": {
+          "title": "लॉन्च और ट्रेनिंग",
+          "desc": "माइग्रेशन, ट्रेनिंग और सपोर्ट विंडो, ताकि टीमें भरोसे के साथ स्प्रेडशीट छोड़ सकें।"
+        }
+      },
+      "why": {
+        "fit": {
+          "title": "आपकी प्रक्रिया के लिए",
+          "desc": "**आपके स्टेज, अप्रूवल और फ़ील्ड** — आपकी टीम के मौजूदा काम के अनुसार।"
+        },
+        "connected": {
+          "title": "एक जुड़ा सिस्टम",
+          "desc": "**CRM और ERP एक ही रिकॉर्ड साझा करते हैं**, ताकि सेल्स, स्टॉक और फ़ाइनेंस साथ चलें।"
+        },
+        "ownership": {
+          "title": "सॉफ़्टवेयर आपके पास",
+          "desc": "एक **कस्टम प्लेटफ़ॉर्म जिसका मालिक आपकी कंपनी है**, और बढ़ने पर नए मॉड्यूल जोड़ने की जगह।"
+        },
+        "adoption": {
+          "title": "व्यावहारिक रोलआउट",
+          "desc": "**ट्रेनिंग और डेटा माइग्रेशन**, ताकि स्प्रेडशीट छोड़ना बीच में न अटके।"
+        }
+      },
+      "seoTitle": "कस्टम CRM और ERP डेवलपमेंट कंपनी | CodeYourLogic",
+      "seoDescription": "सेल्स, इन्वेंटरी, फ़ाइनेंस और ऑपरेशन्स के लिए कस्टम CRM और ERP डेवलपमेंट। CodeYourLogic ऐसे सिस्टम बनाता है जिनके मालिक आपकी टीम है और जो आपके साथ बढ़ सकते हैं।",
+      "faq": [
+        {
+          "q": "क्या आप नया CRM और ERP बनाते हैं, या हमारे मौजूदा प्रोडक्ट को बढ़ाते हैं?",
+          "a": "हम कस्टम CRM और ERP सॉफ़्टवेयर बनाते हैं, और जब वह बेहतर हो तो आपके मौजूदा टूल्स को इंटीग्रेट या एक्सटेंड भी कर सकते हैं।"
+        },
+        {
+          "q": "क्या CRM और ERP एक ही सिस्टम में रह सकते हैं?",
+          "a": "हाँ। हम उन्हें जुड़े मॉड्यूल के रूप में डिज़ाइन करते हैं, ताकि एक सेल इन्वेंटरी, बिलिंग और रिपोर्टिंग को बिना दोहरी एंट्री अपडेट कर सके।"
+        },
+        {
+          "q": "क्या आप स्प्रेडशीट या पुराने सिस्टम से हमारा डेटा ले जा सकते हैं?",
+          "a": "हाँ। हम माइग्रेशन प्लान करते हैं, फ़ील्ड मैप करते हैं और टीम के स्विच से पहले रिकॉर्ड जाँचते हैं।"
+        }
+      ]
+    },
     "cloud": {
       "title": "क्लाउड और DevOps सेवाएँ",
       "short": "CI/CD और Kubernetes के साथ AWS, Azure और GCP क्लाउड इंजीनियरिंग।",
@@ -938,7 +1057,7 @@
       "maintenance": "रखरखाव और सहायता"
     },
     "gridTitle": "कस्टम सॉफ़्टवेयर डेवलपमेंट सेवाएँ",
-    "gridSubtitle": "वेब, मोबाइल, डेस्कटॉप, क्लाउड DevOps, AI, ब्लॉकचेन और WooCommerce — ग्राहक जीतने और ऑपरेशन्स को स्केल करने के लिए इंजीनियर्ड।",
+    "gridSubtitle": "वेब, मोबाइल, डेस्कटॉप, क्लाउड DevOps, AI, ब्लॉकचेन, WooCommerce और कस्टम CRM व ERP — ग्राहक जीतने और ऑपरेशन्स को स्केल करने के लिए इंजीनियर्ड।",
     "listing": {
       "web": {
         "title": "वेब डेवलपमेंट",
@@ -967,6 +1086,10 @@
       "desktop": {
         "title": "Desktop Application Development",
         "desc": "Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products."
+      },
+      "crm": {
+        "title": "कस्टम CRM और ERP",
+        "desc": "आपकी सेल्स, ऑपरेशन्स, इन्वेंटरी और फ़ाइनेंस के अनुसार CRM और ERP सिस्टम — एक प्लेटफ़ॉर्म जिसका मालिक आपकी टीम है।"
       },
       "hire": {
         "title": "Dedicated Developers",
@@ -1450,6 +1573,7 @@
       "cloudDevops": "क्लाउड और DevOps",
       "aiSolutions": "AI समाधान",
       "blockchain": "ब्लॉकचेन समाधान",
+      "crmErp": "कस्टम CRM और ERP",
       "uiux": "UI/UX डिज़ाइन",
       "hireResources": "समर्पित डेवलपर्स हायर करें",
       "other": "अन्य"
@@ -1513,11 +1637,11 @@
   "seo": {
     "home": {
       "title": "कस्टम सॉफ़्टवेयर डेवलपमेंट कंपनी | CodeYourLogic",
-      "description": "कस्टम सॉफ़्टवेयर के लिए CodeYourLogic चुनें: वेब, मोबाइल, क्लाउड, AI, ब्लॉकचेन और हेल्थकेयर साइट्स। स्टार्टअप व एंटरप्राइज़ के लिए विशेषज्ञ इंजीनियर।"
+      "description": "कस्टम सॉफ़्टवेयर के लिए CodeYourLogic: वेब, मोबाइल, CRM और ERP, क्लाउड, AI और ब्लॉकचेन। स्टार्टअप और एंटरप्राइज़ के लिए इंजीनियर।"
     },
     "services": {
       "title": "कस्टम सॉफ़्टवेयर डेवलपमेंट सेवाएँ | CodeYourLogic",
-      "description": "वेब, मोबाइल, डेस्कटॉप, क्लाउड DevOps, AI और ब्लॉकचेन के लिए कस्टम सॉफ़्टवेयर डेवलपमेंट सेवाएँ। आपके व्यवसाय को तेज़ी से बढ़ाने के लिए एंड-टू-एंड इंजीनियरिंग।"
+      "description": "वेब, मोबाइल, डेस्कटॉप, क्लाउड, AI, ब्लॉकचेन और कस्टम CRM व ERP के लिए सॉफ़्टवेयर सेवाएँ। CodeYourLogic की एंड-टू-एंड इंजीनियरिंग।"
     },
     "hireResources": {
       "title": "डेडिकेटेड डेवलपर्स ऑनलाइन हायर करें | CodeYourLogic",
@@ -1533,7 +1657,7 @@
     },
     "contact": {
       "title": "सॉफ़्टवेयर डेवलपमेंट कंपनी से संपर्क करें | CodeYourLogic",
-      "description": "सॉफ़्टवेयर प्रोजेक्ट कोटेशन के लिए CodeYourLogic से संपर्क करें। वेब, मोबाइल, क्लाउड, AI या ब्लॉकचेन के बारे में इंजीनियर्स से बात करें — मुख्यालय आदित्यपुर, दुनिया भर के ग्राहकों की सेवा।"
+      "description": "वेब, मोबाइल, क्लाउड, AI, ब्लॉकचेन या कस्टम CRM और ERP के लिए CodeYourLogic से संपर्क करें। मुख्यालय आदित्यपुर, दुनिया भर के ग्राहक।"
     },
     "privacy": {
       "title": "गोपनीयता नीति — CodeYourLogic सॉफ़्टवेयर सेवाएँ",
@@ -1545,7 +1669,7 @@
     },
     "about": {
       "title": "About CodeYourLogic | Software Engineering Partner",
-      "description": "CodeYourLogic Pvt Ltd is a custom software company for web, mobile, desktop, cloud, AI, blockchain and dedicated developers. Read services, process, and FAQ."
+      "description": "CodeYourLogic builds web, mobile, desktop, cloud, AI, blockchain, and custom CRM and ERP software, plus dedicated developers. Read services, process, and FAQ."
     },
     "industries": {
       "title": "Industries We Serve | CodeYourLogic",
@@ -1722,6 +1846,11 @@
         "title": "Desktop Application Development",
         "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
         "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
+      },
+      "crm": {
+        "title": "कस्टम CRM और ERP",
+        "desc": "बिखरी स्प्रेडशीट और जेनेरिक टूल्स की जगह सेल्स, इन्वेंटरी और फ़ाइनेंस के लिए बना CRM और ERP सॉफ़्टवेयर। कस्टमर, ऑर्डर, स्टॉक और रिपोर्टिंग एक सिस्टम में, जिसे आपकी टीम चला सके।",
+        "impact": "सेल्स और ऑपरेशन्स के लिए एक सिस्टम · कम दोहरी एंट्री · सॉफ़्टवेयर आपके पास"
       }
     }
   },
@@ -1805,10 +1934,10 @@
       "eyebrow": "Company knowledge",
       "badge": "About CodeYourLogic",
       "title": "Software engineering partner for custom digital products",
-      "subtitle": "CodeYourLogic Pvt Ltd builds web, mobile, desktop, WooCommerce, cloud, AI, and blockchain software for startups and enterprises — or embeds dedicated engineers on your team.",
+      "subtitle": "CodeYourLogic Pvt Ltd builds web, mobile, desktop, WooCommerce, cloud, AI, blockchain, and custom CRM and ERP software for startups and enterprises — or embeds dedicated engineers on your team.",
       "positioning": "Enterprise software engineering with transparent delivery: full product teams or dedicated developers.",
       "profileTitle": "Who CodeYourLogic is",
-      "whoWeAre": "CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, and blockchain systems.",
+      "whoWeAre": "CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, blockchain systems, and custom CRM and ERP platforms.",
       "whoWeServe": "We work with startups, growing businesses, and enterprises that need custom software or dedicated engineering capacity — worldwide, with headquarters in Adityapur, India.",
       "legalNote": "Legal name: CodeYourLogic Pvt Ltd. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.",
       "homeTitle": "A technology partner for building and scaling products",
@@ -1830,7 +1959,7 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Eight offerings published across this site: seven product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
     },
     "process": {
       "title": "Delivery process",
@@ -1940,11 +2069,15 @@
       "items": [
         {
           "q": "What does CodeYourLogic do?",
-          "a": "CodeYourLogic (CodeYourLogic Pvt Ltd) is a **custom software development company** and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated engineering resources."
+          "a": "CodeYourLogic (CodeYourLogic Pvt Ltd) is a **custom software development company** and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, blockchain, and custom CRM and ERP software, and we provide dedicated engineering resources."
         },
         {
           "q": "What services does CodeYourLogic provide?",
-          "a": "Major services are **Web Development**, **Mobile Development**, **WooCommerce & E-commerce**, **Desktop Application Development**, **Cloud & DevOps**, **AI & Machine Learning**, **Blockchain**, and **Dedicated Developers / engineering resources**."
+          "a": "Major services are **Web Development**, **Mobile Development**, **WooCommerce & E-commerce**, **Desktop Application Development**, **Cloud & DevOps**, **AI & Machine Learning**, **Blockchain**, **Custom CRM and ERP**, and **Dedicated Developers / engineering resources**."
+        },
+        {
+          "q": "Does CodeYourLogic build custom CRM and ERP systems?",
+          "a": "Yes. **Custom CRM and ERP** covers sales pipelines, operations, inventory, finance, roles, integrations, and reporting. The system can be software your company owns, or it can connect to tools you already use."
         },
         {
           "q": "What technologies does CodeYourLogic use?",

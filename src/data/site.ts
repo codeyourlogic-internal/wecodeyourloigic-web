@@ -18,6 +18,7 @@ export const services: Service[] = [
   { slug: "cloud-devops", icon: "Cloud", titleKey: "services.cloud.title", descKey: "services.cloud.short" },
   { slug: "ai-solutions", icon: "Brain", titleKey: "services.ai.title", descKey: "services.ai.short" },
   { slug: "blockchain", icon: "Blocks", titleKey: "services.blockchain.title", descKey: "services.blockchain.short" },
+  { slug: "crm-erp", icon: "LayoutDashboard", titleKey: "services.crm.title", descKey: "services.crm.short" },
 ];
 
 export const allServices = [
@@ -143,6 +144,7 @@ export const contactServices = [
   "cloudDevops",
   "aiSolutions",
   "blockchain",
+  "crmErp",
   "uiux",
   "hireResources",
   "other",

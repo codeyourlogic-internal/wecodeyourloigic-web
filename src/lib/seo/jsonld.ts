@@ -78,6 +78,8 @@ export function organizationSchema(locale: string, description: string) {
       "Machine Learning",
       "Large Language Models",
       "Blockchain",
+      "Custom CRM",
+      "ERP Systems",
       "Dedicated Developers",
       "SaaS Development",
       "Digital Transformation",
@@ -186,13 +188,15 @@ export function serviceSchema(locale: string, slug: string) {
   const name = offering
     ? t(locale, offering.titleKey)
     : t(locale, `services.${seoKey}.title`);
-  const description = offering
-    ? tPrefer(locale, offering.shortKey, offering.titleKey)
-    : tPrefer(
+  const description = seoKey
+    ? tPrefer(
         locale,
         `services.${seoKey}.seoDescription`,
-        `services.${seoKey}.description`
-      );
+        offering?.shortKey ?? `services.${seoKey}.description`
+      )
+    : offering
+      ? t(locale, offering.shortKey)
+      : "";
 
   const related = offering
     ? offering.relatedServiceIds.map((id) => {

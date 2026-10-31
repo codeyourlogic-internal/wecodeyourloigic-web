@@ -167,6 +167,28 @@ export const KNOWLEDGE_SERVICES: KnowledgeOffering[] = [
     relatedIndustryIds: ["fintech", "logistics", "government"],
   },
   {
+    id: "crm-erp",
+    href: "/services/crm-erp/",
+    icon: "LayoutDashboard",
+    titleKey: "services.crm.title",
+    shortKey: "services.crm.short",
+    nameKey: "services.listing.crm.title",
+    summaryKey: "services.listing.crm.desc",
+    seoKey: "crm",
+    relatedServiceIds: [
+      "web-development",
+      "desktop-development",
+      "cloud-devops",
+    ],
+    relatedIndustryIds: [
+      "manufacturing",
+      "logistics",
+      "ecommerce",
+      "healthcare",
+      "fintech",
+    ],
+  },
+  {
     id: "hire-resources",
     href: "/hire-resources/",
     icon: "Users",
@@ -194,6 +216,7 @@ export const ENGINEERING_SERVICE_IDS: ServiceSlug[] = [
   "cloud-devops",
   "ai-solutions",
   "blockchain",
+  "crm-erp",
 ];
 
 export const DELIVERY_PROCESS_IDS = [
@@ -258,12 +281,14 @@ const INDUSTRY_SERVICES: Record<string, KnowledgeServiceId[]> = {
     "web-development",
     "mobile-development",
     "cloud-devops",
+    "crm-erp",
   ],
   healthcare: [
     "web-development",
     "mobile-development",
     "ai-solutions",
     "desktop-development",
+    "crm-erp",
   ],
   realEstate: ["web-development", "mobile-development"],
   fintech: [
@@ -271,6 +296,7 @@ const INDUSTRY_SERVICES: Record<string, KnowledgeServiceId[]> = {
     "mobile-development",
     "blockchain",
     "ai-solutions",
+    "crm-erp",
   ],
   education: [
     "web-development",
@@ -283,6 +309,7 @@ const INDUSTRY_SERVICES: Record<string, KnowledgeServiceId[]> = {
     "mobile-development",
     "cloud-devops",
     "ai-solutions",
+    "crm-erp",
   ],
   media: ["web-development", "mobile-development", "desktop-development"],
   automotive: ["web-development", "mobile-development", "cloud-devops"],
@@ -294,6 +321,7 @@ const INDUSTRY_SERVICES: Record<string, KnowledgeServiceId[]> = {
     "desktop-development",
     "cloud-devops",
     "ai-solutions",
+    "crm-erp",
   ],
   government: ["web-development", "cloud-devops"],
   telecom: ["web-development", "mobile-development", "cloud-devops"],

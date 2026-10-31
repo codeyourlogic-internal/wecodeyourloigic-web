@@ -11,6 +11,7 @@ import {
   CLOUD_DEVOPS_HERO_IMAGE,
   AI_SOLUTIONS_HERO_IMAGE,
   BLOCKCHAIN_HERO_IMAGE,
+  CRM_ERP_HERO_IMAGE,
   type ServiceSlug,
 } from "@/data/service-pages";
 import { ServiceHero } from "@/components/services/ServiceHero";
@@ -545,7 +546,11 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           label: t("services.detail.speakExpert"),
         }}
         backgroundImage={
-          slug === "desktop-development" ? DESKTOP_DEV_HERO_IMAGE : undefined
+          slug === "desktop-development"
+            ? DESKTOP_DEV_HERO_IMAGE
+            : slug === "crm-erp"
+              ? CRM_ERP_HERO_IMAGE
+              : undefined
         }
         backLabel={t("common.allServices")}
         currentLabel={t(`services.${key}.title`)}

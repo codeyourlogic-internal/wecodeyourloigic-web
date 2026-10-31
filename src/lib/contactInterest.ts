@@ -24,6 +24,8 @@ const INTEREST_TO_SERVICE: Record<string, ContactServiceId> = {
   ai: "aiSolutions",
   aisolutions: "aiSolutions",
   blockchain: "blockchain",
+  crm: "crmErp",
+  crmerp: "crmErp",
   uiux: "uiux",
   other: "other",
   hireresources: "hireResources",
