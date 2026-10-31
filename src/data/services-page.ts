@@ -58,6 +58,13 @@ export const servicesPageCards: ServicesPageCard[] = [
     tags: ["Solidity", "Ethereum", "Web3.js", "Hyperledger"],
   },
   {
+    id: "crm",
+    icon: "LayoutDashboard",
+    href: "/services/crm-erp/",
+    image: "/images/crm-erp/hero.jpg",
+    tags: ["CRM", "ERP", "PostgreSQL", "Integrations"],
+  },
+  {
     id: "hire",
     icon: "Users",
     href: "/hire-resources/",

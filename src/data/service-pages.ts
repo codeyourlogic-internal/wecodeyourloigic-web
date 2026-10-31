@@ -5,7 +5,8 @@ export type ServiceSlug =
   | "desktop-development"
   | "cloud-devops"
   | "ai-solutions"
-  | "blockchain";
+  | "blockchain"
+  | "crm-erp";
 
 export interface ServiceOffering {
   id: string;
@@ -38,6 +39,7 @@ export const DESKTOP_DEV_HERO_IMAGE = "/images/desktop-dev.png";
 export const CLOUD_DEVOPS_HERO_IMAGE = "/images/cloud-devops/hero.png";
 export const AI_SOLUTIONS_HERO_IMAGE = "/images/ai-solutions/hero.png";
 export const BLOCKCHAIN_HERO_IMAGE = "/images/blockchain/hero.png";
+export const CRM_ERP_HERO_IMAGE = "/images/crm-erp/hero.jpg";
 
 export const SERVICE_KEY_MAP: Record<ServiceSlug, string> = {
   "web-development": "web",
@@ -47,6 +49,7 @@ export const SERVICE_KEY_MAP: Record<ServiceSlug, string> = {
   "cloud-devops": "cloud",
   "ai-solutions": "ai",
   blockchain: "blockchain",
+  "crm-erp": "crm",
 };
 
 export const servicePages: Record<ServiceSlug, ServicePageContent> = {
@@ -303,6 +306,44 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
       { id: "compliance", icon: "BadgeCheck" },
     ],
   },
+  "crm-erp": {
+    key: "crm",
+    offerings: [
+      { id: "crm", icon: "Users" },
+      { id: "erp", icon: "Building2" },
+      { id: "sales", icon: "BarChart3" },
+      { id: "inventory", icon: "Boxes" },
+      { id: "finance", icon: "Landmark" },
+      { id: "people", icon: "Briefcase" },
+      { id: "integrations", icon: "Link2" },
+      { id: "analytics", icon: "LineChart" },
+    ],
+    techStack: [
+      {
+        id: "frontend",
+        items: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      },
+      {
+        id: "backend",
+        items: ["Node.js", "Python", ".NET", "REST", "GraphQL"],
+      },
+      {
+        id: "data",
+        items: ["PostgreSQL", "Redis", "Role-based access", "Audit history"],
+      },
+      {
+        id: "integrations",
+        items: ["Payments", "Email", "WhatsApp", "Accounting tools"],
+      },
+    ],
+    process: ["discovery", "architecture", "design", "development", "testing", "rollout"],
+    why: [
+      { id: "fit", icon: "SlidersHorizontal" },
+      { id: "connected", icon: "Link2" },
+      { id: "ownership", icon: "ShieldCheck" },
+      { id: "adoption", icon: "Users" },
+    ],
+  },
 };
 
 export const serviceListingTags: Record<ServiceSlug, string[]> = {
@@ -313,4 +354,5 @@ export const serviceListingTags: Record<ServiceSlug, string[]> = {
   "cloud-devops": ["AWS", "Kubernetes", "Terraform"],
   "ai-solutions": ["Python", "OpenAI", "LangChain"],
   blockchain: ["Solidity", "Ethereum", "Web3"],
+  "crm-erp": ["CRM", "ERP", "PostgreSQL"],
 };

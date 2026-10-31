@@ -454,6 +454,125 @@
         }
       ]
     },
+    "crm": {
+      "title": "Développement CRM et ERP sur mesure",
+      "short": "Des plateformes CRM et ERP conçues selon la façon dont vos équipes vendent, opèrent et rapportent.",
+      "description": "Un logiciel CRM et ERP sur mesure qui relie ventes, opérations, stocks, finance et équipes — sans forcer votre processus dans un produit générique.",
+      "features": [
+        "Plateformes CRM sur mesure",
+        "Modules ERP pour les opérations",
+        "Gestion du pipeline commercial",
+        "Stocks et achats",
+        "Facturation et paiements",
+        "Accès par rôles"
+      ],
+      "badge": "CRM et ERP",
+      "offerings": {
+        "crm": {
+          "title": "CRM sur mesure",
+          "desc": "Fiches clients, pipelines et relances conçus selon la façon dont votre équipe vend vraiment."
+        },
+        "erp": {
+          "title": "ERP sur mesure",
+          "desc": "Un système pour les opérations, les achats et la finance, à la place de tableurs et d'outils dispersés."
+        },
+        "sales": {
+          "title": "Ventes et pipeline",
+          "desc": "Prospects, affaires, devis et activités que votre équipe utilisera chaque jour."
+        },
+        "inventory": {
+          "title": "Stocks et achats",
+          "desc": "Stock, bons de commande et fournisseurs alignés avec les ventes et les livraisons."
+        },
+        "finance": {
+          "title": "Finance et facturation",
+          "desc": "Factures, paiements et flux comptables liés aux commandes et livraisons réelles."
+        },
+        "people": {
+          "title": "Équipes et validations",
+          "desc": "Rôles, droits et étapes de validation qui suivent l'organisation de votre entreprise."
+        },
+        "integrations": {
+          "title": "Intégrations",
+          "desc": "Reliez e-mail, paiements, WhatsApp, comptabilité et les systèmes que vous utilisez déjà."
+        },
+        "analytics": {
+          "title": "Rapports et tableaux de bord",
+          "desc": "Une vue à jour du pipeline, des stocks, du chiffre et des opérations pour les bonnes personnes."
+        }
+      },
+      "about": [
+        "Les CRM et ERP standards demandent souvent à votre équipe de changer sa façon de travailler. Nous construisons un **logiciel CRM et ERP sur mesure** autour de vos ventes, de vos opérations et de vos rapports, pour que le système suive l'entreprise.",
+        "Une seule plateforme peut couvrir **clients, pipeline, stocks, achats, facturation et rôles**. Les modules partagent un modèle de données : une affaire gagnée met à jour le stock, crée une facture et apparaît au tableau de bord sans double saisie.",
+        "Nous connectons les outils dont vous dépendez déjà et vous remettons un **logiciel qui vous appartient**. Droits par rôle, historique clair et plan de déploiement rendent le passage concret pour ceux qui l'utilisent chaque jour."
+      ],
+      "techStack": {
+        "frontend": "Applications web",
+        "backend": "Services applicatifs",
+        "data": "Données et sécurité",
+        "integrations": "Intégrations"
+      },
+      "process": {
+        "discovery": {
+          "title": "Découverte et cartographie",
+          "desc": "Nous cartographions ventes, opérations et finance telles qu'elles fonctionnent aujourd'hui, tableurs et outils compris."
+        },
+        "architecture": {
+          "title": "Conception du système",
+          "desc": "Modules, rôles et modèle de données sont fixés avant le développement pour que CRM et ERP restent un seul système."
+        },
+        "design": {
+          "title": "Conception des flux",
+          "desc": "Écrans et étapes suivent le travail de votre équipe, du premier prospect à la facture payée."
+        },
+        "development": {
+          "title": "Construction itérative",
+          "desc": "Nous livrons les modules par tranches pour tester de vrais flux avant le déploiement complet."
+        },
+        "testing": {
+          "title": "QA des données et des flux",
+          "desc": "Nous testons les droits, les cas limites et le passage entre ventes, stocks et finance."
+        },
+        "rollout": {
+          "title": "Lancement et formation",
+          "desc": "Migration, formation et une fenêtre de support pour quitter les tableurs en confiance."
+        }
+      },
+      "why": {
+        "fit": {
+          "title": "Conçu pour votre processus",
+          "desc": "**Vos étapes, validations et champs**, formés selon le travail réel de votre équipe."
+        },
+        "connected": {
+          "title": "Un système connecté",
+          "desc": "**CRM et ERP partagent les mêmes données**, pour que ventes, stocks et finance avancent ensemble."
+        },
+        "ownership": {
+          "title": "Un logiciel qui vous appartient",
+          "desc": "Une **plateforme sur mesure détenue par votre entreprise**, prête à accueillir de nouveaux modules."
+        },
+        "adoption": {
+          "title": "Un déploiement concret",
+          "desc": "**Formation et migration des données** pour quitter les tableurs sans lancement bloqué."
+        }
+      },
+      "seoTitle": "Société de développement CRM et ERP sur mesure | CodeYourLogic",
+      "seoDescription": "Développement CRM et ERP sur mesure pour les ventes, les stocks, la finance et les opérations. CodeYourLogic construit des systèmes que votre équipe possède et peut faire grandir.",
+      "faq": [
+        {
+          "q": "Construisez-vous un nouveau CRM et ERP, ou étendez-vous un produit déjà en place ?",
+          "a": "Nous construisons un logiciel CRM et ERP sur mesure, et nous pouvons aussi intégrer ou étendre les outils que vous utilisez déjà lorsque c'est plus adapté."
+        },
+        {
+          "q": "CRM et ERP peuvent-ils vivre dans un seul système ?",
+          "a": "Oui. Nous les concevons comme des modules connectés pour qu'une vente mette à jour stocks, facturation et rapports sans double saisie."
+        },
+        {
+          "q": "Pouvez-vous reprendre nos données depuis des tableurs ou un ancien système ?",
+          "a": "Oui. Nous planifions la migration, mappons les champs et vérifions les enregistrements avant le basculement de votre équipe."
+        }
+      ]
+    },
     "cloud": {
       "title": "Services Cloud & DevOps",
       "short": "Ingénierie cloud AWS, Azure et GCP avec CI/CD et Kubernetes.",
@@ -938,7 +1057,7 @@
       "maintenance": "Maintenance et support"
     },
     "gridTitle": "Services de Développement Logiciel Sur Mesure",
-    "gridSubtitle": "Web, mobile, bureau, cloud DevOps, IA, blockchain et WooCommerce — conçus pour conquérir des clients et faire évoluer vos opérations.",
+    "gridSubtitle": "Web, mobile, bureau, cloud DevOps, IA, blockchain, WooCommerce et CRM et ERP sur mesure — conçus pour conquérir des clients et faire évoluer vos opérations.",
     "listing": {
       "web": {
         "title": "Développement Web",
@@ -967,6 +1086,10 @@
       "desktop": {
         "title": "Desktop Application Development",
         "desc": "Cross-platform and native desktop software for Windows, macOS, and Linux — from internal tools to customer-facing products."
+      },
+      "crm": {
+        "title": "CRM et ERP sur mesure",
+        "desc": "Des systèmes CRM et ERP formés autour de vos ventes, opérations, stocks et finances — une plateforme qui appartient à votre équipe."
       },
       "hire": {
         "title": "Dedicated Developers",
@@ -1450,6 +1573,7 @@
       "cloudDevops": "Cloud et DevOps",
       "aiSolutions": "Solutions IA",
       "blockchain": "Solutions blockchain",
+      "crmErp": "CRM et ERP sur mesure",
       "uiux": "Conception UI/UX",
       "hireResources": "Embaucher des développeurs dédiés",
       "other": "Autre"
@@ -1513,11 +1637,11 @@
   "seo": {
     "home": {
       "title": "Société de Développement Logiciel Sur Mesure | CodeYourLogic",
-      "description": "Engagez CodeYourLogic pour du logiciel sur mesure : web, mobile, cloud, IA, blockchain et sites santé. Ingénieurs experts pour startups et entreprises."
+      "description": "Engagez CodeYourLogic pour du logiciel sur mesure : web, mobile, CRM et ERP, cloud, IA et blockchain. Ingénieurs pour startups et entreprises."
     },
     "services": {
       "title": "Services de Développement Logiciel Sur Mesure | CodeYourLogic",
-      "description": "Services de développement logiciel sur mesure pour web, mobile, bureau, cloud DevOps, IA et blockchain. Une ingénierie de bout en bout pour croître rapidement."
+      "description": "Services logiciels sur mesure pour web, mobile, bureau, cloud, IA, blockchain et systèmes CRM et ERP. Ingénierie de bout en bout par CodeYourLogic."
     },
     "hireResources": {
       "title": "Recruter des Développeurs Dédiés | CodeYourLogic",
@@ -1533,7 +1657,7 @@
     },
     "contact": {
       "title": "Contacter une Société de Développement Logiciel | CodeYourLogic",
-      "description": "Contactez CodeYourLogic pour un devis de projet logiciel. Échangez avec nos ingénieurs sur le web, mobile, cloud, IA ou blockchain — basés à Adityapur."
+      "description": "Contactez CodeYourLogic pour le web, le mobile, le cloud, l'IA, la blockchain ou un CRM et ERP sur mesure. Basés à Adityapur, clients dans le monde."
     },
     "privacy": {
       "title": "Politique de Confidentialité — Services CodeYourLogic",
@@ -1545,7 +1669,7 @@
     },
     "about": {
       "title": "About CodeYourLogic | Software Engineering Partner",
-      "description": "CodeYourLogic Pvt Ltd is a custom software company for web, mobile, desktop, cloud, AI, blockchain and dedicated developers. Read services, process, and FAQ."
+      "description": "CodeYourLogic builds web, mobile, desktop, cloud, AI, blockchain, and custom CRM and ERP software, plus dedicated developers. Read services, process, and FAQ."
     },
     "industries": {
       "title": "Industries We Serve | CodeYourLogic",
@@ -1722,6 +1846,11 @@
         "title": "Desktop Application Development",
         "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
         "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
+      },
+      "crm": {
+        "title": "CRM et ERP sur mesure",
+        "desc": "Remplacez tableurs dispersés et outils génériques par un logiciel CRM et ERP pour les ventes, les stocks et la finance. Clients, commandes, stock et rapports vivent dans un système que votre équipe peut piloter.",
+        "impact": "Un système pour ventes et opérations · Moins de double saisie · Un logiciel qui vous appartient"
       }
     }
   },
@@ -1805,10 +1934,10 @@
       "eyebrow": "Company knowledge",
       "badge": "About CodeYourLogic",
       "title": "Software engineering partner for custom digital products",
-      "subtitle": "CodeYourLogic Pvt Ltd builds web, mobile, desktop, WooCommerce, cloud, AI, and blockchain software for startups and enterprises — or embeds dedicated engineers on your team.",
+      "subtitle": "CodeYourLogic Pvt Ltd builds web, mobile, desktop, WooCommerce, cloud, AI, blockchain, and custom CRM and ERP software for startups and enterprises — or embeds dedicated engineers on your team.",
       "positioning": "Enterprise software engineering with transparent delivery: full product teams or dedicated developers.",
       "profileTitle": "Who CodeYourLogic is",
-      "whoWeAre": "CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, and blockchain systems.",
+      "whoWeAre": "CodeYourLogic is a custom software development company and technology partner. We engineer web applications, mobile apps, desktop software, WooCommerce stores, cloud and DevOps platforms, AI and machine-learning products, blockchain systems, and custom CRM and ERP platforms.",
       "whoWeServe": "We work with startups, growing businesses, and enterprises that need custom software or dedicated engineering capacity — worldwide, with headquarters in Adityapur, India.",
       "legalNote": "Legal name: CodeYourLogic Pvt Ltd. CodeYourLogic® is a registered trademark of CodeYourLogic Pvt Ltd.",
       "homeTitle": "A technology partner for building and scaling products",
@@ -1830,7 +1959,7 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Eight offerings published across this site: seven product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
     },
     "process": {
       "title": "Delivery process",
@@ -1940,11 +2069,15 @@
       "items": [
         {
           "q": "What does CodeYourLogic do?",
-          "a": "CodeYourLogic (CodeYourLogic Pvt Ltd) is a **custom software development company** and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, and blockchain software, and we provide dedicated engineering resources."
+          "a": "CodeYourLogic (CodeYourLogic Pvt Ltd) is a **custom software development company** and technology partner. We build web, mobile, desktop, WooCommerce, cloud/DevOps, AI, blockchain, and custom CRM and ERP software, and we provide dedicated engineering resources."
         },
         {
           "q": "What services does CodeYourLogic provide?",
-          "a": "Major services are **Web Development**, **Mobile Development**, **WooCommerce & E-commerce**, **Desktop Application Development**, **Cloud & DevOps**, **AI & Machine Learning**, **Blockchain**, and **Dedicated Developers / engineering resources**."
+          "a": "Major services are **Web Development**, **Mobile Development**, **WooCommerce & E-commerce**, **Desktop Application Development**, **Cloud & DevOps**, **AI & Machine Learning**, **Blockchain**, **Custom CRM and ERP**, and **Dedicated Developers / engineering resources**."
+        },
+        {
+          "q": "Does CodeYourLogic build custom CRM and ERP systems?",
+          "a": "Yes. **Custom CRM and ERP** covers sales pipelines, operations, inventory, finance, roles, integrations, and reporting. The system can be software your company owns, or it can connect to tools you already use."
         },
         {
           "q": "What technologies does CodeYourLogic use?",
