@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useTranslation } from "react-i18next";
-import { Send, CheckCircle, Phone, Mail } from "lucide-react";
+import { Send } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { companyInfo, contactServices } from "@/data/site";
+import { contactServices } from "@/data/site";
 import { submitContactForm } from "@/lib/contact";
 import { resolveContactServiceFromInterest } from "@/lib/contactInterest";
 import { trackConversion, trackFormStart } from "@/lib/cookies/analytics";
@@ -18,10 +18,10 @@ const fieldClass =
 
 export function ContactForm() {
   const { t } = useTranslation();
+  const router = useRouter();
   const searchParams = useSearchParams();
   const interest = searchParams.get("interest") || "";
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<ContactFieldErrors>({});
   const [preselectedService, setPreselectedService] = useState("");
@@ -89,8 +89,8 @@ export function ContactForm() {
       interest: interest || undefined,
       form_id: "contact_form",
     });
-    setIsSuccess(true);
     form.reset();
+    router.push("/thank-you/");
   };
 
   useEffect(() => {
@@ -98,43 +98,6 @@ export function ContactForm() {
     const match = resolveContactServiceFromInterest(interest);
     if (match) setPreselectedService(match);
   }, [interest]);
-
-  if (isSuccess) {
-    const primaryPhone = companyInfo.phones[0]?.replace(/\s/g, "") || "";
-    return (
-      <div className="flex flex-col items-center justify-center py-10 text-center">
-        <CheckCircle className="h-16 w-16 text-green-500 mb-4" aria-hidden />
-        <p className="text-lg font-medium text-zinc-900">
-          {t("contact.form.success")}
-        </p>
-        <p className="mt-2 max-w-sm text-sm text-zinc-500">
-          {t("contact.form.successNext")}
-        </p>
-        <div className="mt-6 flex w-full max-w-sm flex-col gap-2 sm:flex-row sm:justify-center">
-          {primaryPhone ? (
-            <a
-              href={`tel:${primaryPhone}`}
-              data-track="contact_success_call"
-              data-track-location="contact_form_success"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
-            >
-              <Phone className="h-4 w-4" aria-hidden />
-              {t("contact.form.callUs")}
-            </a>
-          ) : null}
-          <a
-            href={`mailto:${companyInfo.email}`}
-            data-track="contact_success_email"
-            data-track-location="contact_form_success"
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-zinc-300 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-800 transition-colors hover:bg-zinc-50"
-          >
-            <Mail className="h-4 w-4" aria-hidden />
-            {t("contact.form.emailUs")}
-          </a>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <form

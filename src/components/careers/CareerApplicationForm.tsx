@@ -1,8 +1,9 @@
 "use client";
 
 import { useRef, useState, type FormEvent } from "react";
+import { useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
-import { Send, CheckCircle } from "lucide-react";
+import { Send } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { companyInfo } from "@/data/site";
 import { submitCareerApplication } from "@/lib/contact";
@@ -15,8 +16,8 @@ const CAREERS_EMAIL = "contact@codeyourlogic.com";
 
 export function CareerApplicationForm() {
   const { t } = useTranslation();
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<ContactFieldErrors>({});
   const formStarted = useRef(false);
@@ -75,20 +76,9 @@ export function CareerApplicationForm() {
       form_id: "career_application",
       lead_type: "career",
     });
-    setIsSuccess(true);
     form.reset();
+    router.push("/thank-you/?type=application");
   };
-
-  if (isSuccess) {
-    return (
-      <div className="flex flex-col items-center justify-center py-12 text-center">
-        <CheckCircle className="h-16 w-16 text-green-500 mb-4" />
-        <p className="text-lg font-medium text-zinc-900">
-          {t("careers.apply.success")}
-        </p>
-      </div>
-    );
-  }
 
   const fieldClass =
     "w-full rounded-lg border border-zinc-300 bg-white px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-orange-500/40 focus:border-orange-500 transition-colors";

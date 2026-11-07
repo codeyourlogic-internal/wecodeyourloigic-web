@@ -1681,6 +1681,13 @@
     "subtitle": "Wie wir personenbezogene und Kundendaten als Softwaredienstleister behandeln.",
     "updated": "Zuletzt aktualisiert: 29. Juli 2026"
   },
+  "thankYou": {
+    "title": "Vielen Dank!",
+    "subtitle": "Ihre Anfrage wurde erfolgreich gesendet.",
+    "backHome": "Zur Startseite",
+    "exploreServices": "Unsere Leistungen entdecken",
+    "viewCareers": "Karriere ansehen"
+  },
   "cookies": {
     "manage": "Cookie-Einstellungen",
     "banner": {
