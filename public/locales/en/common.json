@@ -1823,6 +1823,13 @@
     "subtitle": "How we handle personal and client information as a software services company.",
     "updated": "Last updated: July 29, 2026"
   },
+  "thankYou": {
+    "title": "Thank You!",
+    "subtitle": "Your request has been submitted successfully.",
+    "backHome": "Back to Home",
+    "exploreServices": "Explore Our Services",
+    "viewCareers": "View Careers"
+  },
   "cookies": {
     "manage": "Cookie settings",
     "banner": {

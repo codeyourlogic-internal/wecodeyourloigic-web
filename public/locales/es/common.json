@@ -1681,6 +1681,13 @@
     "subtitle": "Cómo manejamos la información personal y de clientes como empresa de servicios de software.",
     "updated": "Última actualización: 29 de julio de 2026"
   },
+  "thankYou": {
+    "title": "¡Gracias!",
+    "subtitle": "Su solicitud se ha enviado correctamente.",
+    "backHome": "Volver al inicio",
+    "exploreServices": "Explorar nuestros servicios",
+    "viewCareers": "Ver empleos"
+  },
   "cookies": {
     "manage": "Configuración de cookies",
     "banner": {

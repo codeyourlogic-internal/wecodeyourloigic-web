@@ -1681,6 +1681,13 @@
     "subtitle": "Comment nous traitons les informations personnelles et clients en tant que société de services logiciels.",
     "updated": "Dernière mise à jour : 29 juillet 2026"
   },
+  "thankYou": {
+    "title": "Merci !",
+    "subtitle": "Votre demande a bien été envoyée.",
+    "backHome": "Retour à l'accueil",
+    "exploreServices": "Découvrir nos services",
+    "viewCareers": "Voir les carrières"
+  },
   "cookies": {
     "manage": "Paramètres des cookies",
     "banner": {
