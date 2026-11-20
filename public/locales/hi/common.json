@@ -1966,7 +1966,9 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.",
+      "prompt": "हमारी सेवाएँ देखने के लिए सेवाएँ पृष्ठ पर जाएँ।",
+      "cta": "सेवाएँ देखें"
     },
     "process": {
       "title": "Delivery process",

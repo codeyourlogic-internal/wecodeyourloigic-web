@@ -31,29 +31,28 @@ export function DeliveryProcess({
           subtitleKey="knowledge.process.subtitle"
         />
         <FadeIn>
-          <ol className="mx-auto max-w-3xl">
+          <ol className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-4 xl:grid-cols-7">
             {DELIVERY_PROCESS_IDS.map((stepId, index) => {
               const isLast = index === DELIVERY_PROCESS_IDS.length - 1;
               return (
-                <li key={stepId} className="flex gap-5 md:gap-6">
-                  <div className="flex w-12 shrink-0 flex-col items-center">
-                    <span className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-orange-600 text-sm font-bold text-white shadow-md shadow-orange-600/25">
+                <li key={stepId} className="min-w-0">
+                  <div className="mb-4 flex items-center">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-600 text-sm font-bold text-white shadow-md shadow-orange-600/25">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     {!isLast && (
-                      <div className="w-0.5 flex-1 min-h-8 bg-orange-200" aria-hidden />
+                      <span
+                        className="ml-3 hidden h-0.5 flex-1 bg-orange-200 xl:block"
+                        aria-hidden
+                      />
                     )}
                   </div>
-                  <div className={cn("flex-1", !isLast && "pb-8")}>
-                    <article className="rounded-2xl border border-border bg-white p-5 md:p-6 shadow-sm">
-                      <h3 className="text-lg md:text-xl font-semibold text-zinc-900">
-                        {t(`knowledge.process.steps.${stepId}.title`)}
-                      </h3>
-                      <p className="mt-2 text-sm md:text-base text-zinc-600 leading-relaxed">
-                        {t(`knowledge.process.steps.${stepId}.desc`)}
-                      </p>
-                    </article>
-                  </div>
+                  <h3 className="text-base font-semibold text-zinc-900">
+                    {t(`knowledge.process.steps.${stepId}.title`)}
+                  </h3>
+                  <p className="mt-2 text-sm text-zinc-600 leading-relaxed">
+                    {t(`knowledge.process.steps.${stepId}.desc`)}
+                  </p>
                 </li>
               );
             })}
