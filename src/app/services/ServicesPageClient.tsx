@@ -8,9 +8,7 @@ import {
   SERVICES_HERO_IMAGE,
   servicesPageCards,
 } from "@/data/services-page";
-import { industryCards } from "@/data/hire-resources";
 import { ServiceHero } from "@/components/services/ServiceHero";
-import { IndustriesGrid } from "@/components/services/IndustriesGrid";
 import { PageCTA } from "@/components/services/PageCTA";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
@@ -18,13 +16,6 @@ import { getServiceIcon } from "@/components/services/iconMap";
 
 export function ServicesPageClient() {
   const { t } = useTranslation();
-
-  const industryItems = industryCards.map((card) => ({
-    icon: card.icon,
-    title: t(`industries.cards.${card.id}.title`),
-    description: t(`industries.cards.${card.id}.desc`),
-    href: `/industries/#${card.id}`,
-  }));
 
   return (
     <>
@@ -97,12 +88,6 @@ export function ServicesPageClient() {
           </StaggerContainer>
         </div>
       </section>
-
-      <IndustriesGrid
-        title={t("services.industriesTitle")}
-        subtitle={t("services.industriesSubtitle")}
-        items={industryItems}
-      />
 
       <PageCTA
         title={t("services.pageCtaTitle")}

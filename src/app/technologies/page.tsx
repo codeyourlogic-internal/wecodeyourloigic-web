@@ -12,11 +12,6 @@ import {
 } from "lucide-react";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 import { Button } from "@/components/ui/Button";
-import {
-  ENGINEERING_SERVICE_IDS,
-  getKnowledgeService,
-  getServiceTechStack,
-} from "@/data/knowledge";
 
 const TECH_HERO = "/images/technologies/hero.png";
 
@@ -144,72 +139,6 @@ export default function TechnologiesPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-        </div>
-      </section>
-
-      <section
-        id="tech-by-service"
-        className="scroll-mt-24 py-20 md:py-28 bg-white border-y border-border"
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12 md:mb-14 text-center">
-            <h2 className="text-[36px] font-bold leading-tight tracking-tight text-zinc-900">
-              {t("technologies.byServiceTitle")}
-            </h2>
-            <p className="mt-4 text-base text-zinc-500 max-w-3xl mx-auto">
-              {t("technologies.byServiceSubtitle")}
-            </p>
-          </div>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {ENGINEERING_SERVICE_IDS.map((slug) => {
-              const service = getKnowledgeService(slug);
-              const stack = getServiceTechStack(slug);
-              return (
-                <StaggerItem key={slug}>
-                  <article className="h-full rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
-                    <h3 className="text-lg font-semibold text-zinc-900">
-                      <Link
-                        href={service.href}
-                        className="hover:text-orange-700"
-                      >
-                        {t(service.nameKey)}
-                      </Link>
-                    </h3>
-                    <p className="mt-2 text-sm text-zinc-600 leading-relaxed">
-                      {t(service.summaryKey)}
-                    </p>
-                    <ul className="mt-4 space-y-2">
-                      {stack.map((category) => (
-                        <li key={category.id} className="text-sm text-zinc-600">
-                          <span className="font-medium text-zinc-800">
-                            {t(`services.${service.seoKey}.techStack.${category.id}`)}
-                            :{" "}
-                          </span>
-                          {category.items.join(", ")}
-                        </li>
-                      ))}
-                    </ul>
-                  </article>
-                </StaggerItem>
-              );
-            })}
-          </StaggerContainer>
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/about/#delivery-process"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-orange-600 hover:text-orange-500"
-            >
-              {t("technologies.processLink")}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href="/about/#engineering-practices"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-orange-600 hover:text-orange-500"
-            >
-              {t("technologies.engineeringLink")}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
         </div>
       </section>
 
