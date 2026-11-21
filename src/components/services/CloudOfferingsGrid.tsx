@@ -1,11 +1,13 @@
 "use client";
 
+import { PhotoOfferingCard } from "@/components/services/PhotoOfferingCard";
 import { StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 
 interface CloudOfferingItem {
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
+  image?: string;
 }
 
 interface CloudOfferingsGridProps {
@@ -37,19 +39,27 @@ export function CloudOfferingsGrid({
             const Icon = item.icon;
             return (
               <StaggerItem key={item.title}>
-                <article className="flex h-full flex-col gap-4 rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-orange-200 bg-orange-50 text-orange-600">
-                    <Icon className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-zinc-900">
-                      {item.title}
-                    </h3>
-                    <p className="mt-2 text-sm text-zinc-500 leading-relaxed">
-                      {item.description}
-                    </p>
-                  </div>
-                </article>
+                {item.image ? (
+                  <PhotoOfferingCard
+                    title={item.title}
+                    description={item.description}
+                    image={item.image}
+                  />
+                ) : (
+                  <article className="flex h-full flex-col gap-4 rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-orange-200 bg-orange-50 text-orange-600">
+                      <Icon className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-zinc-900">
+                        {item.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-zinc-500 leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </article>
+                )}
               </StaggerItem>
             );
           })}

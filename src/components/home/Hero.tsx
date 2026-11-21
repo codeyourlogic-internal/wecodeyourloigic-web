@@ -65,7 +65,7 @@ export function Hero() {
               <ArrowRight className="h-5 w-5" />
             </Button>
           </Link>
-          <Link href="/services" data-track="hero_secondary_cta" data-track-location="home_hero">
+          <Link href="/#clients" data-track="hero_secondary_cta" data-track-location="home_hero">
             <Button
               size="lg"
               variant="outline"

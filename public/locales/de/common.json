@@ -11,9 +11,9 @@
   },
   "hero": {
     "badge": "Enterprise-Softwareentwicklung",
-    "title": "Ihr Technologiepartner für den Aufbau und die Skalierung digitaler Produkte",
+    "title": "Hören Sie auf, Ihr Unternehmen mit unverbundenen Tools zu verwalten. Wachsen Sie mit intelligenterer Software.",
     "titleHighlight": "",
-    "subtitle": "Web-, Mobile-, Cloud-, KI-, Blockchain- und WooCommerce-Entwicklung, die Ihren Umsatz steigert",
+    "subtitle": "Entwickeln Sie individuelle CRM-, ERP-, Automatisierungs- und Softwarelösungen, die darauf ausgelegt sind, wie Ihr Unternehmen arbeitet.",
     "ctaPrimary": "Projekt starten",
     "ctaSecondary": "Unsere Arbeiten ansehen",
     "highlights": [
@@ -1784,7 +1784,7 @@
     },
     "r3": {
       "quote": "Ein verlässlicher Engineering-Partner — starker Prozess, transparente Updates und eine Lieferung, die uns geholfen hat, schneller voranzukommen, ohne Abstriche bei der Qualität.",
-      "author": "Product Lead",
+      "author": "Ashad Shahin",
       "role": "Wachstumsstarkes SaaS-Unternehmen"
     }
   },
@@ -1813,51 +1813,22 @@
   },
   "homePortfolio": {
     "eyebrow": "Lösungen, die Wachstum antreiben",
-    "title": "Sehen Sie, was wir für Unternehmen wie Ihres bauen",
-    "subtitle": "Von konversionsstarken Onlineshops bis zu intelligenter Automatisierung — wir liefern Software, die etwas bewegt.",
-    "impactLabel": "Geschäftlicher Nutzen:",
-    "learnMore": "Mehr erfahren",
+    "title": "Wählen Sie die Lösung, die zu Ihrem Unternehmen passt",
+    "subtitle": "Geschäftssysteme, individuelle Produkte oder zusätzliche Engineering-Kapazität — starten Sie mit dem Ergebnis, das Sie brauchen.",
+    "explore": "Mehr entdecken",
     "viewAll": "Alle Leistungen ansehen",
-    "items": {
-      "web": {
-        "title": "Webentwicklung",
-        "desc": "Wir bauen blitzschnelle, SEO-optimierte Websites und Web-Apps, die Besucher in Kunden verwandeln. Unsere Frontend-Ingenieure gestalten pixelgenaue Oberflächen mit React, Next.js und Vue — von Anfang an ausgelegt auf Performance, Barrierefreiheit und Umsatzwachstum.",
-        "impact": "↑ 40-300% mehr organischer Traffic · Schnellere Ladezeiten · Höhere Konversionsraten"
+    "categories": {
+      "business": {
+        "title": "Software für Unternehmenssteuerung",
+        "desc": "Verwalten Sie Kunden, Vertrieb, Bestand und Geschäftsabläufe mit individuellen CRM- und ERP-Lösungen."
       },
-      "mobile": {
-        "title": "Mobile-Entwicklung",
-        "desc": "Launchen Sie iOS- und Android-Apps, die Ihre Nutzer wirklich lieben. Wir entwickeln native und plattformübergreifende Apps mit Swift, Kotlin und Flutter — mit Offline-Unterstützung, Push-Benachrichtigungen und nahtlosen Zahlungsintegrationen, die Nutzer aktiv und zahlungsbereit halten.",
-        "impact": "↑ 5-Sterne-App-Bewertungen · Höhere Nutzerbindung · Schnellere Markteinführung"
+      "custom": {
+        "title": "Individuelle Softwareentwicklung",
+        "desc": "Entwickeln Sie skalierbare digitale Produkte und individuelle Anwendungen, die zu Ihren Geschäftsanforderungen passen."
       },
-      "ecommerce": {
-        "title": "WooCommerce & E-Commerce",
-        "desc": "Starten Sie Ihren Onlineshop und verkaufen Sie an Kunden weltweit. Wir entwickeln individuelle WooCommerce-Lösungen mit Zahlungsintegration, Bestandsverwaltung, Multi-Währungs-Unterstützung und konversionsoptimierten Checkout-Abläufen, die Ihren Umsatz direkt steigern und Kaufabbrüche reduzieren.",
-        "impact": "↑ 340% durchschnittliches Umsatzwachstum · Weniger Kaufabbrüche · 99,9% Verfügbarkeit"
-      },
-      "cloud": {
-        "title": "Cloud & DevOps",
-        "desc": "Wechseln Sie mit Zuversicht in die Cloud. Wir konzipieren AWS-, GCP- und Azure-Infrastrukturen mit CI/CD-Pipelines, Auto-Scaling und Echtzeit-Monitoring — damit Ihre Systeme immer verfügbar, immer schnell und nie ein Risiko für Ihren Geschäftsbetrieb sind.",
-        "impact": "↓ 60% Infrastrukturkosten · 99,99% Verfügbarkeits-SLA · Schnellere Deployments"
-      },
-      "ai": {
-        "title": "KI & Machine Learning",
-        "desc": "Ersetzen Sie repetitive Arbeit durch intelligente Automatisierung. Wir entwickeln individuelle KI-Modelle, Chatbots, Bedarfsprognose-Engines und Empfehlungssysteme, die Betriebskosten um bis zu 70% senken und Ihrem Team Freiraum für wertschöpfende Wachstumsaktivitäten geben.",
-        "impact": "↓ 70% manueller Arbeitsaufwand · Klügere Entscheidungen · Schnellere Umsatzzyklen"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "desc": "Entwickeln Sie vertrauenswürdige Anwendungen auf Ethereum, Solana und Polygon. Wir liefern Smart-Contract-Entwicklung, NFT-Plattformen, DeFi-Protokolle und Web3-Integrationen — alle mit strengen externen Sicherheitsaudits und vollständiger regulatorischer Compliance.",
-        "impact": "↑ Transaktionstransparenz · Weniger Betrug · Regulatorisch abgesichert"
-      },
-      "desktop": {
-        "title": "Desktop Application Development",
-        "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
-        "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
-      },
-      "crm": {
-        "title": "Individuelles CRM und ERP",
-        "desc": "Ersetzen Sie verstreute Tabellen und Standardtools durch CRM- und ERP-Software für Vertrieb, Bestand und Finanzen. Kunden, Aufträge, Lager und Berichte liegen in einem System, das Ihr Team führen kann.",
-        "impact": "Ein System für Vertrieb und Betrieb · Weniger doppelte Eingabe · Software, die Ihnen gehört"
+      "dedicated": {
+        "title": "Dedizierte Entwickler",
+        "desc": "Erweitern Sie Ihre Engineering-Kapazität mit erfahrenen Entwicklern und dedizierten Entwicklungsteams."
       }
     }
   },
@@ -1928,7 +1899,9 @@
     "eyebrow": "Unsere Kunden",
     "title": "Unternehmen, mit denen wir zusammengearbeitet haben",
     "subtitle": "Vertraut von Teams, die zuverlässige Software-Engineering-Partner brauchen.",
-    "visitSite": "Website besuchen"
+    "visitSite": "Website besuchen",
+    "previous": "Zurück",
+    "next": "Weiter"
   },
   "seoRelated": {
     "title": "Verwandte Softwareentwicklungsleistungen entdecken",

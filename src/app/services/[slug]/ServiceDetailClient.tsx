@@ -18,21 +18,14 @@ import { ServiceHero } from "@/components/services/ServiceHero";
 import { MobileServiceHero } from "@/components/services/MobileServiceHero";
 import { OfferingGrid } from "@/components/services/OfferingGrid";
 import { OfferingImageGrid } from "@/components/services/OfferingImageGrid";
-import { OfferingTextGrid } from "@/components/services/OfferingTextGrid";
 import { CloudOfferingsGrid } from "@/components/services/CloudOfferingsGrid";
 import { AiWhatWeBuild } from "@/components/services/AiWhatWeBuild";
-import { AboutBlock } from "@/components/services/AboutBlock";
-import { WebAboutBlock } from "@/components/services/WebAboutBlock";
-import { RichAboutBlock } from "@/components/services/RichAboutBlock";
-import { CloudAboutBlock } from "@/components/services/CloudAboutBlock";
 import { ProcessSteps } from "@/components/services/ProcessSteps";
 import { ProcessRow } from "@/components/services/ProcessRow";
 import { WhyChooseGrid } from "@/components/services/WhyChooseGrid";
 import { PageCTA } from "@/components/services/PageCTA";
 import { ServiceFaq } from "@/components/services/ServiceFaq";
 import { RelatedServices } from "@/components/seo/RelatedServices";
-import { ServiceKnowledgeBand } from "@/components/knowledge/ServiceKnowledgeBand";
-import type { KnowledgeServiceId } from "@/data/knowledge";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { getServiceIcon } from "@/components/services/iconMap";
 
@@ -50,13 +43,13 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
   if (!page) return null;
 
   const { key } = page;
-  const about = t(`services.${key}.about`, { returnObjects: true }) as string[];
   const features = t(`services.${key}.features`, { returnObjects: true }) as string[];
 
   const offerings = page.offerings.map((item) => ({
     icon: getServiceIcon(item.icon),
     title: t(`services.${key}.offerings.${item.id}.title`),
     description: t(`services.${key}.offerings.${item.id}.desc`),
+    image: item.image,
   }));
 
   const offeringImages = page.offerings.map((item) => ({
@@ -78,13 +71,11 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "mobile-development") {
     const heroImage = MOBILE_DEV_HERO_IMAGE ?? MOBILE_DEV_FALLBACK_HERO;
-    const aboutParagraphs = Array.isArray(about)
-      ? about
-      : [t(`services.${key}.description`)];
 
     const offeringItems = page.offerings.map((item) => ({
       title: t(`services.${key}.offerings.${item.id}.title`),
       description: t(`services.${key}.offerings.${item.id}.desc`),
+      image: item.image ?? "",
     }));
 
     return (
@@ -107,18 +98,12 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
         />
 
         <div id="what-we-build" className="scroll-mt-24">
-          <OfferingTextGrid
+          <OfferingImageGrid
             title={t("services.mobile.whatWeBuildTitle")}
             subtitle={t("services.mobile.whatWeBuildSubtitle")}
             items={offeringItems}
           />
         </div>
-
-        <RichAboutBlock
-          title={t("services.mobile.aboutTitle")}
-          subtitle={t("services.mobile.aboutSubtitle")}
-          paragraphs={aboutParagraphs}
-        />
 
         <ProcessRow
           title={t("services.mobile.processTitle")}
@@ -132,9 +117,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           items={whyItems}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.mobile.ctaTitle")}
@@ -148,9 +132,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "web-development") {
     const heroImage = WEB_DEV_HERO_IMAGE ?? WEB_DEV_FALLBACK_HERO;
-    const aboutParagraphs = Array.isArray(about)
-      ? about
-      : [t(`services.${key}.description`)];
 
     return (
       <>
@@ -179,11 +160,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           />
         </div>
 
-        <WebAboutBlock
-          title={t("services.web.aboutTitle")}
-          paragraphs={aboutParagraphs}
-        />
-
         <ProcessRow
           title={t("services.web.processTitle")}
           subtitle={t("services.web.processSubtitle")}
@@ -196,9 +172,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           items={whyItems}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.web.ctaTitle")}
@@ -212,9 +187,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "woocommerce") {
     const heroImage = WOOCOMMERCE_HERO_IMAGE ?? WOOCOMMERCE_FALLBACK_HERO;
-    const aboutParagraphs = Array.isArray(about)
-      ? about
-      : [t(`services.${key}.description`)];
 
     const wooOfferings = page.offerings.map((item) => ({
       title: t(`services.woocommerce.offerings.${item.id}.title`),
@@ -249,11 +221,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           />
         </div>
 
-        <WebAboutBlock
-          title={t("services.woocommerce.aboutTitle")}
-          paragraphs={aboutParagraphs}
-        />
-
         <ProcessRow
           title={t("services.woocommerce.processTitle")}
           subtitle={t("services.woocommerce.processSubtitle")}
@@ -266,9 +233,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           items={whyItems}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.woocommerce.ctaTitle")}
@@ -282,21 +248,12 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "cloud-devops") {
     const heroImage = CLOUD_DEVOPS_HERO_IMAGE ?? CLOUD_DEVOPS_FALLBACK_HERO;
-    const metrics = t("services.cloud.metrics", {
-      returnObjects: true,
-    }) as string[];
-    const shotKeys = ["console", "cicd", "kubernetes", "monitoring"] as const;
-    const shotImages: Record<(typeof shotKeys)[number], string> = {
-      console: "/images/cloud-devops/cloud-console.png",
-      cicd: "/images/cloud-devops/ci.png",
-      kubernetes: "/images/cloud-devops/kubermeties.png",
-      monitoring: "/images/cloud-devops/monitoring.png",
-    };
 
     const cloudOfferings = page.offerings.map((item) => ({
       icon: getServiceIcon(item.icon),
       title: t(`services.cloud.offerings.${item.id}.title`),
       description: t(`services.cloud.offerings.${item.id}.desc`),
+      image: item.image,
     }));
 
     return (
@@ -326,20 +283,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           />
         </div>
 
-        <CloudAboutBlock
-          title={t("services.cloud.aboutTitle")}
-          subtitle={t("services.cloud.aboutSubtitle")}
-          intro={t("services.cloud.intro")}
-          metricsTitle={t("services.cloud.metricsTitle")}
-          metrics={Array.isArray(metrics) ? metrics : []}
-          shots={shotKeys.map((id) => ({
-            label: t(`services.cloud.shots.${id}.label`),
-            image: shotImages[id],
-            paragraph: t(`services.cloud.shots.${id}.paragraph`),
-          }))}
-          closing={t("services.cloud.closing")}
-        />
-
         <ProcessRow
           title={t("services.cloud.processTitle")}
           subtitle={t("services.cloud.processSubtitle")}
@@ -353,9 +296,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           columns={2}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.cloud.ctaTitle")}
@@ -369,9 +311,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "ai-solutions") {
     const heroImage = AI_SOLUTIONS_HERO_IMAGE ?? AI_SOLUTIONS_FALLBACK_HERO;
-    const aboutParagraphs = t("services.ai.about", {
-      returnObjects: true,
-    }) as string[];
 
     const sampleKeys = ["training", "chatbot", "vision", "analytics"] as const;
     const sampleImages: Record<(typeof sampleKeys)[number], string> = {
@@ -385,6 +324,7 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
       icon: getServiceIcon(item.icon),
       title: t(`services.ai.offerings.${item.id}.title`),
       description: t(`services.ai.offerings.${item.id}.desc`),
+      image: item.image,
     }));
 
     return (
@@ -420,12 +360,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           />
         </div>
 
-        <RichAboutBlock
-          title={t("services.ai.aboutTitle")}
-          subtitle={t("services.ai.aboutSubtitle")}
-          paragraphs={Array.isArray(aboutParagraphs) ? aboutParagraphs : [t("services.ai.description")]}
-        />
-
         <ProcessRow
           title={t("services.ai.processTitle")}
           subtitle={t("services.ai.processSubtitle")}
@@ -439,9 +373,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           columns={2}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.ai.ctaTitle")}
@@ -455,21 +388,12 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
 
   if (slug === "blockchain") {
     const heroImage = BLOCKCHAIN_HERO_IMAGE ?? BLOCKCHAIN_FALLBACK_HERO;
-    const metrics = t("services.blockchain.metrics", {
-      returnObjects: true,
-    }) as string[];
-    const shotKeys = ["defi", "nft", "explorer", "wallet"] as const;
-    const shotImages: Record<(typeof shotKeys)[number], string> = {
-      defi: "/images/blockchain/shot-defi.png",
-      nft: "/images/blockchain/shot-nft.png",
-      explorer: "/images/blockchain/shot-explorer.png",
-      wallet: "/images/blockchain/shot-wallet.png",
-    };
 
     const chainOfferings = page.offerings.map((item) => ({
       icon: getServiceIcon(item.icon),
       title: t(`services.blockchain.offerings.${item.id}.title`),
       description: t(`services.blockchain.offerings.${item.id}.desc`),
+      image: item.image,
     }));
 
     return (
@@ -493,21 +417,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           items={chainOfferings}
         />
 
-        <CloudAboutBlock
-          title={t("services.blockchain.aboutTitle")}
-          subtitle={t("services.blockchain.aboutSubtitle")}
-          intro={t("services.blockchain.intro")}
-          metricsTitle=""
-          metrics={Array.isArray(metrics) ? metrics : []}
-          captionBelow
-          shots={shotKeys.map((id) => ({
-            label: t(`services.blockchain.shots.${id}.label`),
-            image: shotImages[id],
-            paragraph: t(`services.blockchain.shots.${id}.paragraph`),
-          }))}
-          closing={t("services.blockchain.closing")}
-        />
-
         <ProcessRow
           title={t("services.blockchain.processTitle")}
           subtitle={t("services.blockchain.processSubtitle")}
@@ -521,9 +430,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
           columns={2}
         />
 
-        <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-        <ServiceFaq serviceKey={key} />
         <RelatedServices excludeSlug={slug} />
+        <ServiceFaq serviceKey={key} />
 
         <PageCTA
           title={t("services.blockchain.ctaTitle")}
@@ -560,11 +468,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
         title={t("services.detail.whatWeBuild")}
         subtitle={t("services.detail.whatWeBuildSubtitle")}
         items={offerings}
-      />
-
-      <AboutBlock
-        title={`${t("services.detail.aboutPrefix")} ${t(`services.${key}.title`)}`}
-        paragraphs={Array.isArray(about) ? about : [t(`services.${key}.description`)]}
       />
 
       {Array.isArray(features) && features.length > 0 && (
@@ -605,9 +508,8 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
         items={whyItems}
       />
 
-      <ServiceKnowledgeBand slug={slug as KnowledgeServiceId} />
-      <ServiceFaq serviceKey={key} />
       <RelatedServices excludeSlug={slug} />
+      <ServiceFaq serviceKey={key} />
 
       <PageCTA
         title={t("services.detail.ctaTitle")}
