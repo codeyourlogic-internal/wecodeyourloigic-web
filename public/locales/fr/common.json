@@ -1939,7 +1939,9 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.",
+      "prompt": "Pour voir les services que nous proposons, rendez-vous sur la page Services.",
+      "cta": "Voir les services"
     },
     "process": {
       "title": "Delivery process",
