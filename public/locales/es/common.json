@@ -11,9 +11,9 @@
   },
   "hero": {
     "badge": "Ingeniería de Software Empresarial",
-    "title": "Tu socio tecnológico para crear y escalar productos digitales",
+    "title": "Deja de gestionar tu negocio con herramientas desconectadas. Empieza a crecer con software más inteligente.",
     "titleHighlight": "",
-    "subtitle": "Ingeniería web, móvil, cloud, IA, blockchain y WooCommerce que escala tus ingresos",
+    "subtitle": "Crea soluciones personalizadas de CRM, ERP, automatización y software diseñadas según la forma en que trabaja tu negocio.",
     "ctaPrimary": "Inicia Tu Proyecto",
     "ctaSecondary": "Ve Nuestro Trabajo",
     "highlights": [
@@ -1784,7 +1784,7 @@
     },
     "r3": {
       "quote": "Un socio de ingeniería confiable: proceso sólido, actualizaciones transparentes y una entrega que nos ayudó a avanzar más rápido sin sacrificar la calidad.",
-      "author": "Líder de Producto",
+      "author": "Ashad Shahin",
       "role": "SaaS en etapa de crecimiento"
     }
   },
@@ -1813,51 +1813,22 @@
   },
   "homePortfolio": {
     "eyebrow": "Soluciones que Impulsan el Crecimiento",
-    "title": "Descubre lo que construimos para negocios como el tuyo",
-    "subtitle": "Desde tiendas online de alta conversión hasta automatización inteligente: entregamos software que genera resultados reales.",
-    "impactLabel": "Impacto en el Negocio:",
-    "learnMore": "Saber más",
+    "title": "Elija la solución que se adapta a su negocio",
+    "subtitle": "Sistemas de gestión, productos a medida o más capacidad de ingeniería: empiece por el resultado que necesita.",
+    "explore": "Explorar más",
     "viewAll": "Ver Todos los Servicios",
-    "items": {
-      "web": {
-        "title": "Desarrollo Web",
-        "desc": "Creamos sitios web y aplicaciones web ultrarrápidas y optimizadas para SEO que convierten visitantes en clientes. Nuestros ingenieros frontend diseñan interfaces pixel-perfect en React, Next.js y Vue, pensadas para el rendimiento, la accesibilidad y el crecimiento de ingresos desde el primer día.",
-        "impact": "↑ 40-300% de aumento en tráfico orgánico · Tiempos de carga más rápidos · Mayores tasas de conversión"
+    "categories": {
+      "business": {
+        "title": "Software de gestión empresarial",
+        "desc": "Gestione clientes, ventas, inventario y operaciones con soluciones CRM y ERP a medida."
       },
-      "mobile": {
-        "title": "Desarrollo Móvil",
-        "desc": "Lanza aplicaciones iOS y Android que tus usuarios realmente amarán. Creamos apps nativas y multiplataforma con Swift, Kotlin y Flutter, con soporte sin conexión, notificaciones push e integraciones de pago fluidas que mantienen a los usuarios comprometidos y gastando.",
-        "impact": "↑ Calificaciones de 5 estrellas · Mayor retención de usuarios · Lanzamiento más rápido al mercado"
+      "custom": {
+        "title": "Desarrollo de software a medida",
+        "desc": "Cree productos digitales escalables y aplicaciones a medida según los requisitos de su negocio."
       },
-      "ecommerce": {
-        "title": "WooCommerce y E-commerce",
-        "desc": "Lanza tu tienda online y comienza a vender a clientes en todo el mundo. Creamos soluciones WooCommerce a medida con integración de pagos, gestión de inventario, soporte multi-moneda y flujos de pago optimizados para la conversión que aumentan directamente tus ingresos y reducen el abandono de carrito.",
-        "impact": "↑ 340% de crecimiento promedio en ingresos · Menor abandono de carrito · 99.9% de disponibilidad"
-      },
-      "cloud": {
-        "title": "Cloud y DevOps",
-        "desc": "Migra a la nube con confianza. Diseñamos infraestructura en AWS, GCP y Azure con pipelines de CI/CD, autoescalado y monitoreo en tiempo real, para que tus sistemas estén siempre activos, siempre rápidos y nunca sean un riesgo para tu operación.",
-        "impact": "↓ 60% en costos de infraestructura · SLA de disponibilidad del 99.99% · Despliegues más rápidos"
-      },
-      "ai": {
-        "title": "IA y Machine Learning",
-        "desc": "Reemplaza el trabajo repetitivo con automatización inteligente. Creamos modelos de IA a medida, chatbots, motores de pronóstico de demanda y sistemas de recomendación que reducen los costos operativos hasta un 70%, permitiendo que tu equipo se enfoque en actividades de mayor valor.",
-        "impact": "↓ 70% de carga de trabajo manual · Decisiones más inteligentes · Ciclos de ingresos más rápidos"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "desc": "Construye aplicaciones basadas en confianza sobre Ethereum, Solana y Polygon. Desarrollamos contratos inteligentes, plataformas NFT, protocolos DeFi e integraciones Web3, todos superando rigurosas auditorías de seguridad de terceros y con pleno cumplimiento normativo.",
-        "impact": "↑ Transparencia en las transacciones · Menor fraude · Listos para cumplimiento normativo"
-      },
-      "desktop": {
-        "title": "Desktop Application Development",
-        "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
-        "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
-      },
-      "crm": {
-        "title": "CRM y ERP a medida",
-        "desc": "Sustituye hojas dispersas y herramientas genéricas por software CRM y ERP para ventas, inventario y finanzas. Clientes, pedidos, stock e informes viven en un sistema que tu equipo puede operar.",
-        "impact": "Un sistema para ventas y operaciones · Menos datos duplicados · Software que te pertenece"
+      "dedicated": {
+        "title": "Desarrolladores dedicados",
+        "desc": "Amplíe su capacidad de ingeniería con desarrolladores cualificados y equipos de desarrollo dedicados."
       }
     }
   },
@@ -1928,7 +1899,9 @@
     "eyebrow": "Nuestros clientes",
     "title": "Empresas con las que hemos trabajado",
     "subtitle": "La confianza de equipos que necesitan socios fiables de ingeniería de software.",
-    "visitSite": "Visitar sitio web"
+    "visitSite": "Visitar sitio web",
+    "previous": "Anterior",
+    "next": "Siguiente"
   },
   "seoRelated": {
     "title": "Explora Servicios Relacionados de Desarrollo de Software",
@@ -1966,7 +1939,9 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.",
+      "prompt": "Para ver los servicios que ofrecemos, vaya a la página de Servicios.",
+      "cta": "Ver servicios"
     },
     "process": {
       "title": "Delivery process",

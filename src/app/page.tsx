@@ -18,27 +18,11 @@ const ProcessOverview = dynamic(
   () => import("@/components/home/ProcessOverview").then((m) => m.ProcessOverview),
   { loading: () => <SectionLoader /> }
 );
-const CompanyOverview = dynamic(
-  () =>
-    import("@/components/home/CompanyOverview").then((m) => m.CompanyOverview),
-  { loading: () => <SectionLoader /> }
-);
 const SolutionsPortfolio = dynamic(
   () =>
     import("@/components/home/SolutionsPortfolio").then(
       (m) => m.SolutionsPortfolio
     ),
-  { loading: () => <SectionLoader /> }
-);
-const HireResourcesOverview = dynamic(
-  () =>
-    import("@/components/home/HireResourcesOverview").then(
-      (m) => m.HireResourcesOverview
-    ),
-  { loading: () => <SectionLoader /> }
-);
-const Industries = dynamic(
-  () => import("@/components/home/Industries").then((m) => m.Industries),
   { loading: () => <SectionLoader /> }
 );
 const ClientLogos = dynamic(
@@ -47,15 +31,6 @@ const ClientLogos = dynamic(
 );
 const Testimonials = dynamic(
   () => import("@/components/home/Testimonials").then((m) => m.Testimonials),
-  { loading: () => <SectionLoader /> }
-);
-const WhyChooseUs = dynamic(
-  () => import("@/components/home/WhyChooseUs").then((m) => m.WhyChooseUs),
-  { loading: () => <SectionLoader /> }
-);
-const RelatedServices = dynamic(
-  () =>
-    import("@/components/seo/RelatedServices").then((m) => m.RelatedServices),
   { loading: () => <SectionLoader /> }
 );
 const ContactCTA = dynamic(
@@ -91,31 +66,16 @@ export default function HomePage() {
       />
       <Hero />
       <Suspense fallback={<SectionLoader />}>
-        <CompanyOverview />
-      </Suspense>
-      <Suspense fallback={<SectionLoader />}>
         <ProcessOverview />
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <SolutionsPortfolio />
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
-        <HireResourcesOverview />
-      </Suspense>
-      <Suspense fallback={<SectionLoader />}>
-        <Industries />
-      </Suspense>
-      <Suspense fallback={<SectionLoader />}>
         <ClientLogos />
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <Testimonials />
-      </Suspense>
-      <Suspense fallback={<SectionLoader />}>
-        <WhyChooseUs />
-      </Suspense>
-      <Suspense fallback={<SectionLoader />}>
-        <RelatedServices />
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <ContactCTA />

@@ -11,9 +11,9 @@
   },
   "hero": {
     "badge": "Enterprise Software Engineering",
-    "title": "Your Technology Partner for Building and Scaling Digital Products",
+    "title": "Stop Managing Your Business with Disconnected Tools. Start Growing with Smarter Software.",
     "titleHighlight": "",
-    "subtitle": "Web, mobile, cloud, AI, blockchain & WooCommerce engineering that scales revenue",
+    "subtitle": "Build custom CRM, ERP, automation, and software solutions designed around the way your business works.",
     "ctaPrimary": "Start Your Project",
     "ctaSecondary": "See Our Work",
     "highlights": [
@@ -66,51 +66,22 @@
   },
   "homePortfolio": {
     "eyebrow": "Solutions That Drive Growth",
-    "title": "See what we build for businesses like yours",
-    "subtitle": "From high-converting storefronts to intelligent automation - we deliver software that moves the needle.",
-    "impactLabel": "Business Impact:",
-    "learnMore": "Learn more",
+    "title": "Choose the solution that fits your business",
+    "subtitle": "Business systems, custom products, or extra engineering capacity — start with the outcome you need.",
+    "explore": "Explore More",
     "viewAll": "View All Services",
-    "items": {
-      "web": {
-        "title": "Web Development",
-        "desc": "Build blazing-fast, SEO-optimized websites and web apps that convert visitors into customers. Our frontend engineers craft pixel-perfect interfaces in React, Next.js, and Vue - engineered for performance, accessibility, and revenue growth from day one.",
-        "impact": "↑ 40-300% increase in organic traffic · Faster load times · Higher conversion rates"
+    "categories": {
+      "business": {
+        "title": "Business Management Software",
+        "desc": "Manage your customers, sales, inventory and business operations with custom CRM and ERP solutions."
       },
-      "mobile": {
-        "title": "Mobile Development",
-        "desc": "Launch iOS and Android apps that your users actually love. We build native and cross-platform apps using Swift, Kotlin, and Flutter - with offline support, push notifications, and seamless payment integrations that keep users engaged and spending.",
-        "impact": "↑ 5-star app ratings · Higher user retention · Faster time-to-market"
+      "custom": {
+        "title": "Custom Software Development",
+        "desc": "Build scalable digital products and custom applications tailored to your business requirements."
       },
-      "ecommerce": {
-        "title": "WooCommerce & E-commerce",
-        "desc": "Launch your online store and start selling to customers worldwide. We build custom WooCommerce solutions with payment integration, inventory management, multi-currency support, and conversion-optimized checkout flows that directly increase your revenue and reduce cart abandonment.",
-        "impact": "↑ 340% avg. revenue growth · Lower cart abandonment · 99.9% uptime"
-      },
-      "cloud": {
-        "title": "Cloud & DevOps",
-        "desc": "Move to the cloud with confidence. We architect AWS, GCP, and Azure infrastructure with CI/CD pipelines, auto-scaling, and real-time monitoring - so your systems are always up, always fast, and never a liability to your business operations.",
-        "impact": "↓ 60% infrastructure costs · 99.99% uptime SLA · Faster deployments"
-      },
-      "ai": {
-        "title": "AI & Machine Learning",
-        "desc": "Replace repetitive work with intelligent automation. We build custom AI models, chatbots, demand forecasting engines, and recommendation systems that cut operational costs by up to 70% while enabling your team to focus on high-value growth activities.",
-        "impact": "↓ 70% manual workload · Smarter decisions · Faster revenue cycles"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "desc": "Build trust-anchored applications on Ethereum, Solana, and Polygon. We deliver smart contract development, NFT platforms, DeFi protocols, and Web3 integrations - all passing rigorous third-party security audits and full regulatory compliance.",
-        "impact": "↑ Transaction transparency · Reduced fraud · Regulatory-ready"
-      },
-      "desktop": {
-        "title": "Desktop Application Development",
-        "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
-        "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
-      },
-      "crm": {
-        "title": "Custom CRM and ERP",
-        "desc": "Replace scattered spreadsheets and generic tools with CRM and ERP software built around your sales, inventory, and finance workflows. Customers, orders, stock, and reporting live in one system your team can run.",
-        "impact": "One system for sales and operations · Less duplicate entry · Software you own"
+      "dedicated": {
+        "title": "Dedicated Developers",
+        "desc": "Extend your engineering capabilities with skilled developers and dedicated development teams."
       }
     }
   },
@@ -181,7 +152,9 @@
     "eyebrow": "Our Clients",
     "title": "Companies we have worked with",
     "subtitle": "Trusted by teams who need reliable software engineering partners.",
-    "visitSite": "Visit website"
+    "visitSite": "Visit website",
+    "previous": "Previous",
+    "next": "Next"
   },
   "services": {
     "title": "Software Development Services",
@@ -1926,7 +1899,7 @@
     },
     "r3": {
       "quote": "A reliable engineering partner — strong process, transparent updates, and delivery that helped us move faster without sacrificing quality.",
-      "author": "Product Lead",
+      "author": "Ashad Shahin",
       "role": "Growth-stage SaaS"
     }
   },
@@ -1966,7 +1939,9 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.",
+      "prompt": "To view the services we offer, go to the Services page.",
+      "cta": "View services"
     },
     "process": {
       "title": "Delivery process",

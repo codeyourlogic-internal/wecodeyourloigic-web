@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
@@ -12,18 +11,19 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-      <Image
-        src="/images/home-hero.png"
-        alt="CodeYourLogic custom software development company — web, mobile, cloud, AI and blockchain engineering"
-        fill
-        priority
-        quality={75}
-        sizes="100vw"
-        className="object-cover object-center"
-        title="Custom software development company"
+      <video
+        src="/video-assets/subscription-compressed.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        disablePictureInPicture
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-16 bottom-0 w-full object-cover object-top"
       />
       <div
-        className="absolute inset-0"
+        className="absolute inset-x-0 top-16 bottom-0"
         style={{
           backgroundColor:
             "color-mix(in oklab, var(--color-black) 75%, transparent)",
@@ -65,7 +65,7 @@ export function Hero() {
               <ArrowRight className="h-5 w-5" />
             </Button>
           </Link>
-          <Link href="/services" data-track="hero_secondary_cta" data-track-location="home_hero">
+          <Link href="/#clients" data-track="hero_secondary_cta" data-track-location="home_hero">
             <Button
               size="lg"
               variant="outline"

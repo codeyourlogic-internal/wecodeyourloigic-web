@@ -1,9 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { reviewKeys } from "@/data/site";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
+
+const reviewPhotos: Record<(typeof reviewKeys)[number], { src: string; position: string }> = {
+  r1: { src: "/images/testimonials/Ujjwal.jpeg", position: "object-[center_26%]" },
+  r2: { src: "/images/testimonials/shushant.jpeg", position: "object-[center_15%]" },
+  r3: { src: "/images/testimonials/Asad shahin.jpeg", position: "object-[70%_30%]" },
+};
 
 export function Testimonials() {
   const { t } = useTranslation();
@@ -37,12 +44,14 @@ export function Testimonials() {
                   &ldquo;{t(`reviews.${key}.quote`)}&rdquo;
                 </p>
                 <div className="mt-6 flex items-center gap-3 border-t border-zinc-100 pt-5">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-orange-600 text-sm font-bold text-white">
-                    {t(`reviews.${key}.author`)
-                      .split(" ")
-                      .map((part) => part[0])
-                      .slice(0, 2)
-                      .join("")}
+                  <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full border-2 border-orange-500 bg-orange-600">
+                    <Image
+                      src={reviewPhotos[key].src}
+                      alt=""
+                      fill
+                      sizes="64px"
+                      className={`object-cover ${reviewPhotos[key].position}`}
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-zinc-900">

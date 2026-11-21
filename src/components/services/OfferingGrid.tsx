@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
+import { PhotoOfferingCard } from "@/components/services/PhotoOfferingCard";
 import { StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 
 interface OfferingItem {
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
+  image?: string;
   tags?: string[];
   href?: string;
   linkLabel?: string;
@@ -37,6 +39,26 @@ export function OfferingGrid({ title, subtitle, items }: OfferingGridProps) {
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map((item) => {
             const Icon = item.icon;
+            if (item.image) {
+              const card = (
+                <PhotoOfferingCard
+                  title={item.title}
+                  description={item.description}
+                  image={item.image}
+                />
+              );
+              return (
+                <StaggerItem key={item.title}>
+                  {item.href ? (
+                    <Link href={item.href} className="block h-full">
+                      {card}
+                    </Link>
+                  ) : (
+                    card
+                  )}
+                </StaggerItem>
+              );
+            }
             const content = (
               <GlassCard className="h-full flex flex-col group">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-amber-600/20 to-orange-600/20 mb-4 group-hover:from-amber-600/30 group-hover:to-orange-600/30 transition-colors">

@@ -6,31 +6,20 @@ import { ArrowRight } from "lucide-react";
 import {
   HIRE_HERO_IMAGE,
   hireRoles,
-  industryCards,
 } from "@/data/hire-resources";
 import { HIRE_ENGAGEMENT_IDS } from "@/data/knowledge";
 import { ServiceHero } from "@/components/services/ServiceHero";
-import { IndustriesGrid } from "@/components/services/IndustriesGrid";
 import { PageCTA } from "@/components/services/PageCTA";
 import { HireHowItWorks } from "@/components/hire/HireHowItWorks";
 import { HireRoleCard } from "@/components/hire/HireRoleCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
-import { ServiceKnowledgeBand } from "@/components/knowledge/ServiceKnowledgeBand";
 import { FaqList, type FaqItem } from "@/components/knowledge/FaqList";
 import { TechStackDisclaimer } from "@/components/knowledge/TechStackDisclaimer";
-import { RelatedServices } from "@/components/seo/RelatedServices";
 
 export default function HireResourcesPage() {
   const { t } = useTranslation();
   const faq = t("hireResources.faq", { returnObjects: true }) as FaqItem[];
-
-  const industryItems = industryCards.map((card) => ({
-    icon: card.icon,
-    title: t(`industries.cards.${card.id}.title`),
-    description: t(`industries.cards.${card.id}.desc`),
-    href: `/industries/#${card.id}`,
-  }));
 
   return (
     <>
@@ -114,18 +103,10 @@ export default function HireResourcesPage() {
         </p>
       </section>
 
-      <IndustriesGrid
-        title={t("hireResources.industriesTitle")}
-        subtitle={t("hireResources.industriesSubtitle")}
-        items={industryItems}
-      />
-
-      <ServiceKnowledgeBand slug="hire-resources" includeTechStack={false} />
       <FaqList
         title={t("seoRelated.faqTitle")}
         items={Array.isArray(faq) ? faq : []}
       />
-      <RelatedServices excludeSlug="hire-resources" />
 
       <PageCTA
         title={t("hireResources.ctaTitle")}
