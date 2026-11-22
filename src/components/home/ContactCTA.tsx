@@ -38,7 +38,7 @@ export function ContactCTA() {
                 {t("cta.subtitle")}
               </p>
 
-              <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+              <div className="mt-9 flex justify-center">
                 <Link href="/contact" data-track="footer_cta_primary" data-track-location="home_contact_cta">
                   <Button
                     size="lg"
@@ -46,15 +46,6 @@ export function ContactCTA() {
                   >
                     {t("cta.button")}
                     <ArrowRight className="h-5 w-5" />
-                  </Button>
-                </Link>
-                <Link href="/services" data-track="footer_cta_secondary" data-track-location="home_contact_cta">
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="rounded-lg min-w-[160px] border-white/30 bg-zinc-900/60 text-white hover:bg-white/10 hover:text-white"
-                  >
-                    {t("cta.secondary")}
                   </Button>
                 </Link>
               </div>

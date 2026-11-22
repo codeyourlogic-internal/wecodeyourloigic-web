@@ -11,9 +11,9 @@
   },
   "hero": {
     "badge": "Ingénierie Logicielle d'Entreprise",
-    "title": "Votre partenaire technologique pour créer et faire évoluer des produits numériques",
+    "title": "Arrêtez de gérer votre entreprise avec des outils déconnectés. Commencez à croître avec un logiciel plus intelligent.",
     "titleHighlight": "",
-    "subtitle": "Ingénierie web, mobile, cloud, IA, blockchain et WooCommerce qui fait croître votre chiffre d'affaires",
+    "subtitle": "Concevez des solutions CRM, ERP, d'automatisation et logicielles sur mesure, adaptées à la façon dont votre entreprise fonctionne.",
     "ctaPrimary": "Démarrer Votre Projet",
     "ctaSecondary": "Voir Nos Réalisations",
     "highlights": [
@@ -1783,8 +1783,8 @@
       "role": "SR Enterprises"
     },
     "r3": {
-      "quote": "Un partenaire d'ingénierie fiable — un processus solide, des mises à jour transparentes et une livraison qui nous a permis d'avancer plus vite sans sacrifier la qualité.",
-      "author": "Responsable Produit",
+      "quote": "Je m'attendais aux retards habituels. À la place, ils ont envoyé une version déjà utilisable, ils ont corrigé ce qu'on leur a signalé, et nous étions en ligne avant la date promise à nos clients.",
+      "author": "Ashad Shahin",
       "role": "SaaS en Phase de Croissance"
     }
   },
@@ -1813,51 +1813,22 @@
   },
   "homePortfolio": {
     "eyebrow": "Des Solutions qui Génèrent de la Croissance",
-    "title": "Découvrez ce que nous construisons pour des entreprises comme la vôtre",
-    "subtitle": "Des vitrines à fort taux de conversion à l'automatisation intelligente - nous livrons des logiciels qui font la différence.",
-    "impactLabel": "Impact Business :",
-    "learnMore": "En savoir plus",
+    "title": "Choisissez la solution adaptée à votre entreprise",
+    "subtitle": "Systèmes de gestion, produits sur mesure ou capacité d'ingénierie supplémentaire — partez du résultat dont vous avez besoin.",
+    "explore": "Explorer plus",
     "viewAll": "Voir Tous les Services",
-    "items": {
-      "web": {
-        "title": "Développement Web",
-        "desc": "Créez des sites web et applications web ultra-rapides, optimisés pour le SEO, qui transforment les visiteurs en clients. Nos ingénieurs frontend conçoivent des interfaces au pixel près en React, Next.js et Vue - pensées pour la performance, l'accessibilité et la croissance du chiffre d'affaires dès le premier jour.",
-        "impact": "↑ 40 à 300% d'augmentation du trafic organique · Temps de chargement plus rapides · Taux de conversion plus élevés"
+    "categories": {
+      "business": {
+        "title": "Logiciels de gestion d'entreprise",
+        "desc": "Gérez vos clients, vos ventes, vos stocks et vos opérations avec des solutions CRM et ERP sur mesure."
       },
-      "mobile": {
-        "title": "Développement Mobile",
-        "desc": "Lancez des applications iOS et Android que vos utilisateurs adorent vraiment. Nous développons des applications natives et multiplateformes avec Swift, Kotlin et Flutter - avec support hors ligne, notifications push et intégrations de paiement fluides qui maintiennent l'engagement et les dépenses des utilisateurs.",
-        "impact": "↑ Notes 5 étoiles · Meilleure rétention utilisateur · Mise sur le marché plus rapide"
+      "custom": {
+        "title": "Développement logiciel sur mesure",
+        "desc": "Concevez des produits numériques évolutifs et des applications sur mesure adaptés à vos besoins."
       },
-      "ecommerce": {
-        "title": "WooCommerce & E-commerce",
-        "desc": "Lancez votre boutique en ligne et commencez à vendre à des clients du monde entier. Nous développons des solutions WooCommerce sur mesure avec intégration de paiement, gestion des stocks, support multidevise et parcours de commande optimisés pour la conversion qui augmentent directement votre chiffre d'affaires et réduisent l'abandon de panier.",
-        "impact": "↑ 340% de croissance moyenne du chiffre d'affaires · Moins d'abandons de panier · 99,9% de disponibilité"
-      },
-      "cloud": {
-        "title": "Cloud & DevOps",
-        "desc": "Migrez vers le cloud en toute confiance. Nous architecturons des infrastructures AWS, GCP et Azure avec pipelines CI/CD, mise à l'échelle automatique et surveillance en temps réel - pour que vos systèmes soient toujours disponibles, toujours rapides, et jamais un frein à vos activités.",
-        "impact": "↓ 60% des coûts d'infrastructure · SLA de disponibilité de 99,99% · Déploiements plus rapides"
-      },
-      "ai": {
-        "title": "IA & Machine Learning",
-        "desc": "Remplacez les tâches répétitives par une automatisation intelligente. Nous développons des modèles d'IA sur mesure, des chatbots, des moteurs de prévision de la demande et des systèmes de recommandation qui réduisent les coûts opérationnels jusqu'à 70% tout en permettant à votre équipe de se concentrer sur des activités à forte valeur ajoutée.",
-        "impact": "↓ 70% de charge de travail manuelle · Décisions plus intelligentes · Cycles de revenus plus rapides"
-      },
-      "blockchain": {
-        "title": "Blockchain",
-        "desc": "Construisez des applications basées sur la confiance sur Ethereum, Solana et Polygon. Nous livrons du développement de smart contracts, des plateformes NFT, des protocoles DeFi et des intégrations Web3 - tous soumis à des audits de sécurité rigoureux par des tiers et une pleine conformité réglementaire.",
-        "impact": "↑ Transparence des transactions · Fraude réduite · Prêt pour la conformité réglementaire"
-      },
-      "desktop": {
-        "title": "Desktop Application Development",
-        "desc": "Build desktop software for business workflows on Windows, macOS, and Linux — Electron, Tauri, .NET and related stacks already listed on our desktop service page.",
-        "impact": "Offline-capable tools · Internal systems · Cross-platform releases"
-      },
-      "crm": {
-        "title": "CRM et ERP sur mesure",
-        "desc": "Remplacez tableurs dispersés et outils génériques par un logiciel CRM et ERP pour les ventes, les stocks et la finance. Clients, commandes, stock et rapports vivent dans un système que votre équipe peut piloter.",
-        "impact": "Un système pour ventes et opérations · Moins de double saisie · Un logiciel qui vous appartient"
+      "dedicated": {
+        "title": "Développeurs dédiés",
+        "desc": "Renforcez vos capacités d'ingénierie avec des développeurs qualifiés et des équipes de développement dédiées."
       }
     }
   },
@@ -1928,7 +1899,9 @@
     "eyebrow": "Nos clients",
     "title": "Entreprises avec lesquelles nous avons travaillé",
     "subtitle": "La confiance d'équipes qui recherchent un partenaire d'ingénierie logiciel fiable.",
-    "visitSite": "Visiter le site"
+    "visitSite": "Visiter le site",
+    "previous": "Précédent",
+    "next": "Suivant"
   },
   "seoRelated": {
     "title": "Découvrez Nos Autres Services de Développement Logiciel",
@@ -1966,7 +1939,9 @@
     },
     "services": {
       "title": "Major services",
-      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing."
+      "subtitle": "Nine offerings published across this site: eight product-engineering services plus dedicated developer staffing.",
+      "prompt": "Pour voir les services que nous proposons, rendez-vous sur la page Services.",
+      "cta": "Voir les services"
     },
     "process": {
       "title": "Delivery process",

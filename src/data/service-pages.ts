@@ -56,14 +56,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "web-development": {
     key: "web",
     offerings: [
-      { id: "webApp", icon: "Code2", image: "/images/web-development/offering-1.png" },
-      { id: "pwa", icon: "Smartphone", image: "/images/web-development/offering-2.png" },
-      { id: "ecommerce", icon: "ShoppingCart", image: "/images/web-development/offering-3.png" },
-      { id: "cms", icon: "LayoutDashboard", image: "/images/web-development/offering-4.png" },
-      { id: "customPortals", icon: "Users", image: "/images/web-development/offering-5.png" },
-      { id: "product", icon: "Boxes", image: "/images/web-development/offering-6.png" },
-      { id: "enterprise", icon: "Building2", image: "/images/web-development/offering-7.png" },
-      { id: "webPortal", icon: "Globe", image: "/images/web-development/offering-8.png" },
+      { id: "webApp", icon: "Code2", image: "/images/ourservice/webdev.png" },
+      { id: "pwa", icon: "Smartphone", image: "/images/ourservice/mobile.png" },
+      { id: "ecommerce", icon: "ShoppingCart", image: "/images/home-solutions/web-dev.png" },
+      { id: "cms", icon: "LayoutDashboard", image: "/images/ourservice/woocom.png" },
+      { id: "customPortals", icon: "Users", image: "/images/crm-erp/hero.jpg" },
+      { id: "product", icon: "Boxes", image: "/images/desktop-dev.png" },
+      { id: "enterprise", icon: "Building2", image: "/images/ourservice/hero.png" },
+      { id: "webPortal", icon: "Globe", image: "/images/web-dev-hero.png" },
     ],
     techStack: [
       {
@@ -94,14 +94,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "mobile-development": {
     key: "mobile",
     offerings: [
-      { id: "ecommerce", icon: "ShoppingCart" },
-      { id: "enterprise", icon: "Building2" },
-      { id: "ondemand", icon: "Truck" },
-      { id: "social", icon: "Users" },
-      { id: "health", icon: "HeartPulse" },
-      { id: "fintech", icon: "Wallet" },
-      { id: "education", icon: "GraduationCap" },
-      { id: "iot", icon: "Cpu" },
+      { id: "ecommerce", icon: "ShoppingCart", image: "/images/home-solutions/mobile-dev.png" },
+      { id: "enterprise", icon: "Building2", image: "/images/mobile-development/hero.png" },
+      { id: "ondemand", icon: "Truck", image: "/images/mobile-hero.png" },
+      { id: "social", icon: "Users", image: "/images/mobile-development/hero-ai.png" },
+      { id: "health", icon: "HeartPulse", image: "/images/mobile-development/Frame (3).png" },
+      { id: "fintech", icon: "Wallet", image: "/images/home-solutions/blockhain.png" },
+      { id: "education", icon: "GraduationCap", image: "/images/technologies/hero.png" },
+      { id: "iot", icon: "Cpu", image: "/images/home-solutions/ai-machine.png" },
     ],
     techStack: [
       { id: "ios", items: ["Swift", "SwiftUI", "Objective-C"] },
@@ -164,14 +164,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "desktop-development": {
     key: "desktop",
     offerings: [
-      { id: "enterprise", icon: "Building2" },
-      { id: "productivity", icon: "Gauge" },
-      { id: "health", icon: "HeartPulse" },
-      { id: "education", icon: "GraduationCap" },
-      { id: "finance", icon: "Landmark" },
-      { id: "ecommerce", icon: "ShoppingCart" },
-      { id: "media", icon: "Clapperboard" },
-      { id: "custom", icon: "Wrench" },
+      { id: "enterprise", icon: "Building2", image: "/images/desktop-dev.png" },
+      { id: "productivity", icon: "Gauge", image: "/images/ourservice/webdev.png" },
+      { id: "health", icon: "HeartPulse", image: "/images/crm-erp/hero.jpg" },
+      { id: "education", icon: "GraduationCap", image: "/images/technologies/hero.png" },
+      { id: "finance", icon: "Landmark", image: "/images/ai-solutions/sample-analytics.png" },
+      { id: "ecommerce", icon: "ShoppingCart", image: "/images/home-solutions/woocommerce.png" },
+      { id: "media", icon: "Clapperboard", image: "/images/ai-solutions/sample-vision.png" },
+      { id: "custom", icon: "Wrench", image: "/images/ourservice/hero.png" },
     ],
     techStack: [
       { id: "foundations", items: ["Electron", "React", "Node.js", "Tauri"] },
@@ -189,14 +189,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "cloud-devops": {
     key: "cloud",
     offerings: [
-      { id: "migration", icon: "ArrowRightLeft" },
-      { id: "iac", icon: "Server" },
-      { id: "cicd", icon: "GitBranch" },
-      { id: "containers", icon: "Boxes" },
-      { id: "serverless", icon: "CloudLightning" },
-      { id: "monitoring", icon: "BarChart3" },
-      { id: "disaster", icon: "LifeBuoy" },
-      { id: "cost", icon: "Wallet" },
+      { id: "migration", icon: "ArrowRightLeft", image: "/images/cloud-devops-hero.png" },
+      { id: "iac", icon: "Server", image: "/images/cloud-devops/cloud-console.png" },
+      { id: "cicd", icon: "GitBranch", image: "/images/cloud-devops/ci.png" },
+      { id: "containers", icon: "Boxes", image: "/images/cloud-devops/kubermeties.png" },
+      { id: "serverless", icon: "CloudLightning", image: "/images/home-solutions/cloud-devops.png" },
+      { id: "monitoring", icon: "BarChart3", image: "/images/cloud-devops/monitoring.png" },
+      { id: "disaster", icon: "LifeBuoy", image: "/images/cloud-devops/hero.png" },
+      { id: "cost", icon: "Wallet", image: "/images/ai-solutions/sample-analytics.png" },
     ],
     techStack: [
       {
@@ -228,14 +228,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "ai-solutions": {
     key: "ai",
     offerings: [
-      { id: "llm", icon: "Brain" },
-      { id: "chatbots", icon: "MessageSquare" },
-      { id: "analytics", icon: "LineChart" },
-      { id: "vision", icon: "Eye" },
-      { id: "nlp", icon: "Languages" },
-      { id: "recommend", icon: "Sparkles" },
-      { id: "documents", icon: "FileCode" },
-      { id: "search", icon: "Search" },
+      { id: "llm", icon: "Brain", image: "/images/ai-solutions/hero.png" },
+      { id: "chatbots", icon: "MessageSquare", image: "/images/ai-solutions/sample-chatbot.png" },
+      { id: "analytics", icon: "LineChart", image: "/images/ai-solutions/sample-analytics.png" },
+      { id: "vision", icon: "Eye", image: "/images/ai-solutions/sample-vision.png" },
+      { id: "nlp", icon: "Languages", image: "/images/ai-solutions/sample-training.png" },
+      { id: "recommend", icon: "Sparkles", image: "/images/home-solutions/ai-machine.png" },
+      { id: "documents", icon: "FileCode", image: "/images/desktop-dev.png" },
+      { id: "search", icon: "Search", image: "/images/ai-solution.png" },
     ],
     techStack: [
       {
@@ -267,14 +267,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   blockchain: {
     key: "blockchain",
     offerings: [
-      { id: "smartContracts", icon: "FileCode" },
-      { id: "defi", icon: "Landmark" },
-      { id: "nft", icon: "Image" },
-      { id: "tokenLaunch", icon: "Coins" },
-      { id: "dao", icon: "Users" },
-      { id: "supplyChain", icon: "Truck" },
-      { id: "identity", icon: "Shield" },
-      { id: "payments", icon: "Wallet" },
+      { id: "smartContracts", icon: "FileCode", image: "/images/blockchain/hero.png" },
+      { id: "defi", icon: "Landmark", image: "/images/blockchain/shot-defi.png" },
+      { id: "nft", icon: "Image", image: "/images/blockchain/shot-nft.png" },
+      { id: "tokenLaunch", icon: "Coins", image: "/images/home-solutions/blockhain.png" },
+      { id: "dao", icon: "Users", image: "/images/blockchain/shot-explorer.png" },
+      { id: "supplyChain", icon: "Truck", image: "/images/blockchain-hero.png" },
+      { id: "identity", icon: "Shield", image: "/images/blockchain/shot-wallet.png" },
+      { id: "payments", icon: "Wallet", image: "/images/ai-solutions/sample-analytics.png" },
     ],
     techStack: [
       {
@@ -309,14 +309,14 @@ export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "crm-erp": {
     key: "crm",
     offerings: [
-      { id: "crm", icon: "Users" },
-      { id: "erp", icon: "Building2" },
-      { id: "sales", icon: "BarChart3" },
-      { id: "inventory", icon: "Boxes" },
-      { id: "finance", icon: "Landmark" },
-      { id: "people", icon: "Briefcase" },
-      { id: "integrations", icon: "Link2" },
-      { id: "analytics", icon: "LineChart" },
+      { id: "crm", icon: "Users", image: "/images/crm-erp/hero.jpg" },
+      { id: "erp", icon: "Building2", image: "/images/desktop-dev.png" },
+      { id: "sales", icon: "BarChart3", image: "/images/ai-solutions/sample-analytics.png" },
+      { id: "inventory", icon: "Boxes", image: "/images/home-solutions/woocommerce.png" },
+      { id: "finance", icon: "Landmark", image: "/images/ourservice/woocom.png" },
+      { id: "people", icon: "Briefcase", image: "/images/ourservice/hero.png" },
+      { id: "integrations", icon: "Link2", image: "/images/ourservice/webdev.png" },
+      { id: "analytics", icon: "LineChart", image: "/images/home-solutions/cloud-devops.png" },
     ],
     techStack: [
       {

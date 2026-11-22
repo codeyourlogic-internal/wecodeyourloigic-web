@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
@@ -11,19 +10,20 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-      <Image
-        src="/images/home-hero.png"
-        alt="CodeYourLogic custom software development company — web, mobile, cloud, AI and blockchain engineering"
-        fill
-        priority
-        quality={75}
-        sizes="100vw"
-        className="object-cover object-center"
-        title="Custom software development company"
+    <section className="relative flex items-center justify-center overflow-hidden pt-16 md:min-h-[90vh]">
+      <video
+        src="/video-assets/subscription-compressed.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        disablePictureInPicture
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-16 bottom-0 h-[calc(100%-4rem)] w-full max-w-none object-cover object-center"
       />
       <div
-        className="absolute inset-0"
+        className="absolute inset-x-0 top-16 bottom-0"
         style={{
           backgroundColor:
             "color-mix(in oklab, var(--color-black) 75%, transparent)",
@@ -31,12 +31,12 @@ export function Hero() {
         aria-hidden
       />
 
-      <div className="relative z-10 mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
+      <div className="relative z-10 mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-14 sm:py-20 md:py-28 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-[1.15] text-white"
+          className="text-[1.7rem] sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-[1.2] text-white text-balance"
         >
           {t("hero.title")}
         </motion.h1>
@@ -65,7 +65,7 @@ export function Hero() {
               <ArrowRight className="h-5 w-5" />
             </Button>
           </Link>
-          <Link href="/services" data-track="hero_secondary_cta" data-track-location="home_hero">
+          <Link href="/#clients" data-track="hero_secondary_cta" data-track-location="home_hero">
             <Button
               size="lg"
               variant="outline"

@@ -64,13 +64,6 @@ export const servicesPageCards: ServicesPageCard[] = [
     image: "/images/crm-erp/hero.jpg",
     tags: ["CRM", "ERP", "PostgreSQL", "Integrations"],
   },
-  {
-    id: "hire",
-    icon: "Users",
-    href: "/hire-resources/",
-    image: "/images/hireresources/hero.png",
-    tags: ["Frontend", "Backend", "Mobile", "AI"],
-  },
 ];
 
 export const SERVICES_HERO_IMAGE = "/images/ourservice/hero.png";
