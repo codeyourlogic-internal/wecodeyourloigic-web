@@ -8,14 +8,14 @@ import { panthorClientShowcase } from "@/data/home";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const shotAlts = [
-  "Panthor CRM dashboard for Panthor Sports India Private Limited",
-  "Panthor CRM student admissions and fee collections",
+  "Panthor CRM admission form templates",
+  "Panthor CRM organisation dashboard",
   "Panthor CRM admissions and payments analytics",
   "Panthor CRM student and employee ID card settings",
-  "Panthor CRM admission form templates",
-  "Panthor CRM add student form",
-  "Panthor CRM attendance scan",
-  "Panthor CRM appointments calendar",
+  "Panthor CRM admission invoices",
+  "Panthor CRM invite academy",
+  "Panthor CRM staff dashboard",
+  "Panthor CRM holiday calendar",
 ];
 
 const shots = panthorClientShowcase.shots.map((src, index) => ({

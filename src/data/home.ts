@@ -47,14 +47,14 @@ export const panthorClientShowcase = {
   logo: "/projects/panthor-sports.png",
   url: "https://psiplltd.com",
   shots: [
-    "/images/portfolio/Screenshot 2026-11-20 185826.png",
-    "/images/portfolio/Screenshot 2026-11-20 190141.png",
+    "/images/portfolio/Screenshot 2026-11-20 192552.png",
+    "/images/portfolio/Screenshot 2026-11-22 135703.png",
     "/images/portfolio/Screenshot 2026-11-20 192450.png",
     "/images/portfolio/Screenshot 2026-11-20 192529.png",
-    "/images/portfolio/Screenshot 2026-11-20 192552.png",
-    "/images/portfolio/Screenshot 2026-11-21 154633.png",
-    "/images/portfolio/Screenshot 2026-11-21 154653.png",
-    "/images/portfolio/Screenshot 2026-11-21 154823.png",
+    "/images/portfolio/Screenshot 2026-11-22 135902.png",
+    "/images/portfolio/Screenshot 2026-11-22 135734.png",
+    "/images/portfolio/Screenshot 2026-11-20 185826.png",
+    "/images/portfolio/Screenshot 2026-11-22 135936.png",
   ],
 } as const;
 

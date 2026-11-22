@@ -10,7 +10,7 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative flex items-center justify-center overflow-hidden pt-16 md:min-h-[90vh]">
       <video
         src="/video-assets/subscription-compressed.mp4"
         autoPlay
@@ -20,7 +20,7 @@ export function Hero() {
         preload="auto"
         disablePictureInPicture
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-16 bottom-0 w-full object-cover object-top"
+        className="pointer-events-none absolute inset-x-0 top-16 bottom-0 h-[calc(100%-4rem)] w-full max-w-none object-cover object-center"
       />
       <div
         className="absolute inset-x-0 top-16 bottom-0"
@@ -31,12 +31,12 @@ export function Hero() {
         aria-hidden
       />
 
-      <div className="relative z-10 mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
+      <div className="relative z-10 mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-14 sm:py-20 md:py-28 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-[1.15] text-white"
+          className="text-[1.7rem] sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold tracking-tight leading-[1.2] text-white text-balance"
         >
           {t("hero.title")}
         </motion.h1>
